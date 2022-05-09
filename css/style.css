@@ -1046,8 +1046,8 @@ a.play-video::after {
 	color: #fff;
 	background-color: #ff1f8e;
 	border: none;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
+	/* -webkit-border-radius: 100px;
+	border-radius: 100px; */
 	display: inline-block;
 	position: relative;
 	-webkit-box-shadow: 0 10px 15px 0px rgba(233, 30, 99, .15);
@@ -4805,28 +4805,32 @@ h3 a {
 }
 /**mobile-app-**/
 .mobile-app- {
-	background-image: -moz-linear-gradient(45deg,#9217de 0%,#4775ff 50%,#00b6d4 100%);
+	/* background-image: -moz-linear-gradient(45deg,#9217de 0%,#4775ff 50%,#00b6d4 100%);
 	background-image: -webkit-linear-gradient(45deg,#9217de 0%,#4775ff 50%,#00b6d4 100%);
-	background-image: linear-gradient(45deg,#4a0079 0%,#4202b2 50%,#4400b1 100%);
+	background-image: linear-gradient(45deg,#4a0079 0%,#4202b2 50%,#4400b1 100%); */
+	background-image: url("../images/hero/banner.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .hero-heading-sec2 h1 {
 	color: #fff;
 	font-size: 55px;
 	line-height: 67px;
-	font-weight: 900;
+	font-weight: 700;
 	display: inline-block;
-	background: linear-gradient( 90deg,#af6dff 0%,#ff448e 25%,#ff9d57 50%,#ff38d3 75%,#00ffdc 100% );
+	/* background: linear-gradient( 90deg,#af6dff 0%,#ff448e 25%,#ff9d57 50%,#ff38d3 75%,#00ffdc 100% );
 	background-size: cover;
 	background-position: center;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
-	color: transparent;
+	color: transparent; */
 }
 
 .hero-heading-sec2 > p {
-	color: #fff000;
+	/* color: #fff000; */
+	color: #fff;
 	font-size: 18px;
 	margin: 40px 0;
 }
@@ -6161,10 +6165,13 @@ html .pb140 {
 
 .bg-btn4 {
 /*use in dark mode*/
-	background: transparent;
+	/* background: transparent; */
+	background: #fff;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	border: 1px solid #fff;
+	color: #000 !important;
+	font-weight: bold;
 }
 
 .bg-btn5 {
