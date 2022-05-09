@@ -37,7 +37,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	color: #6a6a8e;
+	color: #000;
 	font-weight: 400;
 	font-style: normal;
 	line-height: 1;
@@ -2352,7 +2352,8 @@ footer.ftshap:before {
 }
 
 .bread-titlev2 {
-	text-align: center;
+	/* text-align: center; */
+	text-align: left;
 }
 
 .statistics-wrap {
@@ -2371,9 +2372,9 @@ footer.ftshap:before {
 	right: 0;
 	left: 0;
 	z-index: 0;
-	background: -moz-linear-gradient(-45deg, #ffdee9 0%, #c8fff4  100%);
+	/* background: -moz-linear-gradient(-45deg, #ffdee9 0%, #c8fff4  100%);
 	background: -webkit-linear-gradient(-45deg, #ffdee9 0%,#c8fff4  100%);
-	background: linear-gradient(135deg, #ffdee9 0%,#c8fff4  100%);
+	background: linear-gradient(135deg, #ffdee9 0%,#c8fff4  100%); */
 }
 
 .breadcrumb-area:before {
@@ -9675,6 +9676,44 @@ input {
 
 /* Custom */
 
+
+/* Mobile App Page */
+
+.mobile-app-page {
+	background-image: url(../images/hero/rectangle.png);
+	background-size: cover;
+}
+
+.hero-heading-sec2 h3 {
+	color: #fff;
+	font-size: 50px;
+	line-height: 67px;
+	font-weight: 600;
+	display: inline-block;
+	/* background: linear-gradient( 90deg, #af6dff 0%, #ff448e 25%, #ff9d57 50%, #ff38d3 75%, #00ffdc 100%);
+
+    background-size: cover;
+
+    background-position: center;
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    background-clip: text; */
+	color: #fff;
+}
+
+.mobile-app-nav {
+	background: #F4F8FE;
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+
+.mobile-app-nav li a {
+	color: #000;
+}
+
 .contact-main {
 	padding: 31px 20px;
 	background: #fff;
@@ -9708,6 +9747,7 @@ input {
 h2.common-heading {
 	text-align: left;
 	color: #46a2b9;
+	font-size: 30px;
 }
 
 .fa-quote-right {
