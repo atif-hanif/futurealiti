@@ -52,7 +52,7 @@ article, aside, details, figcaption, figure, footer, header, nav, section, summa
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Poppins', sans-serif;
-	color: #777777;
+	color: #000;
 	font-weight: 600;
 }
 
@@ -93,7 +93,7 @@ button:focus {
 }
 
 .common-heading h2 {
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 
 .inner-heading h2 {
@@ -4876,14 +4876,14 @@ h3 a {
 }
 
 .about-sec-app {
-	background: url(../images/shape/bg-light2.png);
+	/* background: url(../images/shape/bg-light2.png); */
 	background-size: contain;
 	background-repeat: repeat-x;
 	background-position: center center;
 }
 
 .service-section-app {
-	background: url(../images/shape/wave-bg.png);
+	/* background: url(../images/shape/wave-bg.png); */
 	background-size: contain;
 	background-repeat: repeat-x;
 	background-position: center bottom;
@@ -9683,32 +9683,51 @@ input {
 
 /* Custom */
 
+/* Award */
+
+.award-item {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    box-shadow: 5px 7px #bfbfbf;
+}
+
+.award-item div div div {
+    height: 300px;
+}
+
+.odd-item {
+    margin-top: 50px;
+}
+
+.award-img {
+    width: 100px !important;
+    margin: 0 auto;
+}
+
+.awards-slider .owl-nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.awards-slider .owl-prev {
+    font-size: 20px !important;
+    color: #089674 !important;
+    margin-right: 30px;
+}
+
+.awards-slider .owl-next {
+    font-size: 20px !important;
+    color: #089674 !important;
+}
 
 /* Mobile App Page */
 
 .mobile-app-page {
-	background-image: url(../images/hero/rectangle.png);
+	background-image: url(../images/banner/rectangle.png);
 	background-size: cover;
-}
-
-.hero-heading-sec2 h3 {
-	color: #fff;
-	font-size: 50px;
-	line-height: 67px;
-	font-weight: 600;
-	display: inline-block;
-	/* background: linear-gradient( 90deg, #af6dff 0%, #ff448e 25%, #ff9d57 50%, #ff38d3 75%, #00ffdc 100%);
-
-    background-size: cover;
-
-    background-position: center;
-
-    -webkit-background-clip: text;
-
-    -webkit-text-fill-color: transparent;
-
-    background-clip: text; */
-	color: #fff;
+	padding: 50px 0px 100px 0px;
 }
 
 .mobile-app-nav {
@@ -9720,6 +9739,233 @@ input {
 .mobile-app-nav li a {
 	color: #000;
 }
+
+.hero-heading-sec2 h3 {
+	font-size: 50px;
+	line-height: 67px;
+}
+
+.justcircle {
+    height: 54px;
+    width: 54px;
+    background-color: #F7F8F7;
+    border-radius: 50%;
+}
+
+.custom-app-dev {
+	height: 190px;
+}
+
+.custom-app-dev:hover {
+    background: linear-gradient(#1093b1, #1fa87e);
+}
+
+.custom-app-dev:hover h5, .custom-app-dev:hover p {
+    color: #fff;
+}
+
+.grid:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+  
+.grid-sizer,
+.grid-item {
+	width: 50%;
+}
+  
+.grid-item {
+	float: left;
+}
+  
+.grid-item img {
+	display: block;
+	max-width: 100%;
+}
+
+.box {
+	position: relative;
+	width: 50%;
+}
+
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	color: #fff;
+}
+  
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.icon-img {
+    width: 80px !important;
+    height: 80px;
+}
+  
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+  
+.box:hover .overlay {
+	opacity: 1;
+}
+  
+.text {
+	color: white;
+	line-height: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.image-icon {
+	background-color: #fff;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+
+.image-icon img {
+	padding-top: 20px;
+}
+
+h2.common-heading {
+	color: #46a2b9;
+	font-size: 30px;
+	text-align: left;
+}
+
+h3.common-heading {
+	color: #46a2b9;
+	font-size: 24px;
+	text-align: left;
+}
+
+.number {
+    border: 1px solid #1093b1;
+    background-color: #1093b1;
+    padding: 20px;
+    font-size: 40px;
+    width: 25%;
+    height: 70px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+	color: #fff;
+}
+
+.process-title {
+	width: 70%;
+	display: inline-block;
+	margin-left: 5px;
+    font-size: 22px;
+	color: #fff;
+}
+
+.process-description {
+	color: #fff;
+	padding-top: 10px;
+}
+
+.process-card {
+	background-color: #1fa87e;
+}
+
+.why-choose-section {
+	background-image: url(../images/banner/why-banner.png);
+	background-size: cover;
+}
+
+.benefits-img {
+	height: 50px;
+    background-color: #fff;
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sImg {
+    padding: 10px;
+    height: 100%;
+	width: 100%;
+}
+
+.benefits-card {
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #F4F8FE;
+}
+
+.numbersOfSatisfy {
+    padding: 70px;
+}
+
+.countNumbers {
+    color: #B4B4B4;
+    text-align: center;
+}
+
+.aboutNumbers {
+    text-align: center;
+    color: #fff;
+}
+
+.key-highlights {
+	background-image: url(../images/banner/keyhighlight.png);
+}
+
+.keyhighlights .card{
+	border: 1px solid transparent;
+}
+
+.MultiCarousel {
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+    margin-top: 5px;
+    float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #666;
+}
+
+/* */
 
 .contact-main {
 	padding: 31px 20px;
@@ -9740,22 +9986,7 @@ input {
 	background: #f4f4f4;
 }
 
-.image-icon {
-	background-color: #fff;
-	border-radius: 50%;
-	width: 70px;
-	height: 70px;
-}
 
-.image-icon img {
-	padding-top: 20px;
-}
-
-h2.common-heading {
-	text-align: left;
-	color: #46a2b9;
-	font-size: 30px;
-}
 
 .fa-quote-right {
 	color: #FD2C1D;
@@ -9864,6 +10095,7 @@ ul.list li {
 	background: #fff;
 	border-radius: 5px;
 	font-size: 40px;
+	border: 1px solid #d4f0ff;
 }
 
 .boximageicon-seo img {
