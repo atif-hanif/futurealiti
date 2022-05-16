@@ -483,6 +483,10 @@ header .dropdown-menu {
 }
 
 .main-header  .mega-white-logo {
+	display: inline-block;
+}
+
+.main-header .mega-darks-logo {
 	display: none;
 }
 
@@ -1123,6 +1127,7 @@ a.play-video::after {
 .user-info p span {
 	font-weight: 700;
 }
+
 /**Service section**/
 .service-section {
 	background: #fff;
@@ -2146,7 +2151,7 @@ footer.ftshap:before {
 }
 
 .footer-row2 {
-	background: #ffffff;
+	background: #F4F8FE;
 	padding: 50px 0 80px 0;
 }
 
@@ -9727,7 +9732,7 @@ input {
 .mobile-app-page {
 	background-image: url(../images/banner/rectangle.png);
 	background-size: cover;
-	padding: 50px 0px 100px 0px;
+	padding: 50px 0px;
 }
 
 .mobile-app-nav {
@@ -9794,6 +9799,9 @@ input {
 	bottom: 8px;
 	left: 16px;
 	color: #fff;
+	padding: 5px 5px 5px 10px;
+    background-color: rgba(0,0,0,0.5);
+	width: 90%;
 }
   
 .image {
@@ -9849,19 +9857,16 @@ input {
 
 h2.common-heading {
 	color: #46a2b9;
-	font-size: 30px;
 	text-align: left;
 }
 
 h3.common-heading {
 	color: #46a2b9;
-	font-size: 24px;
 	text-align: left;
 }
 
 .number {
-    border: 1px solid #1093b1;
-    background-color: #1093b1;
+    
     padding: 20px;
     font-size: 40px;
     width: 25%;
@@ -9889,7 +9894,7 @@ h3.common-heading {
 }
 
 .process-card {
-	background-color: #1fa87e;
+	background: linear-gradient(#18a3a8, #0f3e5e);
 }
 
 .why-choose-section {
@@ -9940,29 +9945,123 @@ h3.common-heading {
 	border: 1px solid transparent;
 }
 
-.MultiCarousel {
-    float: left;
-    overflow: hidden;
-    padding: 15px;
+.key-highlight {
+	color: #fff;
+	padding-bottom: 10px
+}
+
+.key-numbers {
+	color: #fff;
+}
+
+.key-desc {
+	color: #fff;
+}
+
+.related-blog {
+	color:#677CAA;
+}
+
+.contact--block {
+    background-image: url(../images/banner/contact.png);
+}
+
+.schedule {
+	color: #677CAA;
+	margin-bottom: 80px;
+}
+
+.schedule span {
+	color: #fff;
+}
+
+.contact-fields {
+    background-color: #000000CC;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.client-name {
+	color: #fff;
+}
+
+.client-post {
+	color: #677CAA;
+}
+
+.client-desc {
+	color: #fff;
+}
+
+.contact-us-block .common-heading {
+	color: #fff;
+	text-align: center;
+	padding-bottom: 15px
+}
+
+.contact-us-block {
+    margin-top: 70px;
+    padding: 50px 30px;
+    background: #000113;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+
+.contact-us-block input {
     width: 100%;
-    position: relative;
+    height: 50px;
+    margin: 0px 0 15px 0;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    /* background: #fff; */
+    background: transparent;
+    border: 0;
+    /* border-bottom: 2px solid #e6e6e6; */
+    border-bottom: 2px solid #fff;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 
-.MultiCarousel .MultiCarousel-inner {
-    transition: 1s ease all;
-    float: left;
+.contact-us-block input::placeholder {
+	color: #fff;
 }
 
-.MultiCarousel .MultiCarousel-inner .item {
-    margin-top: 5px;
-    float: left;
-}
-
-.MultiCarousel .MultiCarousel-inner .item>div {
+.submitFormBtn {
+    background-color: #3E8CB0;
+    border-radius: 50px;
+    color: white;
+    padding: 20px;
+    width: 180px !important;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
-    color: #666;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	border-color: #3E8CB0;
+}
+
+.deliveries-section h2 {
+	text-align: center;
+	padding: 20px;
+}
+
+.deliveries-section {
+    background-color: #fff;
+}
+
+.startAprojectBtn {
+    background-color: #263F4A;
+    border-radius: 50px;
+    color: white;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	border-color: #263F4A;
 }
 
 /* */

@@ -265,10 +265,10 @@ File Description: Main JS file of the template*/
 		smartSpeed: 2000,
 		responsive: {
 			0: {
-				items: 1
+				items: 2
 			},
 			520: {
-				items: 1
+				items: 2
 			},
 			768: {
 				items: 3
@@ -439,10 +439,10 @@ File Description: Main JS file of the template*/
 		rewind: true,
 		responsive: {
 		  0: {
-			items: 5.5
+			items: 1
 		  },
 		  520: {
-			items: 5.5
+			items: 1
 		  },
 		  768: {
 			items: 5.5
