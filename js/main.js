@@ -445,13 +445,13 @@ File Description: Main JS file of the template*/
 			items: 1
 		  },
 		  768: {
-			items: 5.5
+			items: 2.5
 		  },
 		  1200: {
-			items: 5.5
+			items: 3.5
 		  },
 		  1400: {
-			items: 5.5
+			items: 4.5
 		  },
 		  1600: {
 			items: 5.5

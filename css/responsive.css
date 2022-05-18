@@ -602,7 +602,7 @@
         padding: 0 15px;
     }
 
-    .about-sec-app .text-l {
+    .type .text-l {
         text-align: center !important;
     }
 
@@ -1727,20 +1727,59 @@
 
 /* Custom */
 
+@media screen and (max-width: 767px) {
+	
+	.scrollHalf__grupo__imagen img {
+		width: 100% !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	.scrollHalf__grupo {
+		min-height: 100vh;
+	}
+
+	.scrollHalf__grupo__imagen {
+		clip: rect(auto,auto,auto,auto);
+		min-height: 100vh;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 50%;
+	}
+
+	.scrollHalf__grupo__imagen img {
+		position: fixed;
+		width: auto;
+		top: 40%;
+		left: 10%;
+		height: auto;
+	}
+
+	.scrollHalf__grupo__contenido {
+		margin: 0 3vw 0 52vw;
+	}
+
+    /* .scrollHalf__grupo__imagen img {
+		width: 80% !important;
+	} */
+}
+
 @media only screen and (max-width:767px) {
 
     h1 {
-        font-size: 28px;
+        font-size: 24px;
         line-height: 36px;
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 32px;
     }
 
     h3 {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 30px;
     }
 
@@ -1780,16 +1819,21 @@
         margin: 20px 0;
     }
 
-    h2.common-heading {
+    .about h2, .type h2, .services h2, .app h2, .tech h2, .our-work h2, .case-studies h2, .custom-app h2, .ideal h2,
+    .process h2, .techonology-used h2, .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
+    .brand-logo-slider h2, .deliveries-section h2 {
         text-align: center;
+    }
+
+    h2.common-heading {
         padding-bottom: 10px;
     }
 
     .custom-app-dev {
-        height: 210px;
+        height: 170px;
     }
 
-    .about-sec-app .card {
+    .type .card {
         margin-bottom: 15px;
     }
 
@@ -1806,8 +1850,7 @@
         text-align: center;
     }
 
-    .custom h2 {
-        text-align: center;
+    .custom-app h2 {
         padding-bottom: 10px;
     }
 
@@ -1837,7 +1880,6 @@
     }
 
     .ideal h2 {
-        text-align: center;
         padding-bottom: 10px;
     }
 
@@ -1914,5 +1956,602 @@
     .deliver h3 {
         text-align: center;
         padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    h5 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    /* Service */
+
+
+    .hero-heading-sec2 h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-heading-sec2 > p1 {
+        margin: 40px 0 20px;
+    }
+
+    .hero-heading-sec2 > p2 {
+        margin: 20px 0;
+    }
+
+    h2.common-heading {
+        padding-bottom: 10px;
+    }
+
+    .custom-app-dev {
+        height: 260px;
+    }
+
+    .about h2, .type h2, .services h2, .app h2, .tech h2, .our-work h2, .case-studies h2,  .process h2, .techonology-used h2,
+    .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
+    .brand-logo-slider h2, .deliveries-section h2 {
+        text-align: center;
+    }
+
+    .custom-app h2, .ideal h2 {
+        text-align: left;
+    }
+
+    .type .card {
+        margin-bottom: 0px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .features-heading {
+        padding-top: 15px;
+    }
+
+    .features-text {
+        text-align: center;
+    }
+
+    .custom h2 {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .custom p {
+        text-align: lef;
+        padding-bottom: 20px;
+    }
+
+    .process h2 {
+        padding-bottom: 10px;
+    }
+
+    .number {
+        font-size: 32px;
+        width: 28%;
+        margin-left: 0px;
+        padding: 20px 10px;
+    }
+
+    .process-title {
+        width: 72%;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .process-card {
+        margin-bottom: 0px;
+        height: 334px;
+    }
+
+    .ideal h2 {
+        padding-bottom: 10px;
+    }
+
+    .ideal p {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .ideal a {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .tab-content {
+        margin-top: 0px;
+    }
+
+    .tab-body {
+        padding: 35px;
+    }
+
+    .benefits-cards {
+        margin-bottom: 15px;
+    }
+
+    .key-desc {
+        text-align: center;
+    }
+
+    .numbersOfSatisfy {
+        padding: 40px 0px 0px;
+    }
+
+    .blogs-section h3 {
+        text-align: center;
+    }
+
+    .single-card-item {
+        margin-top: 40px;
+    }
+
+    .center-dots .owl-dots {
+        margin: 15px auto;
+    }
+
+    .schedule {
+        margin-bottom: 30px !important;
+    }
+
+    .client-name, .client-post, .client-desc {
+        text-align: center;
+    }
+
+    .text-fieds- {
+        width: 100% !important;
+    }
+
+    .contact-us-block {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 30px;
+    }
+
+    .submitFormBtn {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .startAprojectBtn { 
+        margin: 0 auto;
+        display: block;
+    }
+
+    .deliver h3 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1439px) {
+
+    h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    h6 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    /* Service */
+
+
+    .hero-heading-sec2 h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-heading-sec2 > p1 {
+        margin: 40px 0 20px;
+    }
+
+    .hero-heading-sec2 > p2 {
+        margin: 20px 0;
+    }
+
+    h2.common-heading {
+        padding-bottom: 10px;
+    }
+
+    .about h2, .type h2, .services h2, .app h2, .case-studies h2,  .process h2, .techonology-used h2,
+    .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
+    .brand-logo-slider h2, .deliveries-section h2 {
+        text-align: center;
+    }
+
+    .custom-app h2, .ideal h2, .tech h2, .our-work h2 {
+        text-align: left;
+    }
+
+    .custom-app-dev {
+        height: 190px;
+    }
+
+    .type .card {
+        margin-bottom: 0px;
+    }
+
+    .box {
+        width: 50%;
+    }
+
+    .features-heading {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .custom h2 {
+        padding-bottom: 10px;
+    }
+
+    .custom p {
+        text-align: lef;
+        padding-bottom: 20px;
+    }
+
+    .process h2 {
+        padding-bottom: 10px;
+    }
+
+    .number {
+        font-size: 32px;
+        width: 28%;
+        margin-left: 0px;
+        padding: 20px 10px;
+    }
+
+    .process-title {
+        width: 72%;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .process-card {
+        margin-bottom: 0px;
+        height: 285px;
+    }
+
+    .ideal h2 {
+        padding-bottom: 10px;
+    }
+
+    .ideal p {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .ideal a {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .tab-content {
+        margin-top: 0px;
+    }
+
+    .tab-body {
+        padding: 35px;
+    }
+
+    .benefits-cards {
+        margin-bottom: 15px;
+    }
+
+    .key-desc {
+        text-align: center;
+    }
+
+    .numbersOfSatisfy {
+        padding: 40px 0px 0px;
+    }
+
+    .blogs-section h3 {
+        text-align: center;
+    }
+
+    .single-card-item {
+        margin-top: 40px;
+    }
+
+    .center-dots .owl-dots {
+        margin: 15px auto;
+    }
+
+    .schedule {
+        margin-bottom: 30px !important;
+    }
+
+    .client-name, .client-post, .client-desc {
+        text-align: center;
+    }
+
+    .text-fieds- {
+        width: 100% !important;
+    }
+
+    .contact-us-block {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 30px;
+    }
+
+    .submitFormBtn {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .startAprojectBtn { 
+        margin: 0 auto;
+        display: block;
+    }
+
+    .deliver h3 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .deliveries-section h2 {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+
+    h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    h6 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    /* Service */
+
+
+    .hero-heading-sec2 h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-heading-sec2 > p1 {
+        margin: 40px 0 20px;
+    }
+
+    .hero-heading-sec2 > p2 {
+        margin: 20px 0;
+    }
+
+    h2.common-heading {
+        padding-bottom: 10px;
+    }
+
+    .type h2, .services h2, .case-studies h2,  .process h2, .techonology-used h2,
+    .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
+    .brand-logo-slider h2, .deliveries-section h2 {
+        text-align: center;
+    }
+
+    .about h2, .custom-app h2, .ideal h2, .tech h2, .our-work h2, .app h2 {
+        text-align: left;
+    }
+
+    .custom-app-dev {
+        height: 160px;
+    }
+
+    .type .card {
+        margin-bottom: 0px;
+    }
+
+    .box {
+        width: 50%;
+    }
+
+    .features-heading {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .custom h2 {
+        padding-bottom: 10px;
+    }
+
+    .custom p {
+        text-align: lef;
+        padding-bottom: 20px;
+    }
+
+    .process h2 {
+        padding-bottom: 10px;
+    }
+
+    .number {
+        font-size: 32px;
+        width: 28%;
+        margin-left: 0px;
+        padding: 20px 10px;
+    }
+
+    .process-title {
+        width: 72%;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .process-card {
+        margin-bottom: 0px;
+        height: 235px;
+    }
+
+    .ideal h2 {
+        padding-bottom: 10px;
+    }
+
+    .ideal p {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .ideal a {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .tab-content {
+        margin-top: 0px;
+    }
+
+    .tab-body {
+        padding: 35px;
+    }
+
+    .benefits-cards {
+        margin-bottom: 15px;
+    }
+
+    .key-desc {
+        text-align: center;
+    }
+
+    .numbersOfSatisfy {
+        padding: 40px 0px 0px;
+    }
+
+    .blogs-section h3 {
+        text-align: center;
+    }
+
+    .single-card-item {
+        margin-top: 40px;
+    }
+
+    .center-dots .owl-dots {
+        margin: 15px auto;
+    }
+
+    .schedule {
+        margin-bottom: 30px !important;
+    }
+
+    .client-name, .client-post, .client-desc {
+        text-align: center;
+    }
+
+    .text-fieds- {
+        width: 100% !important;
+    }
+
+    .contact-us-block {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 30px;
+    }
+
+    .submitFormBtn {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .startAprojectBtn { 
+        margin: 0 auto;
+        display: block;
+    }
+
+    .deliver h3 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .deliveries-section h2 {
+        padding-bottom: 20px;
     }
 }
