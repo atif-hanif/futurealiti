@@ -3746,7 +3746,9 @@ footer.ftshap:before {
 .itm-media-object h4 {
 	text-align: left;
 }
-/**Digital agency homepage**/
+
+/** Digital Agency Homepage **/
+
 .srvc-bg-nx {
 	background: #fff;
 	overflow: hidden;
@@ -3758,10 +3760,8 @@ footer.ftshap:before {
 }
 
 .about-sec-rpb {
-	background: #fff8f2;
-}
-
-.about-sec-rpb.pad-tb {
+	/* background: #fff8f2; */
+	background: #fff;
 	padding-bottom: 200px;
 }
 
@@ -9775,6 +9775,28 @@ input {
 	width: 50%;
 }
 
+/* Our Process */
+
+.our-process {
+	background: #1E4156;
+}
+
+.process-number {
+	color: rgba(255,255,255,0.29);
+	font-size: 48px;
+    width: 25%;
+}
+
+.process-heading {
+    color: #fff;
+    width: 74%;
+    font-size: 20px;
+}
+
+.process-desc {
+    color: #fff;
+    padding-top: 20px;
+}
 
 /* Award */
 
@@ -9813,6 +9835,12 @@ input {
 .awards-slider .owl-next {
     font-size: 20px !important;
     color: #089674 !important;
+}
+
+/* Tech */
+
+.tech-logo {
+    width: 50px;
 }
 
 /* Mobile App Page */
