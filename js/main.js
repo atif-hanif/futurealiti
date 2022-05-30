@@ -260,7 +260,7 @@ File Description: Main JS file of the template*/
 		margin: 20,
 		nav: false,
 		dots: false,
-		autoplayTimeout: 4000,
+		autoplayTimeout: 3000,
 		autoplayHoverPause: true,
 		smartSpeed: 2000,
 		responsive: {
@@ -387,9 +387,8 @@ File Description: Main JS file of the template*/
 		}
 	});
 
-	//Owl-Carousel - app page case-slider
-	var owl = $('.case-slider');
-	owl.owlCarousel({
+	//Owl-Carousel - case-slider
+	$('.case-slider').owlCarousel({
 		items: 4,
 		loop: true,
 		autoplay: true,
@@ -397,7 +396,7 @@ File Description: Main JS file of the template*/
 		margin: 20,
 		nav: false,
 		dots: false,
-		autoplayTimeout: 4000,
+		autoplayTimeout: 3000,
 		autoplayHoverPause: true,
 		smartSpeed: 2000,
 		responsive: {
@@ -422,17 +421,17 @@ File Description: Main JS file of the template*/
 		}
 	});
 
-	//Owl-Carousel - home page awards-slider
+	//Owl-Carousel - awards-slider
 	$('.awards-slider').owlCarousel({
 		items: 4,
-		loop: false,
-		autoplay: false,
+		loop: true,
+		autoplay: true,
 		centre: true,
 		margin: 10,
 		nav: true,
 		dots: false,
 		navText : ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
-		autoplayTimeout: 4000,
+		autoplayTimeout: 3000,
 		autoplayHoverPause: true,
 		smartSpeed: 2000,
 		responsiveClass: true,
@@ -448,7 +447,7 @@ File Description: Main JS file of the template*/
 			items: 2.5
 		  },
 		  1200: {
-			items: 3.5
+			items: 4.5
 		  },
 		  1400: {
 			items: 4.5
@@ -459,9 +458,8 @@ File Description: Main JS file of the template*/
 		}
 	});
 
-	//Owl-Carousel - awards card
-	var owl = $('.niwax-review-slider');
-	owl.owlCarousel({      
+	//Owl-Carousel - niwax-review-slider  
+	$('.niwax-review-slider').owlCarousel({
 		items: 3,
 		loop: true,
 		center:false,
@@ -493,6 +491,142 @@ File Description: Main JS file of the template*/
 			},
 		}
 	});
+
+	//Owl-Carousel - testinomial-slider
+	$('.testinomials-slider').owlCarousel({
+	  	items: 4,
+	  	loop: true,
+	  	autoplay: true,
+		centre: true,
+		margin: 20,
+		nav: false,
+		dots: false,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true,
+		smartSpeed: 2000,
+		responsive: {
+			0: {
+			items: 1
+			},
+			520: {
+			items: 1
+			},
+			768: {
+			items: 1
+			},
+			1200: {
+			items: 1
+			},
+			1400: {
+			items: 1
+			},
+			1600: {
+			items: 1
+			},
+		}
+	});
+
+	//Owl-Carousel - about-slider
+	$('.about-slider').owlCarousel({
+		items: 4,
+		loop: true,
+		autoplay: true,
+		centre: true,
+		margin: 20,
+		nav: false,
+		dots: false,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true,
+		smartSpeed: 2000,
+		responsive: {
+			0: {
+			items: 1
+			},
+			520: {
+			items: 1
+			},
+			768: {
+			items: 1
+			},
+			1200: {
+			items: 1
+			},
+			1400: {
+			items: 1
+			},
+			1600: {
+			items: 1
+			},
+	  	}
+  	});
+
+	//Owl-Carousel - clients-slider
+	$('.clients-slider').owlCarousel({
+		items: 3,
+		loop: true,
+		autoplay: true,
+		centre: true,
+		margin: 20,
+		nav: false,
+		dots: false,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true,
+		smartSpeed: 2000,
+		responsive: {
+			0: {
+			items: 1
+			},
+			520: {
+			items: 1
+			},
+			768: {
+			items: 1
+			},
+			1200: {
+			items: 1
+			},
+			1400: {
+			items: 1
+			},
+			1600: {
+			items: 1
+			},
+	  	}
+  	});
+
+	  //Owl-Carousel - clients-reviews
+	$('.clients-reviews').owlCarousel({
+		items: 3,
+		loop: true,
+		autoplay: true,
+		centre: true,
+		margin: 20,
+		nav: false,
+		dots: false,
+		autoplayTimeout: 3000,
+		autoplayHoverPause: true,
+		smartSpeed: 2000,
+		responsive: {
+			0: {
+			items: 1
+			},
+			520: {
+			items: 1
+			},
+			768: {
+			items: 1
+			},
+			1200: {
+			items: 1
+			},
+			1400: {
+			items: 1
+			},
+			1600: {
+			items: 1
+			},
+	  	}
+  	});
 
 	//Counter Up	
 	$(".counter").counterUp({

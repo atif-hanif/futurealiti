@@ -1459,7 +1459,7 @@
 /**width 576**/
 @media (min-width:576px) {
     .modal-dialog {
-        max-width: 400px;
+        max-width: 800px;
         margin: 1.75rem auto
     }
 }
@@ -1727,6 +1727,7 @@
 
 /* Custom */
 
+
 @media screen and (max-width: 767px) {
 	
 	.scrollHalf__grupo__imagen img {
@@ -1751,9 +1752,9 @@
 
 	.scrollHalf__grupo__imagen img {
 		position: fixed;
-		width: auto;
-		top: 40%;
-		left: 10%;
+		width: 580px;
+		top: 15%;
+		/* left: 10%; */
 		height: auto;
 	}
 
@@ -1768,43 +1769,7 @@
 
 @media only screen and (max-width:767px) {
 
-    h1 {
-        font-size: 24px;
-        line-height: 36px;
-    }
-
-    h2 {
-        font-size: 22px;
-        line-height: 32px;
-    }
-
-    h3 {
-        font-size: 20px;
-        line-height: 30px;
-    }
-
-    h4 {
-        font-size: 18px;
-        line-height: 28px;
-    }
-
-    h5 {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    h6 {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    p {
-        font-size: 13px;
-        line-height: 22px;
-    }
-
     /* Service */
-
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -1961,40 +1926,6 @@
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
-    h1 {
-        font-size: 26px;
-        line-height: 36px;
-    }
-
-    h2 {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    h3 {
-        font-size: 22px;
-        line-height: 30px;
-    }
-
-    h4 {
-        font-size: 20px;
-        line-height: 28px;
-    }
-
-    h5 {
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    h6 {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    p {
-        font-size: 13px;
-        line-height: 22px;
-    }
 
     /* Service */
 
@@ -2160,39 +2091,8 @@
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
 
-    h1 {
-        font-size: 28px;
-        line-height: 36px;
-    }
-
-    h2 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-
-    h3 {
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    h4 {
-        font-size: 22px;
-        line-height: 28px;
-    }
-
-    h5 {
-        font-size: 20px;
-        line-height: 26px;
-    }
-
-    h6 {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    p {
-        font-size: 13px;
-        line-height: 22px;
+    .custom-nav ul, ul.mob-nav2 {
+        list-style: none !important;
     }
 
     /* Service */
@@ -2270,7 +2170,7 @@
 
     .process-card {
         margin-bottom: 0px;
-        height: 285px;
+        height: 320px;
     }
 
     .ideal h2 {
@@ -2359,7 +2259,7 @@
 
 @media only screen and (min-width:1440px) {
 
-    h1 {
+    /* h1 {
         font-size: 28px;
         line-height: 36px;
     }
@@ -2390,9 +2290,9 @@
     }
 
     p {
-        font-size: 13px;
+        font-size: 15px;
         line-height: 22px;
-    }
+    } */
 
     /* Service */
 
