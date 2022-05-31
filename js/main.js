@@ -12,7 +12,7 @@ File Description: Main JS file of the template*/
 		disableAt: false,
 		customToggle: $toggle,
 		levelSpacing: 10,
-		navTitle: 'Niwax Menu',
+		navTitle: 'Futurealiti Menu',
 		levelTitles: true,
 		levelTitles: true,
 		labelClose: false,
