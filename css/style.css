@@ -9690,6 +9690,11 @@ img {
 	overflow: hidden;
 }
 
+
+/* Custom */
+
+/* Popup */
+
 .leadpopup .modal-body {
 	padding: 0;
 }
@@ -9712,15 +9717,11 @@ img {
 	padding: 30px;
 }
 
-.innerright {
-	background-size: cover;
-}
-
 .leadbtnclose {
 	position: absolute;
 	right: 5px;
 	top: 5px;
-	background: #fff;
+	/* background: #fff; */
 	width: 30px;
 	height: 30px;
 	display: flex;
@@ -9733,7 +9734,10 @@ input {
 	accent-color: #ff1f8e;
 }
 
-/* Custom */
+.innerright {
+	background: #5495bf;
+	padding: 50px 30px;
+}
 
 /* Header */
 
@@ -10343,7 +10347,38 @@ input {
 	color: #fff;
 }
 
-/*End Contact Us Page */
+/* Our Process Page */
+
+.our-process-card {
+	background: linear-gradient(#18a3a8, #0f3e5e);
+}
+
+.our-process-card .number {
+    padding: 20px;
+    font-size: 40px;
+    width: 25%;
+    height: 70px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+	color: #fff;
+}
+
+.our-process-card .process-title {
+	width: 70%;
+	display: inline-block;
+	margin-left: 5px;
+    font-size: 22px;
+	color: #fff;
+}
+
+.our-process-card .process-description {
+	color: #fff;
+	padding-top: 10px;
+}
 
 /* Mobile App Page */
 
@@ -10483,8 +10518,11 @@ h3.common-heading {
 	text-align: left;
 }
 
+.process-card {
+	background: linear-gradient(#18a3a8, #0f3e5e);
+}
+
 .number {
-    
     padding: 20px;
     font-size: 40px;
     width: 25%;
@@ -10509,10 +10547,6 @@ h3.common-heading {
 .process-description {
 	color: #fff;
 	padding-top: 10px;
-}
-
-.process-card {
-	background: linear-gradient(#18a3a8, #0f3e5e);
 }
 
 .why-choose-section {
