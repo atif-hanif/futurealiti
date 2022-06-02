@@ -2172,10 +2172,24 @@
         padding-bottom: 10px;
     }
 
-    .service-img-4 {
+    .mobile-service-img-4 {
         position: absolute !important;
         left: 66.5278% !important;
         top: 380px !important;
+    }
+
+    .mobile-app-service {
+        height: 750px !important;
+    }
+
+    .web-service-img-4 {
+        position: absolute !important;
+        left: 66.5278% !important;
+        top: 380px !important;
+    }
+
+    .web-service {
+        height: 1140px !important;
     }
 }
 
@@ -2351,7 +2365,7 @@
         height: 425px;
     }
 
-    .service-img-4 {
+    .mobile-service-img-4 {
         position: absolute !important;
         left: 60% !important;
         top: 380px !important;
@@ -2359,6 +2373,16 @@
 
     .mobile-app-service {
         height: 750px !important;
+    }
+
+    .web-service-img-4 {
+        position: absolute !important;
+        left: 60% !important;
+        top: 760px !important;
+    }
+
+    .web-service {
+        height: 1140px !important;
     }
 }
 
