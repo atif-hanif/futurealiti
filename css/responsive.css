@@ -1879,7 +1879,7 @@
     }
 
     .custom-app-dev {
-        height: 170px;
+        height: 212px;
     }
 
     .type .card {
@@ -2032,7 +2032,7 @@
     }
 
     .custom-app-dev {
-        height: 260px;
+        height: 365px;
     }
 
     .about h2, .type h2, .services h2, .app h2, .tech h2, .our-work h2, .case-studies h2,  .process h2, .techonology-used h2,
@@ -2171,6 +2171,12 @@
         text-align: center;
         padding-bottom: 10px;
     }
+
+    .service-img-4 {
+        position: absolute !important;
+        left: 66.5278% !important;
+        top: 380px !important;
+    }
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -2199,7 +2205,7 @@
         padding-bottom: 10px;
     }
 
-    .about h2, .type h2, .services h2, .app h2, .case-studies h2,  .process h2, .techonology-used h2,
+    .type h2, .services h2, .case-studies h2, .process h2, .techonology-used h2,
     .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
     .brand-logo-slider h2, .deliveries-section h2 {
         text-align: center;
@@ -2343,6 +2349,16 @@
     .our-process-card {
         margin-bottom: 0px;
         height: 425px;
+    }
+
+    .service-img-4 {
+        position: absolute !important;
+        left: 60% !important;
+        top: 380px !important;
+    }
+
+    .mobile-app-service {
+        height: 750px !important;
     }
 }
 
