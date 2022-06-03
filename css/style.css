@@ -2436,9 +2436,9 @@ footer.ftshap:before {
 	right: 0;
 	left: 0;
 	z-index: 0;
-	background: -moz-linear-gradient(-45deg, #ffdee9 0%, #c8fff4  100%);
+	/* background: -moz-linear-gradient(-45deg, #ffdee9 0%, #c8fff4  100%);
 	background: -webkit-linear-gradient(-45deg, #ffdee9 0%,#c8fff4  100%);
-	background: linear-gradient(135deg, #ffdee9 0%,#c8fff4  100%);
+	background: linear-gradient(135deg, #ffdee9 0%,#c8fff4  100%); */
 }
 
 .breadcrumb-area:after {
@@ -2747,10 +2747,11 @@ footer.ftshap:before {
 }
 
 .banner-2 {
-	background: url(../images/banner/6.jpg);
+	/* background: url(../images/banner/6.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: center center; */
+	background-color: #fff;
 }
 
 .service {
@@ -10520,6 +10521,10 @@ h3.common-heading {
 }
 
 .process-card {
+	background: linear-gradient(#18a3a8, #0f3e5e);
+}
+
+.web-process-card {
 	background: linear-gradient(#18a3a8, #0f3e5e);
 }
 
