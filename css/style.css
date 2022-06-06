@@ -2439,6 +2439,9 @@ footer.ftshap:before {
 	/* background: -moz-linear-gradient(-45deg, #ffdee9 0%, #c8fff4  100%);
 	background: -webkit-linear-gradient(-45deg, #ffdee9 0%,#c8fff4  100%);
 	background: linear-gradient(135deg, #ffdee9 0%,#c8fff4  100%); */
+	background: -moz-linear-gradient(-45deg, #5495bf 0%, #000000  100%);
+	background: -webkit-linear-gradient(-45deg, #5495bf 0%,#000000  100%);
+	background: linear-gradient(to right, #5495bf 0%,#000000 100%);
 }
 
 .breadcrumb-area:after {
@@ -2512,7 +2515,10 @@ footer.ftshap:before {
 .why-choose {
 	background: #f7fcff;
 }
+
+
 /**Team page**/
+
 .banner-4 {
 	background: url(../images/banner/2.jpg);
 	background-repeat: no-repeat;
@@ -3409,13 +3415,15 @@ footer.ftshap:before {
 .post-navigation h4 a {
 	color: #050748;
 }
-/**contact page**/
-.banner-6 {
+
+/** Contact Page **/
+
+/* .banner-6 {
 	background: url(../images/banner/4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-}
+} */
 
 .contact-location {
 	overflow: hidden;
@@ -10382,6 +10390,10 @@ input {
 	padding-top: 10px;
 }
 
+/* Our Process */
+
+
+
 /* Mobile App Page */
 
 .mobile-app-page {
@@ -10834,7 +10846,7 @@ ul.list li {
 }
 
 
-/* Single Case Study */
+/* Rocco Case Study */
 
 @keyframes moveXY{
 	0%{
@@ -10852,73 +10864,7 @@ ul.list li {
 
 }
 
-@media screen and (max-width: 1309px) {
-	@keyframes moveXY{
-		0%{
-			transform: translate(-100px,0);
-			-webkit-transform: translate(-100px,0); /** Chrome & Safari **/
-			-o-transform: translate(-100px,0); /** Opera **/
-			-moz-transform: translate(-100px,0); /** Firefox **/
-		}
-		100%{
-			transform: translate(100px,0);
-			-webkit-transform: translate(100px,0); /** Chrome & Safari **/
-			-o-transform: translate(100px,0); /** Opera **/
-			-moz-transform: translate(100px,0); /** Firefox **/
-		}
-	
-	}
-}
-
-@media screen and (max-width: 930px) {
-	@keyframes moveXY{
-		0%{
-			transform: translate(-50px,0);
-			-webkit-transform: translate(-50px,0); /** Chrome & Safari **/
-			-o-transform: translate(-50px,0); /** Opera **/
-			-moz-transform: translate(-50px,0); /** Firefox **/
-		}
-		100%{
-			transform: translate(50px,0);
-			-webkit-transform: translate(50px,0); /** Chrome & Safari **/
-			-o-transform: translate(50px,0); /** Opera **/
-			-moz-transform: translate(50px,0); /** Firefox **/
-		}
-	
-	}
-}
-
-@media screen and (max-width: 525px) {
-	@keyframes moveXY{
-		0%{
-			transform: translate(-20px,0);
-			-webkit-transform: translate(-20px,0); /** Chrome & Safari **/
-			-o-transform: translate(-20px,0); /** Opera **/
-			-moz-transform: translate(-20px,0); /** Firefox **/
-		}
-		100%{
-			transform: translate(20px,0);
-			-webkit-transform: translate(20px,0); /** Chrome & Safari **/
-			-o-transform: translate(20px,0); /** Opera **/
-			-moz-transform: translate(20px,0); /** Firefox **/
-		}
-	
-	}
-
-	.one{
-		text-align: center;
-		animation: moveXY 2s infinite;
-		transform:moveXY(250px,0);
-		animation-direction: alternate;
-	}
-	.object {
-		transition: all 2s ease-in-out;
-		-webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
-		-moz-transition: all 2s ease-in-out; /** Firefox **/
-		-o-transition: all 2s ease-in-out; /** Opera **/
-	}
-}
-.one{
+.one {
 	text-align: center;
 	animation: moveXY 5s infinite;
 	transform:moveXY(250px,0);
@@ -10944,5 +10890,156 @@ ul.list li {
 
 .characterConcept {
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/case-study/concept-bg.png);
+    background-size: cover;
+}
+
+/* Placea Case Study */
+
+.discover-and-workshop {
+    background: url(../images/case-study/placea/placea-discovery-background.png);
+    background-size: cover;
+}
+
+.profileCard {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.process-model {
+	list-style: none;
+	padding: 0;
+	position: relative;
+	max-width: 100%;
+	margin: 20px auto 26px;
+	border: none;
+	z-index: 0;
+}
+
+.process-model li::after {
+	background: #FF742F none repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 4px;
+	margin: 0 auto;
+	position: absolute;
+	right: 110px;
+	top: 33px;
+	width: 85%;
+	z-index: -1;
+}
+
+.process-model li.visited::after {
+	background: #FF742F;
+}
+
+.process-model li:last-child::after {
+	width: 0;
+}
+
+.process-model li {
+	display: inline-block;
+	width: 14%;
+	text-align: center;
+	float: none;
+}
+
+.nav-tabs.process-model>li.active>a,
+.nav-tabs.process-model>li.active>a:hover,
+.nav-tabs.process-model>li.active>a:focus,
+.process-model li a:hover,
+.process-model li a:focus {
+	border: none;
+	background: transparent;
+
+}
+
+.process-model li a {
+	padding: 0;
+	border: none;
+	color: #606060;
+}
+
+.process-model li.active,
+.process-model li.visited {
+	color: #fff;
+
+}
+
+.process-model li.active a,
+.process-model li.active a:hover,
+.process-model li.active a:focus,
+.process-model li.visited a,
+.process-model li.visited a:hover,
+.process-model li.visited a:focus {
+	color: #fff;
+	background-color: #FF742F;
+}
+
+.process-model li.active p,
+.process-model li.visited p {
+	font-weight: 600;
+}
+
+.process-model li i {
+	display: block;
+	height: 68px;
+	width: 68px;
+	text-align: center;
+	margin: 0 auto;
+	background: #FF742F;
+	border: 2px solid #FF742F;
+	line-height: 65px;
+	font-size: 30px;
+	border-radius: 50%;
+	color: #fff;
+}
+
+.process-model li.active i,
+.process-model li.visited i {
+	background: #FF742F;
+}
+
+.process-model li p {
+	font-size: 14px;
+	margin-top: 11px;
+	color: #000;
+}
+
+.process-model.contact-us-tab li.visited a,
+.process-model.contact-us-tab li.visited p {
+	color: #606060 !important;
+	font-weight: normal
+}
+
+.process-model.contact-us-tab li::after {
+	display: none;
+}
+
+.process-model.contact-us-tab li.visited i {
+	border-color: #e5e5e5;
+}
+
+.placea-research-slider .owl-next {
+    font-size: 20px !important;
+    color: #089674 !important;
+}
+
+.placea-research-slider .owl-prev {
+    font-size: 20px !important;
+    color: #089674 !important;
+	margin-right: 30px;
+}
+
+.placea-research-slider .owl-nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.placea-app-visuals {
+    margin-top: 200px;
+    background-image: url(../images/case-study/placea/plecea-visuals.png);
     background-size: cover;
 }
