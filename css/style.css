@@ -7565,7 +7565,7 @@ a.smllbtnn {
 
 .img-wide-blocktt {
 	position: relative;
-	right: -80px;
+	/* right: -80px; */
 }
 
 .portfolio-item-info-tt h3 {
