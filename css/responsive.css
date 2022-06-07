@@ -2640,12 +2640,12 @@
     }
 
     .placea-discover-heading {
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
     }
 
     .placea-discover-text {
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
     }
 
@@ -2702,11 +2702,11 @@
     }
 
     .placea-app-heading {
-        text-align: center;
+        text-align: left;
     }
 
     .placea-app-text {
-        text-align: center;
+        text-align: left;
     }
 
     .left-side {

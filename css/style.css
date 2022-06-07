@@ -6415,7 +6415,8 @@ html .pb140 {
 	animation: 3s infinite updonanim;
 	-webkit-animation: 3s infinite updonanim;
 }
-/**Gredient css**/
+
+/** Gredient CSS **/
 .bg-gradient {
 	background: #c7ecff;
 	background: -moz-linear-gradient(top, #c7ecff 0%, #f9efff 100%);
@@ -6424,10 +6425,10 @@ html .pb140 {
 }
 
 .bg-gradient1 {
-	background: #ffe2e2;
-	background: -moz-linear-gradient(top, #ffe2e2 0%, #fff9f4 100%);
+	background: #f98118;
+	/* background: -moz-linear-gradient(top, #ffe2e2 0%, #fff9f4 100%);
 	background: -webkit-linear-gradient(top, #ffe2e2 0%,#fff9f4 100%);
-	background: linear-gradient(to bottom, #ffe2e2 0%,#fff9f4 100%);
+	background: linear-gradient(to bottom, #ffe2e2 0%,#fff9f4 100%); */
 }
 
 .bg-gradient2 {
@@ -9914,7 +9915,7 @@ input {
 /* Case Study */
 
 .first-cs {
-	background: linear-gradient(to right,#eb3740 0,#a3141a 100%);
+	background: #f98118;
 }
 
 .second-cs {
@@ -10473,10 +10474,10 @@ input {
 	height: auto;
 }
 
-.icon-img {
+/* .icon-img {
     width: 80px !important;
     height: 80px;
-}
+} */
   
 .overlay {
 	position: absolute;
@@ -10879,8 +10880,9 @@ ul.list li {
 }
 
 .case-study{
-	background-image: url("../images/case-study/sketcing.png");
-	background-size: cover;
+	/* background-image: url("../images/case-study/sketcing.png"); */
+	/* background-size: cover; */
+	background-color: #f98118;
 }
 
 .sketing {
