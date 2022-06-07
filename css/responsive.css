@@ -1854,7 +1854,6 @@
 @media only screen and (max-width:767px) {
 
     /* Service */
-
     .hero-heading-sec2 h3 {
         font-size: 30px;
         line-height: 40px;
@@ -2007,6 +2006,8 @@
         padding-bottom: 10px;
     }
 
+    /* Placea Case Study */
+
     .process-model.more-icon-preocess li {
 		width: 14%;
 	}
@@ -2030,13 +2031,88 @@
 		text-align: center;
 	}
 
+    .placea-banner-img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .placea-discover-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-discover-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .placea-process-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-circle {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-research-heading {
+        text-align: center;
+    }
+
+    .placea-research-text {
+        text-align: center;
+    }
+
+    .placea-sketch-heading {
+        text-align: center;
+    }
+
+    .placea-sketch-text {
+        text-align: center;
+    }
+
+    .placea-wireframe-heading {
+        text-align: center;
+    }
+
+    .placea-wireframe-text {
+        text-align: center;
+    }
+
+    .placea-visual-heading {
+        text-align: center;
+    }
+
+    .placea-visual-text {
+        text-align: center;
+    }
+
+    .placea-app-heading {
+        text-align: center;
+    }
+
+    .placea-app-text {
+        text-align: center;
+    }
+
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
-
     /* Service */
-
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -2216,10 +2292,126 @@
         height: 1140px !important;
     }
 
+    /* Placea Case Study */
+
     .process-model li::after {
 		right: 100px;
 		width: 85%;
 	}
+
+    .process-model.more-icon-preocess li {
+		width: 14%;
+	}
+
+	.more-icon-preocess.process-model li span {
+		font-size: 16px;
+		height: 35px;
+		line-height: 32px;
+		width: 35px;
+	}
+
+	.more-icon-preocess.process-model li p {
+		font-size: 10px;
+	}
+
+	.more-icon-preocess.process-model li::after {
+		top: 18px;
+	}
+
+	.process-model.more-icon-preocess {
+		text-align: center;
+	}
+
+    .placea-banner-img {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .placea-discover-img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-discover-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-discover-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .placea-process-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-circle {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-research-heading {
+        text-align: center;
+    }
+
+    .placea-research-text {
+        text-align: center;
+    }
+
+    .placea-sketch-heading {
+        text-align: center;
+    }
+
+    .placea-sketch-text {
+        text-align: center;
+    }
+
+    .placea-wireframe-heading {
+        text-align: center;
+    }
+
+    .placea-wireframe-text {
+        text-align: center;
+    }
+
+    .placea-visual-heading {
+        text-align: center;
+    }
+
+    .placea-visual-text {
+        text-align: center;
+    }
+
+    .placea-app-heading {
+        text-align: center;
+    }
+
+    .placea-app-text {
+        text-align: center;
+    }
+
+    .left-side {
+        float: left;
+    }
+
+    .right-side {
+        float: right;
+    }
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -2229,7 +2421,6 @@
     }
 
     /* Service */
-
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -2413,47 +2604,124 @@
     .web-service {
         height: 1140px !important;
     }
+
+    /* Placea Case Study */
+
+    .process-model li::after {
+		right: 100px;
+		width: 85%;
+	}
+
+    .process-model.more-icon-preocess li {
+		width: 14%;
+	}
+
+	.more-icon-preocess.process-model li span {
+		font-size: 16px;
+		height: 35px;
+		line-height: 32px;
+		width: 35px;
+	}
+
+	.process-model.more-icon-preocess {
+		text-align: center;
+	}
+
+    .placea-banner-img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .placea-discover-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-discover-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-discover-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .placea-process-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-circle {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-research-heading {
+        text-align: center;
+    }
+
+    .placea-research-text {
+        text-align: center;
+    }
+
+    .placea-sketch-heading {
+        text-align: center;
+    }
+
+    .placea-sketch-text {
+        text-align: center;
+    }
+
+    .placea-wireframe-heading {
+        text-align: center;
+    }
+
+    .placea-wireframe-text {
+        text-align: center;
+    }
+
+    .placea-visual-heading {
+        text-align: center;
+    }
+
+    .placea-visual-text {
+        text-align: center;
+    }
+
+    .placea-app-heading {
+        text-align: center;
+    }
+
+    .placea-app-text {
+        text-align: center;
+    }
+
+    .left-side {
+        float: left;
+    }
+
+    .right-side {
+        float: right;
+    }
 }
 
 @media only screen and (min-width:1440px) {
 
-    /* h1 {
-        font-size: 28px;
-        line-height: 36px;
-    }
-
-    h2 {
-        font-size: 26px;
-        line-height: 32px;
-    }
-
-    h3 {
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    h4 {
-        font-size: 22px;
-        line-height: 28px;
-    }
-
-    h5 {
-        font-size: 20px;
-        line-height: 26px;
-    }
-
-    h6 {
-        font-size: 18px;
-        line-height: 24px;
-    }
-
-    p {
-        font-size: 15px;
-        line-height: 22px;
-    } */
 
     /* Service */
-
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -2611,6 +2879,118 @@
 
     .deliveries-section h2 {
         padding-bottom: 20px;
+    }
+
+    /* Placea Case Study */
+
+    .process-model li::after {
+		right: 100px;
+		width: 85%;
+	}
+
+    .process-model.more-icon-preocess li {
+		width: 14%;
+	}
+
+	.more-icon-preocess.process-model li span {
+		font-size: 16px;
+		height: 35px;
+		line-height: 32px;
+		width: 35px;
+	}
+
+	.process-model.more-icon-preocess {
+		text-align: center;
+	}
+
+    .placea-banner-img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .placea-discover-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-discover-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-discover-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .placea-process-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-circle {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-research-heading {
+        text-align: center;
+    }
+
+    .placea-research-text {
+        text-align: center;
+    }
+
+    .placea-sketch-heading {
+        text-align: center;
+    }
+
+    .placea-sketch-text {
+        text-align: center;
+    }
+
+    .placea-wireframe-heading {
+        text-align: center;
+    }
+
+    .placea-wireframe-text {
+        text-align: center;
+    }
+
+    .placea-visual-heading {
+        text-align: center;
+    }
+
+    .placea-visual-text {
+        text-align: center;
+    }
+
+    .placea-app-heading {
+        text-align: center;
+    }
+
+    .placea-app-text {
+        text-align: center;
+    }
+
+    .left-side {
+        float: left;
+    }
+
+    .right-side {
+        float: right;
     }
 }
 

@@ -2664,7 +2664,7 @@ footer.ftshap:before {
 }
 
 .filters .filter-menu li.is-checked {
-	background: #f95b94;
+	background: #5495bf;
 	color: #fff;
 }
 
@@ -11039,7 +11039,6 @@ ul.list li {
 }
 
 .placea-app-visuals {
-    margin-top: 200px;
     background-image: url(../images/case-study/placea/plecea-visuals.png);
     background-size: cover;
 }
