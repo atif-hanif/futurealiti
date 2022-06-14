@@ -9972,6 +9972,13 @@ input {
 	opacity: calc(var(--visible-y)*1.9);
 }
 
+.btn-line-before, .btn-line-after {
+	background-color:#0f63f4;
+}
+
+.view-cs-btn {
+	color: #0f63f4;
+}
 
 .list_cat {
 	list-style: none;
@@ -10949,4 +10956,33 @@ ul.list li {
 	background-image: url(../images/case-study/vero/vero-back-research.png);
 	background-size: cover;
 	background-position: center;
+}
+
+
+/* Toys Sort Case Study */
+
+.toys-sort-case-study {
+	background-image: url(../images/case-study/toys-sort/toys-sort-background.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.toys-sort-prototype {
+	background-image: url(../images/case-study/toys-sort/toys-sort-app-banner.png);
+}
+
+/* Home Store App Case Study */
+
+.home-store-case-study {
+	background-image: url(../images/case-study/home-store-app/home-store-app-banner-background.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.home-store-resarch-bg {
+	background-color: #fdf1d0;
+}
+
+.home-store-app {
+	background-image: url(../images/case-study/home-store-app/home-store-app-background.png);
 }
