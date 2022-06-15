@@ -9962,6 +9962,10 @@ input {
     min-height: 100vh;
 }
 
+.logo-img {
+    background: #fff;
+}
+
 .cs-slider .owl-item img {
     width: auto;
 }
@@ -10420,7 +10424,35 @@ input {
 
 /* Our Process */
 
+/* Porfolio */
 
+.portfolio-gradient1 {
+	background: #f98118;
+}
+
+.portfolio-gradient2 {
+	background: #18364f;
+}
+
+.portfolio-gradient3 {
+	background: #002E33;
+}
+
+.portfolio-gradient4 {
+	background: #FFE7CF;
+}
+
+.portfolio-gradient5 {
+	background: #F7C134;
+}
+
+.portfolio-gradient6 {
+	background: #428FA8;
+}
+
+.portfolio-img {
+	width: 80%;
+}
 
 /* Mobile App Page */
 
