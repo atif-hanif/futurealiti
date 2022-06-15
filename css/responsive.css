@@ -1838,7 +1838,7 @@
 		position: fixed;
 		width: 580px;
 		top: 15%;
-		/* left: 10%; */
+		left: 5%;
 		height: auto;
 	}
 
@@ -2110,6 +2110,10 @@
 
     /* Evil Witch Case Study */
 
+    .evil-witch-banner-div {
+        margin-top: 100px;
+    }
+
     .evil-witch-about-heading {
         text-align: center;
     }
@@ -2139,6 +2143,19 @@
     .evil-witch-sketch-text {
         text-align: center;
         padding-top: 10px;
+    }
+
+    .evil-witch-design-heading {
+        text-align: center;
+    }
+
+    .evil-witch-design-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .evil-witch-design-text2 {
+        text-align: center;
     }
 
 }
@@ -2461,6 +2478,77 @@
     .right-side-img-3 {
         float: right;
     }
+
+    /* Evil Witch Case Study */
+
+    .evil-witch-banner-div {
+        margin-top: 100px;
+    }
+
+    .evil-witch-about-heading {
+        text-align: center;
+    }
+
+    .evil-witch-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .evil-witch-about-img1, .evil-witch-about-img2 {
+        padding-top: 20px;
+    }
+
+    .evil-witch-who-heading {
+        text-align: center;
+    }
+
+    .evil-witch-who-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .evil-witch-sketch-heading {
+        text-align: center;
+    }
+
+    .evil-witch-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .evil-witch-design-heading {
+        text-align: center;
+    }
+
+    .evil-witch-design-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .evil-witch-design-text2 {
+        text-align: center;
+    }
+
+    .evil-witch-who-img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .evil-witch-sketch-img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .evil-witch-concept-img2, .evil-witch-concept-img1 {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .evil-witch-design-img1, .evil-witch-design-img2, .evil-witch-design-img3, .evil-witch-design-img4, .evil-witch-design-img5 {
+        margin: 0 auto;
+        display: block;
+    }
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -2799,10 +2887,15 @@
         height: 80%;
         width: 80%;
     }
+
+    /* Evil Witch Case Study */
+
+    .evil-witch-banner-div {
+        margin-top: 100px;
+    }
 }
 
-@media only screen and (min-width:1440px) {
-
+@media only screen and (min-width:1440px) and (max-width:1599px) {
 
     /* Service */
 
@@ -3090,6 +3183,606 @@
 
     .right-side-img-3 {
         float: right;
+    }
+
+    /* Evil Witch Case Study */
+
+    .evil-witch-banner-div {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+
+    /* Service */
+
+    .hero-heading-sec2 h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-heading-sec2 > p1 {
+        margin: 40px 0 20px;
+    }
+
+    .hero-heading-sec2 > p2 {
+        margin: 20px 0;
+    }
+
+    h2.common-heading {
+        padding-bottom: 10px;
+    }
+
+    .type h2, .services h2, .case-studies h2,  .process h2, .techonology-used h2,
+    .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
+    .brand-logo-slider h2, .deliveries-section h2 {
+        text-align: center;
+    }
+
+    .about h2, .custom-app h2, .ideal h2, .tech h2, .our-work h2, .app h2 {
+        text-align: left;
+    }
+
+    .custom-app-dev {
+        height: 160px;
+    }
+
+    .type .card {
+        margin-bottom: 0px;
+    }
+
+    .box {
+        width: 50%;
+    }
+
+    .features-heading {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .custom h2 {
+        padding-bottom: 10px;
+    }
+
+    .custom p {
+        text-align: lef;
+        padding-bottom: 20px;
+    }
+
+    .process h2 {
+        padding-bottom: 10px;
+    }
+
+    .number {
+        font-size: 32px;
+        width: 28%;
+        margin-left: 0px;
+        padding: 20px 10px;
+    }
+
+    .process-title {
+        width: 72%;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .process-card {
+        margin-bottom: 0px;
+        height: 235px;
+    }
+
+    .ideal h2 {
+        padding-bottom: 10px;
+    }
+
+    .ideal p {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .ideal a {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .tab-content {
+        margin-top: 0px;
+    }
+
+    .tab-body {
+        padding: 35px;
+    }
+
+    .benefits-cards {
+        margin-bottom: 15px;
+    }
+
+    .key-desc {
+        text-align: center;
+    }
+
+    .numbersOfSatisfy {
+        padding: 40px 0px 0px;
+    }
+
+    .blogs-section h3 {
+        text-align: center;
+    }
+
+    .single-card-item {
+        margin-top: 40px;
+    }
+
+    .center-dots .owl-dots {
+        margin: 15px auto;
+    }
+
+    .schedule {
+        margin-bottom: 30px !important;
+    }
+
+    .client-name, .client-post, .client-desc {
+        text-align: center;
+    }
+
+    .text-fieds- {
+        width: 100% !important;
+    }
+
+    .contact-us-block {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 30px;
+    }
+
+    .submitFormBtn {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .startAprojectBtn { 
+        margin: 0 auto;
+        display: block;
+    }
+
+    .deliver h3 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .deliveries-section h2 {
+        padding-bottom: 20px;
+    }
+
+    /* Placea Case Study */
+
+    .process-model li::after {
+		right: 100px;
+		width: 85%;
+	}
+
+    .process-model.more-icon-preocess li {
+		width: 14%;
+	}
+
+	.more-icon-preocess.process-model li span {
+		font-size: 16px;
+		height: 35px;
+		line-height: 32px;
+		width: 35px;
+	}
+
+	.process-model.more-icon-preocess {
+		text-align: center;
+	}
+
+    .placea-banner-img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .placea-discover-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-discover-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-discover-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .placea-process-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-circle {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-research-heading {
+        text-align: center;
+    }
+
+    .placea-research-text {
+        text-align: center;
+    }
+
+    .placea-sketch-heading {
+        text-align: center;
+    }
+
+    .placea-sketch-text {
+        text-align: center;
+    }
+
+    .placea-wireframe-heading {
+        text-align: center;
+    }
+
+    .placea-wireframe-text {
+        text-align: center;
+    }
+
+    .placea-visual-heading {
+        text-align: center;
+    }
+
+    .placea-visual-text {
+        text-align: center;
+    }
+
+    .placea-app-heading {
+        text-align: center;
+    }
+
+    .placea-app-text {
+        text-align: center;
+    }
+
+    .left-side-img-1 {
+        float: left;
+    }
+
+    .right-side-img-1 {
+        float: right;
+    }
+
+    .left-side-img-2 {
+        float: left;
+    }
+
+    .right-side-img-2 {
+        float: right;
+    }
+
+    .left-side-img-3 {
+        float: left;
+    }
+
+    .right-side-img-3 {
+        float: right;
+    }
+
+    /* Evil Witch Case Study */
+
+    .evil-witch-banner-div {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width:1440px) and (max-width:1599px) {
+
+    /* Service */
+
+    .hero-heading-sec2 h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-heading-sec2 > p1 {
+        margin: 40px 0 20px;
+    }
+
+    .hero-heading-sec2 > p2 {
+        margin: 20px 0;
+    }
+
+    h2.common-heading {
+        padding-bottom: 10px;
+    }
+
+    .type h2, .services h2, .case-studies h2,  .process h2, .techonology-used h2,
+    .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
+    .brand-logo-slider h2, .deliveries-section h2 {
+        text-align: center;
+    }
+
+    .about h2, .custom-app h2, .ideal h2, .tech h2, .our-work h2, .app h2 {
+        text-align: left;
+    }
+
+    .custom-app-dev {
+        height: 160px;
+    }
+
+    .type .card {
+        margin-bottom: 0px;
+    }
+
+    .box {
+        width: 50%;
+    }
+
+    .features-heading {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .custom h2 {
+        padding-bottom: 10px;
+    }
+
+    .custom p {
+        text-align: lef;
+        padding-bottom: 20px;
+    }
+
+    .process h2 {
+        padding-bottom: 10px;
+    }
+
+    .number {
+        font-size: 32px;
+        width: 28%;
+        margin-left: 0px;
+        padding: 20px 10px;
+    }
+
+    .process-title {
+        width: 72%;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .process-card {
+        margin-bottom: 0px;
+        height: 235px;
+    }
+
+    .ideal h2 {
+        padding-bottom: 10px;
+    }
+
+    .ideal p {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .ideal a {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .tab-content {
+        margin-top: 0px;
+    }
+
+    .tab-body {
+        padding: 35px;
+    }
+
+    .benefits-cards {
+        margin-bottom: 15px;
+    }
+
+    .key-desc {
+        text-align: center;
+    }
+
+    .numbersOfSatisfy {
+        padding: 40px 0px 0px;
+    }
+
+    .blogs-section h3 {
+        text-align: center;
+    }
+
+    .single-card-item {
+        margin-top: 40px;
+    }
+
+    .center-dots .owl-dots {
+        margin: 15px auto;
+    }
+
+    .schedule {
+        margin-bottom: 30px !important;
+    }
+
+    .client-name, .client-post, .client-desc {
+        text-align: center;
+    }
+
+    .text-fieds- {
+        width: 100% !important;
+    }
+
+    .contact-us-block {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 30px;
+    }
+
+    .submitFormBtn {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .startAprojectBtn { 
+        margin: 0 auto;
+        display: block;
+    }
+
+    .deliver h3 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .deliveries-section h2 {
+        padding-bottom: 20px;
+    }
+
+    /* Placea Case Study */
+
+    .process-model li::after {
+		right: 100px;
+		width: 85%;
+	}
+
+    .process-model.more-icon-preocess li {
+		width: 14%;
+	}
+
+	.more-icon-preocess.process-model li span {
+		font-size: 16px;
+		height: 35px;
+		line-height: 32px;
+		width: 35px;
+	}
+
+	.process-model.more-icon-preocess {
+		text-align: center;
+	}
+
+    .placea-banner-img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .placea-discover-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-discover-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-discover-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .placea-process-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-circle {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-research-heading {
+        text-align: center;
+    }
+
+    .placea-research-text {
+        text-align: center;
+    }
+
+    .placea-sketch-heading {
+        text-align: center;
+    }
+
+    .placea-sketch-text {
+        text-align: center;
+    }
+
+    .placea-wireframe-heading {
+        text-align: center;
+    }
+
+    .placea-wireframe-text {
+        text-align: center;
+    }
+
+    .placea-visual-heading {
+        text-align: center;
+    }
+
+    .placea-visual-text {
+        text-align: center;
+    }
+
+    .placea-app-heading {
+        text-align: center;
+    }
+
+    .placea-app-text {
+        text-align: center;
+    }
+
+    .left-side-img-1 {
+        float: left;
+    }
+
+    .right-side-img-1 {
+        float: right;
+    }
+
+    .left-side-img-2 {
+        float: left;
+    }
+
+    .right-side-img-2 {
+        float: right;
+    }
+
+    .left-side-img-3 {
+        float: left;
+    }
+
+    .right-side-img-3 {
+        float: right;
+    }
+
+    /* Evil Witch Case Study */
+
+    .evil-witch-banner-div {
+        margin-top: 100px;
     }
 }
 

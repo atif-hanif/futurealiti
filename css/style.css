@@ -9914,7 +9914,7 @@ input {
 
 /* Case Study */
 
-.first-cs {
+.ar-first-cs {
 	background: #f98118;
 }
 
@@ -9936,6 +9936,26 @@ input {
 
 .sixth-cs {
 	background: linear-gradient(to right,#ef4b51 0,#d72f35 100%);
+}
+
+.design-first-cs {
+	background: linear-gradient(to right,#18364f 0,#14152d 100%);
+}
+
+.game-first-cs {
+	background: linear-gradient(to right,#002E33 0,#000F11 100%);
+}
+
+.mobile-app-first-cs {
+	background: linear-gradient(to right,#FFE7CF 0,#FFE7CF 100%);
+}
+
+.mobile-app-second-cs {
+	background: #F7C134;
+}
+
+.website-first-cs {
+	background: #428FA8;
 }
 
 .cs-slider .owl-stage {
@@ -10856,6 +10876,16 @@ ul.list li {
 
 /* Evil Witch Case Study */
 
+.evil-witch-banner {
+	background-image: url(../images/case-study/evil-witch/evil-witch-banner-background.png);
+	background-size: cover;
+}
+
+.evil-witch-sketch {
+	background-image: url(../images/case-study/evil-witch/evil-witch-banner-background.png);
+	background-size: cover;
+}
+
 @keyframes moveXY{
 	0%{
 		transform: translate(-150px,0);
@@ -10886,20 +10916,9 @@ ul.list li {
     -o-transition: all 5s ease-in-out; /** Opera **/
 }
 
-.case-study{
-	/* background-image: url("../images/case-study/sketcing.png"); */
-	/* background-size: cover; */
-	background-color: #f98118;
-}
-
-.evil-witch-sketch {
-	background-image: url("../images/case-study/sketcing.png");
-	background-size: cover;
-}
-
 .evil-witch-concept {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/case-study/concept-bg.png);
-    background-size: cover;
+	background-image: url(../images/case-study/evil-witch/evil-witch-concept-bg.png);
+	background-size: cover;
 }
 
 /* Placea Case Study */
