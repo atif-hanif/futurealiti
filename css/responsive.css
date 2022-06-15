@@ -2108,6 +2108,39 @@
         text-align: center;
     }
 
+    /* Evil Witch Case Study */
+
+    .evil-witch-about-heading {
+        text-align: center;
+    }
+
+    .evil-witch-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .evil-witch-about-img1, .evil-witch-about-img2 {
+        padding-top: 20px;
+    }
+
+    .evil-witch-who-heading {
+        text-align: center;
+    }
+
+    .evil-witch-who-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .evil-witch-sketch-heading {
+        text-align: center;
+    }
+
+    .evil-witch-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {

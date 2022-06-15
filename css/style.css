@@ -10854,7 +10854,7 @@ ul.list li {
 }
 
 
-/* Rocco Case Study */
+/* Evil Witch Case Study */
 
 @keyframes moveXY{
 	0%{
@@ -10892,12 +10892,12 @@ ul.list li {
 	background-color: #f98118;
 }
 
-.sketing {
+.evil-witch-sketch {
 	background-image: url("../images/case-study/sketcing.png");
 	background-size: cover;
 }
 
-.characterConcept {
+.evil-witch-concept {
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/case-study/concept-bg.png);
     background-size: cover;
 }
