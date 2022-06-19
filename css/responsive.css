@@ -1,4 +1,4 @@
-/**width 1920 to 992**/
+/** width 1920 to 992 **/
 @media screen and (max-width:1920px) and (min-width:992px) {
     .dropdown:hover>.dropdown-menu {
         display: block;
@@ -15,7 +15,7 @@
 
 @media only screen and (max-width: 1700px) {
 
-    /**start update 1.9**/
+    /** start update 1.9 **/
     html .hero-card-web.mobile-app- {
         height: auto;
     }
@@ -28,17 +28,17 @@
         height: 100vh !important;
     }
 
-    /**end update 1.9**/
+    /** end update 1.9 **/
 }
 
-/**width 1200**/
+/** width 1200 **/
 @media (min-width:1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1200px
     }
 }
 
-/**width 1370**/
+/** width 1370 **/
 @media only screen and (max-width:1370px) {
     .navbar-light .navbar-nav .nav-link {
         padding: 0px 12px;
@@ -78,7 +78,7 @@
         height: 750px
     }
 
-    /**start update 1.8**/
+    /** start update 1.8 **/
     .hero-service-cards {
         margin-top: 50px;
     }
@@ -137,9 +137,9 @@
         height: auto;
     }
 
-    /**end update 1.8**/
+    /** end update 1.8 **/
 
-    /**start update 2.0**/
+    /** start update 2.0 **/
     .digitalagency20 {
         height: auto;
         padding-top: 120px;
@@ -170,20 +170,20 @@
         line-height: 26px;
     }
 
-    /**end update 2.0**/
+    /** end update 2.0 **/
 
 }
 
-/**width 1150**/
+/** width 1150 **/
 @media only screen and (max-width:1150px) {
 
-    /**start update 2.1**/
+    /** start update 2.1 **/
     .priceodernow, .pricingfooter {
         flex-direction: column;
         grid-gap: 15px;
     }
 
-    /**end update 2.1**/
+    /** end update 2.1 **/
 
     .mouse-cursor {
         display: none;
@@ -232,28 +232,28 @@
 
 @media (min-width: 992px) {
 
-    /**Start-Bootstrap-v5.1.3-update**/
+    /** Start-Bootstrap-v5.1.3-update **/
     .navbar-expand-lg .navbar-collapse {
         justify-content: space-between;
     }
 
-    /**End-Bootstrap-v5.1.3-update**/
+    /** End-Bootstrap-v5.1.3-update **/
 
 }
 
-/**width 911**/
+/** width 911 **/
 @media only screen and (max-width:991px) {
 
-    /**Start-Bootstrap-v5.1.3-update**/
+    /** Start-Bootstrap-v5.1.3-update **/
     .niwax-btn1, .niwax-btn2, .niwax-btn3 {
         width: max-content;
         margin: 0 auto;
         display: block;
     }
 
-    /**End-Bootstrap-v5.1.3-update**/
+    /** End-Bootstrap-v5.1.3-update **/
 
-    /**Start-2.1-update**/
+    /** Start-2.1-update **/
     .niwax-btn1, .niwax-btn2, .niwax-btn3 {
         width: max-content;
         margin: 0 auto;
@@ -361,9 +361,9 @@
         margin: 0 auto;
     }
 
-    /**End-2.1-update**/
+    /** End-2.1-update **/
 
-    /**start update 2.0**/
+    /** start update 2.0 **/
     .contact-block-btm {
         padding: 30px 30px;
         margin-left: 0;
@@ -482,7 +482,7 @@
         line-height: 52px;
     }
 
-    /**end update 2.0**/
+    /** end update 2.0 **/
 
     .pvcpolcy p {
         text-align: left;
@@ -1054,7 +1054,7 @@
     }
 }
 
-/**width 767**/
+/** width 767 **/
 @media only screen and (max-width:767px) {
 
     /*2.2*/
@@ -1068,7 +1068,7 @@
     /*2.2*/
 
 
-    /**Start-Bootstrap-v5.1.3-update**/
+    /** Start-Bootstrap-v5.1.3-update **/
     .itm-media-object .media .img-ab- {
         height: 55px;
     }
@@ -1083,9 +1083,9 @@
         justify-content: space-between;
     }
 
-    /**End-Bootstrap-v5.1.3-update**/
+    /** End-Bootstrap-v5.1.3-update **/
 
-    /**start update 2.1**/
+    /** start update 2.1 **/
     .niwax-logo-awards {
         grid-template-columns: auto auto;
         grid-gap: 30px;
@@ -1096,10 +1096,10 @@
         width: 100%;
     }
 
-    /**end update 2.1**/
+    /** end update 2.1 **/
 
 
-    /**start update 2.0**/
+    /** start update 2.0 **/
     h1 {
         font-size: 32px;
         line-height: 48px;
@@ -1153,9 +1153,9 @@
         line-height: 45px;
     }
 
-    /**end update 2.0**/
+    /** end update 2.0 **/
 
-    /**start update 1.7**/
+    /** start update 1.7 **/
     .rpb-cart-table table tr td.rpbrs-titl::before, .rpb-cart-table table tr td.rpbrs-titl::before {
         content: attr(data-title) ":";
         font-weight: 700;
@@ -1194,7 +1194,7 @@
         border-radius: 12px;
     }
 
-    /**end update 1.7**/
+    /** end update 1.7 **/
 
     .psforgt {
         margin-top: 10px;
@@ -1456,7 +1456,7 @@
     }
 }
 
-/**width 576**/
+/** width 576 **/
 @media (min-width:576px) {
     .modal-dialog {
         max-width: 800px;
@@ -1464,7 +1464,7 @@
     }
 }
 
-/**width 580**/
+/** width 580 **/
 @media (max-width:580px) {
     .ftr-brand-pp .btn-main {
         width: max-content;
@@ -1477,10 +1477,10 @@
     }
 }
 
-/**width 520**/
+/** width 520 **/
 @media only screen and (max-width:520px) {
 
-    /**start update 2.1**/
+    /** start update 2.1 **/
     .awardbgwithtext p {
         white-space: break-spaces;
     }
@@ -1493,9 +1493,9 @@
         grid-gap: 20px;
     }
 
-    /**start update 2.1**/
+    /** start update 2.1 **/
 
-    /**start update 2.0**/
+    /** start update 2.0 **/
     .row-forfullcard {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1532,9 +1532,9 @@
         margin: 0px 15px 0 0px;
     }
 
-    /**end update 2.0**/
+    /** end update 2.0 **/
 
-    /**start update 1.7**/
+    /** start update 1.7 **/
     .btn-grp a+a {
         margin-top: 15px;
     }
@@ -1551,7 +1551,7 @@
         line-height: 16px;
     }
 
-    /**end update 1.7**/
+    /** end update 1.7 **/
 
     .service-point-2 li {
         float: none;
@@ -1662,7 +1662,7 @@
     }
 }
 
-/**width 350**/
+/** width 350 **/
 @media only screen and (max-width:350px) {
     .header-heading h1 {
         font-size: 30px;
@@ -2008,34 +2008,26 @@
 
     /* Placea Case Study */
 
-    .process-model.more-icon-preocess li {
-		width: 14%;
-	}
-
-	.more-icon-preocess.process-model li span {
-		font-size: 16px;
-		height: 35px;
-		line-height: 32px;
-		width: 35px;
-	}
-
-	.more-icon-preocess.process-model li p {
-		font-size: 10px;
-	}
-
-	.more-icon-preocess.process-model li::after {
-		top: 18px;
-	}
-
-	.process-model.more-icon-preocess {
-		text-align: center;
-	}
-
     .placea-banner-img {
-        width: 50%;
+        width: 40%;
         display: block;
         margin: 0 auto;
         padding-bottom: 15px;
+    }
+
+    .placea-banner-heading {
+        text-align: center;
+    }
+
+    .placea-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-discover-img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
     }
 
     .placea-discover-heading {
@@ -2063,9 +2055,22 @@
         padding-top: 10px;
     }
 
+    .placea-solution-heading1, .placea-solution-heading2, .placea-solution-heading3 {
+        text-align: center;
+    }
+
+    .placea-solution-text1, .placea-solution-text2, .placea-solution-text3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
     .placea-circle {
         display: block;
         margin: 0 auto;
+    }
+
+    .placea-solution-main-heading {
+        text-align: center;
     }
 
     .placea-research-heading {
@@ -2074,6 +2079,7 @@
 
     .placea-research-text {
         text-align: center;
+        padding-top: 10px;
     }
 
     .placea-sketch-heading {
@@ -2082,6 +2088,7 @@
 
     .placea-sketch-text {
         text-align: center;
+        padding-top: 10px;
     }
 
     .placea-wireframe-heading {
@@ -2090,14 +2097,25 @@
 
     .placea-wireframe-text {
         text-align: center;
+        padding-top: 10px;
     }
 
-    .placea-visual-heading {
-        text-align: center;
+    .placea-color-palette {
+        margin-bottom: 150px;
     }
 
-    .placea-visual-text {
+    .placea-color-heading {
         text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-color-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-color-palette-img {
+        padding-top: 10px;
     }
 
     .placea-app-heading {
@@ -2106,6 +2124,14 @@
 
     .placea-app-text {
         text-align: center;
+    }
+
+    .play-store {
+        padding-top: 10px;
+    }
+
+    .placea-app-img1 {
+        margin-top: -180px;
     }
 
     /* Evil Witch Case Study */
@@ -2156,6 +2182,150 @@
 
     .evil-witch-design-text2 {
         text-align: center;
+    }
+
+    /* Vero Case Study */
+
+    .vero-banner-heading {
+        text-align: center;
+    }
+
+    .vero-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-subheading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-subtext {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-research-heading {
+        text-align: center;
+    }
+
+    .vero-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-sketch-heading {
+        text-align: center;
+    }
+
+    .vero-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-wireframe-heading {
+        text-align: center;
+    }
+
+    .vero-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-color-heading {
+        text-align: center;
+    }
+
+    .vero-color-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-prototype-heading {
+        text-align: center;
+    }
+
+    .vero-prototype-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-app-img2, .vero-app-img3, .vero-app-img4, .vero-app-img5, .vero-app-img6 {
+        padding-top: 25px;
+    }
+
+    .vero-app-heading {
+        text-align: center;
+    }
+
+    .vero-app-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-app-img {
+        padding-top: 25px;
+    }
+
+    /* Toys Sort Case Study */
+
+    .toys-sort-about-heading {
+        text-align: center;
+    }
+
+    .toys-sort-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-about-img {
+        padding-top: 25px;
+    }
+
+    .toys-sort-process-heading {
+        text-align: center;
+    }
+
+    .toys-sort-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-sketch-heading {
+        text-align: center;
+    }
+
+    .toys-sort-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-wireframe-heading {
+        text-align: center;
+    }
+
+    .toys-sort-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-visuals-heading {
+        text-align: center;
+    }
+
+    .toys-sort-visuals-text {
+        text-align: center;
+        padding-top: 10px;
     }
 
 }
@@ -2344,39 +2514,20 @@
 
     /* Placea Case Study */
 
-    .process-model li::after {
-		right: 100px;
-		width: 85%;
-	}
-
-    .process-model.more-icon-preocess li {
-		width: 14%;
-	}
-
-	.more-icon-preocess.process-model li span {
-		font-size: 16px;
-		height: 35px;
-		line-height: 32px;
-		width: 35px;
-	}
-
-	.more-icon-preocess.process-model li p {
-		font-size: 10px;
-	}
-
-	.more-icon-preocess.process-model li::after {
-		top: 18px;
-	}
-
-	.process-model.more-icon-preocess {
-		text-align: center;
-	}
-
     .placea-banner-img {
         width: 40%;
         display: block;
         margin: 0 auto;
         padding-bottom: 15px;
+    }
+
+    .placea-banner-heading {
+        text-align: center;
+    }
+
+    .placea-banner-text {
+        text-align: center;
+        padding-top: 10px;
     }
 
     .placea-discover-img {
@@ -2410,9 +2561,22 @@
         padding-top: 10px;
     }
 
+    .placea-solution-heading1, .placea-solution-heading2, .placea-solution-heading3 {
+        text-align: center;
+    }
+
+    .placea-solution-text1, .placea-solution-text2, .placea-solution-text3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
     .placea-circle {
         display: block;
         margin: 0 auto;
+    }
+
+    .placea-solution-main-heading {
+        text-align: center;
     }
 
     .placea-research-heading {
@@ -2421,6 +2585,7 @@
 
     .placea-research-text {
         text-align: center;
+        padding-top: 10px;
     }
 
     .placea-sketch-heading {
@@ -2429,6 +2594,7 @@
 
     .placea-sketch-text {
         text-align: center;
+        padding-top: 10px;
     }
 
     .placea-wireframe-heading {
@@ -2437,14 +2603,24 @@
 
     .placea-wireframe-text {
         text-align: center;
+        padding-top: 10px;
     }
 
-    .placea-visual-heading {
+    .placea-color-palette {
+        margin-bottom: 75px;
+    }
+
+    .placea-color-heading {
         text-align: center;
     }
 
-    .placea-visual-text {
+    .placea-color-text {
         text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-color-palette-img {
+        padding-top: 10px;
     }
 
     .placea-app-heading {
@@ -2455,28 +2631,20 @@
         text-align: center;
     }
 
-    .left-side-img-1 {
-        float: left;
+    .placea-app-img1 {
+        margin-top: -150px;
     }
 
-    .right-side-img-1 {
-        float: right;
+    .placea-app-img2 {
+        margin-top: 50%;
     }
 
-    .left-side-img-2 {
-        float: left;
+    .placea-app-img4 {
+        margin-top: 50%;
     }
 
-    .right-side-img-2 {
-        float: right;
-    }
-
-    .left-side-img-3 {
-        float: left;
-    }
-
-    .right-side-img-3 {
-        float: right;
+    .placea-app-img6 {
+        margin-top: 50%;
     }
 
     /* Evil Witch Case Study */
@@ -2547,6 +2715,162 @@
     .evil-witch-design-img1, .evil-witch-design-img2, .evil-witch-design-img3, .evil-witch-design-img4, .evil-witch-design-img5 {
         margin: 0 auto;
         display: block;
+    }
+
+    /* Vero Case Study */
+
+    .vero-banner-heading {
+        text-align: center;
+    }
+
+    .vero-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-subheading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-subtext {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-research-heading {
+        text-align: center;
+    }
+
+    .vero-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-sketch-heading {
+        text-align: center;
+    }
+
+    .vero-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-wireframe-heading {
+        text-align: center;
+    }
+
+    .vero-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-color-heading {
+        text-align: center;
+    }
+
+    .vero-color-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-prototype-heading {
+        text-align: center;
+    }
+
+    .vero-prototype-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-app-img2, .vero-app-img3, .vero-app-img4, .vero-app-img5, .vero-app-img6 {
+        padding-top: 25px;
+    }
+
+    .vero-app-heading {
+        text-align: center;
+    }
+
+    .vero-app-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-about-app-img {
+        padding-top: 25px;
+    }
+
+    /* Toys Sort Case Study */
+
+    .toys-sort-about-heading {
+        text-align: center;
+    }
+
+    .toys-sort-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-about-img {
+        padding-top: 25px;
+    }
+
+    .toys-sort-process-heading {
+        text-align: center;
+    }
+
+    .toys-sort-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-sketch-heading {
+        text-align: center;
+    }
+
+    .toys-sort-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-wireframe-heading {
+        text-align: center;
+    }
+
+    .toys-sort-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-visuals-heading {
+        text-align: center;
+    }
+
+    .toys-sort-visuals-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-app-img2 {
+        margin-top: 50%
+    }
+
+    .toys-sort-app-img4 {
+        margin-top: 50%
+    }
+
+    .toys-sort-app-img6 {
+        margin-top: 50%
     }
 
 }
@@ -2744,26 +3068,6 @@
 
     /* Placea Case Study */
 
-    .process-model li::after {
-		right: 100px;
-		width: 85%;
-	}
-
-    .process-model.more-icon-preocess li {
-		width: 14%;
-	}
-
-	.more-icon-preocess.process-model li span {
-		font-size: 16px;
-		height: 35px;
-		line-height: 32px;
-		width: 35px;
-	}
-
-	.process-model.more-icon-preocess {
-		text-align: center;
-	}
-
     .placea-banner-img {
         width: 50%;
         display: block;
@@ -2812,6 +3116,7 @@
 
     .placea-research-text {
         text-align: center;
+        padding-top: 10px;
     }
 
     .placea-sketch-heading {
@@ -2820,6 +3125,7 @@
 
     .placea-sketch-text {
         text-align: center;
+        padding-top: 10px;
     }
 
     .placea-wireframe-heading {
@@ -2828,14 +3134,21 @@
 
     .placea-wireframe-text {
         text-align: center;
+        padding-top: 10px;
     }
 
-    .placea-visual-heading {
-        text-align: center;
+    .placea-color-palette {
+        margin-bottom: 75px;
     }
 
-    .placea-visual-text {
+    .placea-color-heading {
         text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-color-text {
+        text-align: center;
+        padding-top: 10px;
     }
 
     .placea-app-heading {
@@ -2844,48 +3157,23 @@
 
     .placea-app-text {
         text-align: left;
+        padding-top: 10px;
     }
 
-    .left-side-img-1 {
-        float: left;
+    .placea-app-img1 {
         margin-top: -180px;
-        margin-left: 0%;
     }
 
-    .right-side-img-1 {
-        float: right;
-        margin-right: 2%;
-        margin-top: 30px;
+    .placea-app-img2 {
+        margin-top: 50%;
     }
 
-    .left-side-img-2 {
-        float: left;
-        margin-top: 120px;
-        margin-left: 50px;
+    .placea-app-img4 {
+        margin-top: 50%;
     }
 
-    .right-side-img-2 {
-        float: right;
-        margin-top: 400px;
-    }
-
-    .left-side-img-3 {
-        float: left;
-        margin-top: 320px;
-        margin-left: 50px;
-    }
-
-    .right-side-img-3 {
-        float: right;
-        margin-top: 520px;
-        margin-left: 50;
-    }
-
-    .sliderShapeImg {
-        margin-left: 10%;
-        margin-top: 200px;
-        height: 80%;
-        width: 80%;
+    .placea-app-img6 {
+        margin-top: 50%;
     }
 
     /* Evil Witch Case Study */
@@ -2893,7 +3181,164 @@
     .evil-witch-banner-div {
         margin-top: 100px;
     }
+
+    /* Vero Case Study */
+
+    .vero-banner-heading {
+        text-align: left;
+    }
+
+    .vero-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-heading {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-subheading {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-subtext {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-research-heading {
+        text-align: center;
+    }
+
+    .vero-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-sketch-heading {
+        text-align: center;
+    }
+
+    .vero-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-wireframe-heading {
+        text-align: center;
+    }
+
+    .vero-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-color-heading {
+        text-align: center;
+    }
+
+    .vero-color-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-prototype-heading {
+        text-align: center;
+    }
+
+    .vero-prototype-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-app-img2, .vero-app-img3, .vero-app-img4, .vero-app-img5, .vero-app-img6 {
+        padding-top: 25px;
+    }
+
+    .vero-app-heading {
+        text-align: left;
+    }
+
+    .vero-app-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-app-img {
+        padding-top: 25px;
+    }
+
+    /* Toys Sort Case Study */
+
+    .toys-sort-about-heading {
+        text-align: left;
+    }
+
+    .toys-sort-about-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .toys-sort-about-img {
+        padding-top: 25px;
+    }
+
+    .toys-sort-process-heading {
+        text-align: center;
+    }
+
+    .toys-sort-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-sketch-heading {
+        text-align: center;
+    }
+
+    .toys-sort-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-wireframe-heading {
+        text-align: center;
+    }
+
+    .toys-sort-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-visuals-heading {
+        text-align: center;
+    }
+
+    .toys-sort-visuals-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-app-img2 {
+        margin-top: 50%
+    }
+
+    .toys-sort-app-img4 {
+        margin-top: 50%
+    }
+
+    .toys-sort-app-img6 {
+        margin-top: 50%
+    }
 }
+
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
 
@@ -3059,26 +3504,6 @@
 
     /* Placea Case Study */
 
-    .process-model li::after {
-		right: 100px;
-		width: 85%;
-	}
-
-    .process-model.more-icon-preocess li {
-		width: 14%;
-	}
-
-	.more-icon-preocess.process-model li span {
-		font-size: 16px;
-		height: 35px;
-		line-height: 32px;
-		width: 35px;
-	}
-
-	.process-model.more-icon-preocess {
-		text-align: center;
-	}
-
     .placea-banner-img {
         width: 50%;
         display: block;
@@ -3092,12 +3517,12 @@
     }
 
     .placea-discover-heading {
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
     }
 
     .placea-discover-text {
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
     }
 
@@ -3145,50 +3570,633 @@
         text-align: center;
     }
 
-    .placea-visual-heading {
+    .placea-color-heading {
         text-align: center;
     }
 
-    .placea-visual-text {
+    .placea-color-text {
         text-align: center;
+    }
+
+    .placea-color-palette-img {
+        padding-top: 10px;
+        padding-bottom: 50px;
     }
 
     .placea-app-heading {
-        text-align: center;
+        text-align: left;
     }
 
     .placea-app-text {
-        text-align: center;
+        text-align: left;
     }
 
-    .left-side-img-1 {
-        float: left;
+    .placea-app-img1 {
+        margin-top: -180px;
     }
 
-    .right-side-img-1 {
-        float: right;
+    .placea-app-img2 {
+        margin-top: 50%;
     }
 
-    .left-side-img-2 {
-        float: left;
+    .placea-app-img4 {
+        margin-top: 50%;
     }
 
-    .right-side-img-2 {
-        float: right;
-    }
-
-    .left-side-img-3 {
-        float: left;
-    }
-
-    .right-side-img-3 {
-        float: right;
+    .placea-app-img6 {
+        margin-top: 50%;
     }
 
     /* Evil Witch Case Study */
 
     .evil-witch-banner-div {
         margin-top: 100px;
+    }
+
+    /* Vero Case Study */
+
+    .vero-banner-heading {
+        text-align: left;
+    }
+
+    .vero-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-heading {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-subheading {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-subtext {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-research-heading {
+        text-align: center;
+    }
+
+    .vero-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-sketch-heading {
+        text-align: center;
+    }
+
+    .vero-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-wireframe-heading {
+        text-align: center;
+    }
+
+    .vero-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-color-heading {
+        text-align: center;
+    }
+
+    .vero-color-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-prototype-heading {
+        text-align: center;
+    }
+
+    .vero-prototype-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-app-img2, .vero-app-img3, .vero-app-img4, .vero-app-img5, .vero-app-img6 {
+        padding-top: 25px;
+    }
+
+    .vero-app-heading {
+        text-align: left;
+    }
+
+    .vero-app-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-app-img {
+        padding-top: 25px;
+    }
+
+    /* Toys Sort Case Study */
+
+    .toys-sort-about-heading {
+        text-align: left;
+    }
+
+    .toys-sort-about-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .toys-sort-about-img {
+        padding-top: 25px;
+    }
+
+    .toys-sort-process-heading {
+        text-align: center;
+    }
+
+    .toys-sort-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-sketch-heading {
+        text-align: center;
+    }
+
+    .toys-sort-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-wireframe-heading {
+        text-align: center;
+    }
+
+    .toys-sort-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-visuals-heading {
+        text-align: center;
+    }
+
+    .toys-sort-visuals-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-app-img2 {
+        margin-top: 40%
+    }
+
+    .toys-sort-app-img4 {
+        margin-top: 40%
+    }
+
+    .toys-sort-app-img6 {
+        margin-top: 40%
+    }
+}
+
+@media only screen and (min-width:1600px) and (max-width:1919px) {
+
+    /* Service */
+
+    .hero-heading-sec2 h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .hero-heading-sec2 > p1 {
+        margin: 40px 0 20px;
+    }
+
+    .hero-heading-sec2 > p2 {
+        margin: 20px 0;
+    }
+
+    h2.common-heading {
+        padding-bottom: 10px;
+    }
+
+    .type h2, .services h2, .case-studies h2,  .process h2, .techonology-used h2,
+    .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
+    .brand-logo-slider h2, .deliveries-section h2 {
+        text-align: center;
+    }
+
+    .about h2, .custom-app h2, .ideal h2, .tech h2, .our-work h2, .app h2 {
+        text-align: left;
+    }
+
+    .custom-app-dev {
+        height: 160px;
+    }
+
+    .type .card {
+        margin-bottom: 0px;
+    }
+
+    .box {
+        width: 50%;
+    }
+
+    .features-heading {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .custom h2 {
+        padding-bottom: 10px;
+    }
+
+    .custom p {
+        text-align: lef;
+        padding-bottom: 20px;
+    }
+
+    .process h2 {
+        padding-bottom: 10px;
+    }
+
+    .number {
+        font-size: 32px;
+        width: 28%;
+        margin-left: 0px;
+        padding: 20px 10px;
+    }
+
+    .process-title {
+        width: 72%;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .process-card {
+        margin-bottom: 0px;
+        height: 235px;
+    }
+
+    .ideal h2 {
+        padding-bottom: 10px;
+    }
+
+    .ideal p {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    .ideal a {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .tab-content {
+        margin-top: 0px;
+    }
+
+    .tab-body {
+        padding: 35px;
+    }
+
+    .benefits-cards {
+        margin-bottom: 15px;
+    }
+
+    .key-desc {
+        text-align: center;
+    }
+
+    .numbersOfSatisfy {
+        padding: 40px 0px 0px;
+    }
+
+    .blogs-section h3 {
+        text-align: center;
+    }
+
+    .single-card-item {
+        margin-top: 40px;
+    }
+
+    .center-dots .owl-dots {
+        margin: 15px auto;
+    }
+
+    .schedule {
+        margin-bottom: 30px !important;
+    }
+
+    .client-name, .client-post, .client-desc {
+        text-align: center;
+    }
+
+    .text-fieds- {
+        width: 100% !important;
+    }
+
+    .contact-us-block {
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 30px;
+    }
+
+    .submitFormBtn {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .startAprojectBtn { 
+        margin: 0 auto;
+        display: block;
+    }
+
+    .deliver h3 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .deliveries-section h2 {
+        padding-bottom: 20px;
+    }
+
+    /* Placea Case Study */
+
+    .placea-banner-img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .placea-discover-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-discover-heading {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .placea-discover-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .placea-process row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .placea-process-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .placea-circle {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .placea-research-heading {
+        text-align: center;
+    }
+
+    .placea-research-text {
+        text-align: center;
+    }
+
+    .placea-sketch-heading {
+        text-align: center;
+    }
+
+    .placea-sketch-text {
+        text-align: center;
+    }
+
+    .placea-wireframe-heading {
+        text-align: center;
+    }
+
+    .placea-wireframe-text {
+        text-align: center;
+    }
+
+    .placea-color-heading {
+        text-align: center;
+    }
+
+    .placea-color-text {
+        text-align: center;
+    }
+
+    .placea-color-palette-img {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .placea-app-heading {
+        text-align: left;
+    }
+
+    .placea-app-text {
+        text-align: left;
+    }
+
+    .placea-app-img1 {
+        margin-top: -180px
+    }
+
+    .placea-app-img2 {
+        margin-top: 50%
+    }
+
+    .placea-app-img4 {
+        margin-top: 50%
+    }
+
+    .placea-app-img6{
+        margin-top: 50%
+    }
+
+    /* Evil Witch Case Study */
+
+    .evil-witch-banner-div {
+        margin-top: 100px;
+    }
+
+    /* Vero Case Study */
+
+    .vero-banner-heading {
+        text-align: left;
+    }
+
+    .vero-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-heading {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-subheading {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-subtext {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-research-heading {
+        text-align: center;
+    }
+
+    .vero-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-sketch-heading {
+        text-align: center;
+    }
+
+    .vero-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-wireframe-heading {
+        text-align: center;
+    }
+
+    .vero-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-color-heading {
+        text-align: center;
+    }
+
+    .vero-color-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-prototype-heading {
+        text-align: center;
+    }
+
+    .vero-prototype-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-app-img2, .vero-app-img3, .vero-app-img4, .vero-app-img5, .vero-app-img6 {
+        padding-top: 25px;
+    }
+
+    .vero-app-heading {
+        text-align: left;
+    }
+
+    .vero-app-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-app-img {
+        padding-top: 25px;
+    }
+
+    /* Toys Sort Case Study */
+
+    .toys-sort-about-heading {
+        text-align: left;
+    }
+
+    .toys-sort-about-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .toys-sort-about-img {
+        padding-top: 25px;
+    }
+
+    .toys-sort-process-heading {
+        text-align: center;
+    }
+
+    .toys-sort-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-sketch-heading {
+        text-align: center;
+    }
+
+    .toys-sort-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-wireframe-heading {
+        text-align: center;
+    }
+
+    .toys-sort-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-visuals-heading {
+        text-align: center;
+    }
+
+    .toys-sort-visuals-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-app-img2 {
+        margin-top: 40%
+    }
+
+    .toys-sort-app-img4 {
+        margin-top: 40%
+    }
+
+    .toys-sort-app-img6 {
+        margin-top: 40%
     }
 }
 
@@ -3356,28 +4364,8 @@
 
     /* Placea Case Study */
 
-    .process-model li::after {
-		right: 100px;
-		width: 85%;
-	}
-
-    .process-model.more-icon-preocess li {
-		width: 14%;
-	}
-
-	.more-icon-preocess.process-model li span {
-		font-size: 16px;
-		height: 35px;
-		line-height: 32px;
-		width: 35px;
-	}
-
-	.process-model.more-icon-preocess {
-		text-align: center;
-	}
-
     .placea-banner-img {
-        width: 50%;
+        width: 70%;
         display: block;
         margin: 0 auto;
         padding-bottom: 15px;
@@ -3389,12 +4377,12 @@
     }
 
     .placea-discover-heading {
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
     }
 
     .placea-discover-text {
-        text-align: center;
+        text-align: left;
         padding-top: 10px;
     }
 
@@ -3442,44 +4430,41 @@
         text-align: center;
     }
 
-    .placea-visual-heading {
+    .placea-color-heading {
         text-align: center;
     }
 
-    .placea-visual-text {
+    .placea-color-text {
         text-align: center;
+    }
+
+    .placea-color-palette-img {
+        padding-top: 10px;
+        padding-bottom: 50px;
     }
 
     .placea-app-heading {
-        text-align: center;
+        text-align: left;
     }
 
     .placea-app-text {
-        text-align: center;
+        text-align: left;
     }
 
-    .left-side-img-1 {
-        float: left;
+    .placea-app-img1 {
+        margin-top: -180px
     }
 
-    .right-side-img-1 {
-        float: right;
+    .placea-app-img2 {
+        margin-top: 50%
     }
 
-    .left-side-img-2 {
-        float: left;
+    .placea-app-img4 {
+        margin-top: 50%
     }
 
-    .right-side-img-2 {
-        float: right;
-    }
-
-    .left-side-img-3 {
-        float: left;
-    }
-
-    .right-side-img-3 {
-        float: right;
+    .placea-app-img6{
+        margin-top: 50%
     }
 
     /* Evil Witch Case Study */
@@ -3487,318 +4472,178 @@
     .evil-witch-banner-div {
         margin-top: 100px;
     }
-}
 
-@media only screen and (min-width:1440px) and (max-width:1599px) {
+    /* Vero Case Study */
 
-    /* Service */
-
-    .hero-heading-sec2 h3 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .hero-heading-sec2 > p1 {
-        margin: 40px 0 20px;
-    }
-
-    .hero-heading-sec2 > p2 {
-        margin: 20px 0;
-    }
-
-    h2.common-heading {
-        padding-bottom: 10px;
-    }
-
-    .type h2, .services h2, .case-studies h2,  .process h2, .techonology-used h2,
-    .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
-    .brand-logo-slider h2, .deliveries-section h2 {
-        text-align: center;
-    }
-
-    .about h2, .custom-app h2, .ideal h2, .tech h2, .our-work h2, .app h2 {
+    .vero-banner-heading {
         text-align: left;
     }
 
-    .custom-app-dev {
-        height: 160px;
-    }
-
-    .type .card {
-        margin-bottom: 0px;
-    }
-
-    .box {
-        width: 50%;
-    }
-
-    .features-heading {
-        padding-top: 15px;
-        text-align: center;
-    }
-
-    .custom h2 {
-        padding-bottom: 10px;
-    }
-
-    .custom p {
-        text-align: lef;
-        padding-bottom: 20px;
-    }
-
-    .process h2 {
-        padding-bottom: 10px;
-    }
-
-    .number {
-        font-size: 32px;
-        width: 28%;
-        margin-left: 0px;
-        padding: 20px 10px;
-    }
-
-    .process-title {
-        width: 72%;
-        margin-left: 0;
-        font-size: 18px;
-    }
-
-    .process-card {
-        margin-bottom: 0px;
-        height: 235px;
-    }
-
-    .ideal h2 {
-        padding-bottom: 10px;
-    }
-
-    .ideal p {
+    .vero-banner-text {
         text-align: left;
-        padding-bottom: 10px;
+        padding-top: 10px;
     }
 
-    .ideal a {
-        text-align: center;
-        padding-bottom: 20px;
+    .vero-about-heading {
+        text-align: left;
+        padding-top: 10px;
     }
 
-    .tab-content {
-        margin-top: 0px;
+    .vero-about-text {
+        text-align: left;
+        padding-top: 10px;
     }
 
-    .tab-body {
-        padding: 35px;
+    .vero-about-subheading {
+        text-align: left;
+        padding-top: 10px;
     }
 
-    .benefits-cards {
-        margin-bottom: 15px;
+    .vero-about-subtext {
+        text-align: left;
+        padding-top: 10px;
     }
 
-    .key-desc {
-        text-align: center;
-    }
-
-    .numbersOfSatisfy {
-        padding: 40px 0px 0px;
-    }
-
-    .blogs-section h3 {
+    .vero-research-heading {
         text-align: center;
     }
 
-    .single-card-item {
-        margin-top: 40px;
-    }
-
-    .center-dots .owl-dots {
-        margin: 15px auto;
-    }
-
-    .schedule {
-        margin-bottom: 30px !important;
-    }
-
-    .client-name, .client-post, .client-desc {
-        text-align: center;
-    }
-
-    .text-fieds- {
-        width: 100% !important;
-    }
-
-    .contact-us-block {
-        margin-top: 20px;
-        margin-left: 0px;
-        padding: 30px;
-    }
-
-    .submitFormBtn {
-        margin: 0 auto;
-        display: block;
-    }
-
-    .startAprojectBtn { 
-        margin: 0 auto;
-        display: block;
-    }
-
-    .deliver h3 {
-        text-align: center;
-        padding-bottom: 10px;
-    }
-
-    .deliveries-section h2 {
-        padding-bottom: 20px;
-    }
-
-    /* Placea Case Study */
-
-    .process-model li::after {
-		right: 100px;
-		width: 85%;
-	}
-
-    .process-model.more-icon-preocess li {
-		width: 14%;
-	}
-
-	.more-icon-preocess.process-model li span {
-		font-size: 16px;
-		height: 35px;
-		line-height: 32px;
-		width: 35px;
-	}
-
-	.process-model.more-icon-preocess {
-		text-align: center;
-	}
-
-    .placea-banner-img {
-        width: 50%;
-        display: block;
-        margin: 0 auto;
-        padding-bottom: 15px;
-    }
-
-    .placea-discover-img {
-        display: block;
-        margin: 0 auto;
-    }
-
-    .placea-discover-heading {
+    .vero-research-text {
         text-align: center;
         padding-top: 10px;
     }
 
-    .placea-discover-text {
+    .vero-sketch-heading {
+        text-align: center;
+    }
+
+    .vero-sketch-text {
         text-align: center;
         padding-top: 10px;
     }
 
-    .placea-process row {
-        display: flex;
-        justify-content: center;
+    .vero-wireframe-heading {
+        text-align: center;
     }
 
-    .placea-process-heading {
+    .vero-wireframe-text {
         text-align: center;
         padding-top: 10px;
     }
 
-    .placea-process-text {
+    .vero-color-heading {
+        text-align: center;
+    }
+
+    .vero-color-text {
         text-align: center;
         padding-top: 10px;
     }
 
-    .placea-circle {
-        display: block;
-        margin: 0 auto;
-    }
-
-    .placea-research-heading {
+    .vero-prototype-heading {
         text-align: center;
     }
 
-    .placea-research-text {
+    .vero-prototype-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .vero-app-img2, .vero-app-img3, .vero-app-img4, .vero-app-img5, .vero-app-img6 {
+        padding-top: 25px;
+    }
+
+    .vero-app-heading {
+        text-align: left;
+    }
+
+    .vero-app-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .vero-about-app-img {
+        padding-top: 25px;
+    }
+
+    /* Toys Sort Case Study */
+
+    .toys-sort-about-heading {
+        text-align: left;
+    }
+
+    .toys-sort-about-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .toys-sort-about-img {
+        padding-top: 25px;
+    }
+
+    .toys-sort-process-heading {
         text-align: center;
     }
 
-    .placea-sketch-heading {
+    .toys-sort-process-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-sketch-heading {
         text-align: center;
     }
 
-    .placea-sketch-text {
+    .toys-sort-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-wireframe-heading {
         text-align: center;
     }
 
-    .placea-wireframe-heading {
+    .toys-sort-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .toys-sort-visuals-heading {
         text-align: center;
     }
 
-    .placea-wireframe-text {
+    .toys-sort-visuals-text {
         text-align: center;
+        padding-top: 10px;
     }
 
-    .placea-visual-heading {
-        text-align: center;
+    .toys-sort-app-img2 {
+        margin-top: 30%
     }
 
-    .placea-visual-text {
-        text-align: center;
+    .toys-sort-app-img4 {
+        margin-top: 30%
     }
 
-    .placea-app-heading {
-        text-align: center;
+    .toys-sort-app-img6 {
+        margin-top: 30%
     }
 
-    .placea-app-text {
-        text-align: center;
-    }
-
-    .left-side-img-1 {
-        float: left;
-    }
-
-    .right-side-img-1 {
-        float: right;
-    }
-
-    .left-side-img-2 {
-        float: left;
-    }
-
-    .right-side-img-2 {
-        float: right;
-    }
-
-    .left-side-img-3 {
-        float: left;
-    }
-
-    .right-side-img-3 {
-        float: right;
-    }
-
-    /* Evil Witch Case Study */
-
-    .evil-witch-banner-div {
-        margin-top: 100px;
-    }
 }
 
 @media screen and (max-width: 1309px) {
 	@keyframes moveXY{
 		0%{
 			transform: translate(-100px,0);
-			-webkit-transform: translate(-100px,0); /** Chrome & Safari **/
-			-o-transform: translate(-100px,0); /** Opera **/
-			-moz-transform: translate(-100px,0); /** Firefox **/
+			-webkit-transform: translate(-100px,0); /**  Chrome & Safari  **/
+			-o-transform: translate(-100px,0); /**  Opera  **/
+			-moz-transform: translate(-100px,0); /**  Firefox  **/
 		}
 		100%{
 			transform: translate(100px,0);
-			-webkit-transform: translate(100px,0); /** Chrome & Safari **/
-			-o-transform: translate(100px,0); /** Opera **/
-			-moz-transform: translate(100px,0); /** Firefox **/
+			-webkit-transform: translate(100px,0); /**  Chrome & Safari  **/
+			-o-transform: translate(100px,0); /**  Opera  **/
+			-moz-transform: translate(100px,0); /**  Firefox  **/
 		}
 	
 	}
@@ -3808,15 +4653,15 @@
 	@keyframes moveXY{
 		0%{
 			transform: translate(-50px,0);
-			-webkit-transform: translate(-50px,0); /** Chrome & Safari **/
-			-o-transform: translate(-50px,0); /** Opera **/
-			-moz-transform: translate(-50px,0); /** Firefox **/
+			-webkit-transform: translate(-50px,0); /**  Chrome & Safari  **/
+			-o-transform: translate(-50px,0); /**  Opera  **/
+			-moz-transform: translate(-50px,0); /**  Firefox  **/
 		}
 		100%{
 			transform: translate(50px,0);
-			-webkit-transform: translate(50px,0); /** Chrome & Safari **/
-			-o-transform: translate(50px,0); /** Opera **/
-			-moz-transform: translate(50px,0); /** Firefox **/
+			-webkit-transform: translate(50px,0); /**  Chrome & Safari  **/
+			-o-transform: translate(50px,0); /**  Opera  **/
+			-moz-transform: translate(50px,0); /**  Firefox  **/
 		}
 	
 	}
@@ -3826,15 +4671,15 @@
 	@keyframes moveXY{
 		0%{
 			transform: translate(-20px,0);
-			-webkit-transform: translate(-20px,0); /** Chrome & Safari **/
-			-o-transform: translate(-20px,0); /** Opera **/
-			-moz-transform: translate(-20px,0); /** Firefox **/
+			-webkit-transform: translate(-20px,0); /**  Chrome & Safari  **/
+			-o-transform: translate(-20px,0); /**  Opera  **/
+			-moz-transform: translate(-20px,0); /**  Firefox  **/
 		}
 		100%{
 			transform: translate(20px,0);
-			-webkit-transform: translate(20px,0); /** Chrome & Safari **/
-			-o-transform: translate(20px,0); /** Opera **/
-			-moz-transform: translate(20px,0); /** Firefox **/
+			-webkit-transform: translate(20px,0); /**  Chrome & Safari  **/
+			-o-transform: translate(20px,0); /**  Opera  **/
+			-moz-transform: translate(20px,0); /**  Firefox  **/
 		}
 	
 	}
@@ -3847,8 +4692,8 @@
 	}
 	.object {
 		transition: all 2s ease-in-out;
-		-webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
-		-moz-transition: all 2s ease-in-out; /** Firefox **/
-		-o-transition: all 2s ease-in-out; /** Opera **/
+		-webkit-transition: all 2s ease-in-out; /**  Chrome & Safari  **/
+		-moz-transition: all 2s ease-in-out; /**  Firefox  **/
+		-o-transition: all 2s ease-in-out; /**  Opera  **/
 	}
 }
