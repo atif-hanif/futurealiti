@@ -11037,3 +11037,74 @@ ul.list li {
 .home-store-app {
 	background-image: url(../images/case-study/home-store-app/home-store-app-background.png);
 }
+
+/* ERP Case Study */
+
+.erp-case-study {
+	background-image: url(../images/case-study/erp/erp-banner-background.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.erp-about-img {
+	height: 60px;
+    width: auto;
+    float: left;
+}
+
+.erp-about-detail {
+	margin-top: 20px;
+}
+
+.erp-typography-headings {
+	overflow-wrap: break-word;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.erp-color-circle1 {
+	height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #656565;
+	margin: 0 auto;
+}
+
+.erp-color-circle2 {
+	height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #03A9F4;
+	margin: 0 auto;
+}
+
+.erp-color-circle3 {
+	height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #FC2D42;
+	margin: 0 auto;
+}
+
+.erp-color-circle4 {
+	height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #84C529;
+	margin: 0 auto;
+}
+
+.erp-color-circle5 {
+	height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+	margin: 0 auto;
+}
+
+.erp-portal {
+	background-image: url(../images/case-study/erp/erp-portal-background.png);
+	background-size: cover;
+	background-position: center;
+}
