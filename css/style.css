@@ -9958,6 +9958,10 @@ input {
 	background: #428FA8;
 }
 
+.website-second-cs {
+	background: #001921;
+}
+
 .cs-slider .owl-stage {
     min-height: 100vh;
 }
@@ -10448,6 +10452,10 @@ input {
 
 .portfolio-gradient6 {
 	background: #428FA8;
+}
+
+.portfolio-gradient7 {
+	background: #001921;
 }
 
 .portfolio-img {
@@ -11107,4 +11115,223 @@ ul.list li {
 	background-image: url(../images/case-study/erp/erp-portal-background.png);
 	background-size: cover;
 	background-position: center;
+}
+
+/* Home Store Web Case Study */
+
+.home-store-web-case-study {
+    background-image: url(../images/case-study/home-store-web/home-store-web-banner.png);
+    background-size: cover;
+    background-color: #428FA8;
+	height: 700px;
+	padding-top: 150px;
+}
+
+.circle {
+	padding: 13px 20px;
+	border-radius: 50%;
+	background-color: #E40613;
+	color: #fff;
+	max-height: 50px;
+	z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+	align-self: stretch;
+}
+
+.how-it-works.row .col-2::after {
+	content: "";
+	position: absolute;
+	border-left: 3px solid #E40613;
+	z-index: 1;
+}
+
+.how-it-works.row .col-2.bottom::after {
+	height: 9%;
+    left: 23.95%;
+    margin-top: 92px;
+}
+
+.how-it-works.row .col-2.full::after {
+	height: 19%;
+    margin-right: 3px;
+}
+
+.how-it-works.row .col-2.top::after {
+	height: 19%;
+    left: 23.95%;
+}
+
+.web-timeline div {
+	padding: 0;
+	height: 40px;
+}
+
+.web-timeline hr {
+	border-top: 3px solid #E40613;
+	margin: 0;
+	top: 17px;
+	position: relative;
+	opacity: 1;
+}
+
+.web-timeline .col-2 {
+	display: flex;
+	overflow: hidden;
+}
+
+.web-timeline .corner {
+	border: 3px solid #E40613;
+	width: 100%;
+	position: relative;
+	border-radius: 15px;
+}
+
+.web-timeline .top-right {
+	left: 50%;
+	top: -50%;
+}
+
+.web-timeline .left-bottom {
+	left: -50%;
+	top: calc(50% - 3px);
+}
+
+.web-timeline .top-left {
+	left: -50%;
+	top: -50%;
+}
+
+.web-timeline .right-bottom {
+	left: 50%;
+	top: calc(50% - 3px);
+}
+
+.web-timeline-heading {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    color: #E40613;
+}
+
+.home-store-web-problems-card {
+    border-radius: 20px;
+    border: 1px solid #FF0000;
+}
+
+.lists {
+	list-style-type: circle;
+	padding: 10px 30px;
+}
+
+.lists li {
+	padding: 10px;
+}
+
+.web-weakness {
+    float: left;
+    border: 1px solid #C4C4C4;
+    padding: 0;
+}
+
+.web-weakness-heading {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #C4C4C4;
+	background-color: #015B78;
+}
+
+.web-strenght-heading {
+	font-weight: 400;
+    font-size: 30px;
+    line-height: 54px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #C4C4C4;
+	background-color: #670178;
+}
+
+.web-weakness-subsection {
+    background-color: #FDE1E1;
+    text-align: center;
+    border: 1px solid #C4C4C4;
+}
+
+.list-web-weakness-subsection {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.web-weakness-subsection2 {
+    background-color: #EDFDE1;
+    text-align: center;
+    border: 1px solid #C4C4C4;
+    padding: 10px;
+}
+
+.web-weakness-subsection3 {
+    background-color: #F9E1FD;
+    text-align: center;
+    border: 1px solid #C4C4C4;
+    padding: 10px;
+}
+
+.list1::marker {
+    color: red;
+}
+
+.list2::marker {
+    color: #F85606;
+}
+
+.list3::marker {
+    color: #6E0AD6;
+}
+
+.web-strenght {
+    border: 1px solid #C4C4C4;
+    padding: 0;
+}
+
+.web-list-strength-subsection {
+    height: 30%;
+    padding: 12px;
+    background-color: #fff;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.list-web-weakness-subsection-style2 {
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.list-web-weakness-subsection-style {
+    text-align: left;
+    margin-right: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.home-store-web-sitemap {
+	background-color: #BEB395;
+}
+
+.home-store-web-wireframe-row {
+	background-color: #E406133D;
+}
+
+.home-store-web-frontend {
+	background-color: #428FA8;
+}
+
+.home-store-web-backend {
+	background-color: #454545;
 }
