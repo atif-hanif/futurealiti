@@ -2328,6 +2328,375 @@
         padding-top: 10px;
     }
 
+    /* Home Store App */
+
+    .home-store-banner-heading1 {
+        text-align: center;
+    }
+
+    .home-store-banner-heading2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading1 {
+        text-align: center;
+    }
+
+    .home-store-about-heading2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-img1 {
+        padding-top: 20px;
+    }
+
+    .home-store-about-heading3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-research-heading {
+        text-align: center;
+    }
+
+    .home-store-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-sketch-heading {
+        text-align: center;
+    }
+
+    .home-store-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-colors-heading {
+        text-align: center;
+    }
+
+    .home-store-colors-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    /* Home Store Web */
+
+    .home-store-web-case-study {
+        padding-top: 50px;
+    }
+
+    .home-store-web-banner-heading {
+        text-align: center;
+    }
+
+    .home-store-web-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-about-heading {
+        text-align: center;
+    }
+
+    .home-store-web-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-design-heading {
+        text-align: center;
+    }
+
+    .home-store-web-design-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-timeline-heading {
+        text-align: center;
+    }
+
+    .home-store-web-problems-heading {
+        text-align: center;
+    }
+
+    .problem-card-1 {
+        margin-top: 20px;
+    }
+
+    .home-store-web-competitive-heading {
+        text-align: center;
+    }
+
+    .home-store-web-competitive-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-sitemap-heading {
+        text-align: center;
+    }
+
+    .home-store-web-sitemap-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .home-store-web-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-web-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-typography-heading {
+        text-align: center;
+    }
+
+    .home-store-web-registration-heading {
+        text-align: center;
+    }
+
+    .home-store-web-homepage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-blogpage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-recipe-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-dashboard-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-contact-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-categories-heading {
+        text-align: center;
+    }
+
+    .home-store-web-reports-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-tax-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-coupons-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-orders-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-banners-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-products-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    /* ERP Case Study */
+
+    .erp-banner-heading {
+        text-align: center;
+    }
+
+    .erp-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-about-heading {
+        text-align: center;
+    }
+
+    .erp-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-desc {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .color-palette-heading {
+        text-align: center;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img5 {
+        padding-top: 20px;
+    }
+
+    .erp-dashboard-heading {
+        text-align: center;
+    }
+
+    .erp-dashboard-text {
+        text-align: center;
+        padding-top: 10px;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
@@ -2873,6 +3242,388 @@
         margin-top: 50%
     }
 
+    /* Home Store App */
+
+    .home-store-banner-heading1 {
+        text-align: center;
+    }
+
+    .home-store-banner-heading2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading1 {
+        text-align: center;
+    }
+
+    .home-store-about-heading2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-img1 {
+        padding-top: 20px;
+    }
+
+    .home-store-about-heading3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-research-heading {
+        text-align: center;
+    }
+
+    .home-store-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-sketch-heading {
+        text-align: center;
+    }
+
+    .home-store-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-colors-heading {
+        text-align: center;
+    }
+
+    .home-store-colors-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-app-img2 {
+        margin-top: 30%;
+    }
+
+    .home-store-app-img4 {
+        margin-top: 30%;
+    }
+
+    .home-store-app-img6 {
+        margin-top: 30%;
+    }
+
+    /* Home Store Web */
+
+    .home-store-web-case-study {
+        padding-top: 50px;
+    }
+
+    .home-store-web-banner-heading {
+        text-align: center;
+    }
+
+    .home-store-web-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-about-heading {
+        text-align: center;
+    }
+
+    .home-store-web-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-design-heading {
+        text-align: center;
+    }
+
+    .home-store-web-design-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-timeline-heading {
+        text-align: center;
+    }
+
+    .home-store-web-problems-heading {
+        text-align: center;
+    }
+
+    .problem-card-1 {
+        margin-top: 20px;
+    }
+
+    .home-store-web-competitive-heading {
+        text-align: left;
+    }
+
+    .home-store-web-competitive-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-web-sitemap-heading {
+        text-align: center;
+    }
+
+    .home-store-web-sitemap-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .home-store-web-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-web-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-typography-heading {
+        text-align: center;
+    }
+
+    .home-store-web-registration-heading {
+        text-align: center;
+    }
+
+    .home-store-web-homepage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-blogpage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-recipe-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-dashboard-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-contact-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-categories-heading {
+        text-align: center;
+    }
+
+    .home-store-web-reports-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-tax-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-coupons-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-orders-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-banners-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-products-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    /* ERP Case Study */
+
+    .erp-banner-heading {
+        text-align: center;
+    }
+
+    .erp-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-about-heading {
+        text-align: center;
+    }
+
+    .erp-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-desc {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .color-palette-heading {
+        text-align: center;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text4 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img5 {
+        padding-top: 20px;
+    }
+
+    .erp-dashboard-heading {
+        text-align: center;
+    }
+
+    .erp-dashboard-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -3337,6 +4088,388 @@
     .toys-sort-app-img6 {
         margin-top: 50%
     }
+
+    /* Home Store App */
+
+    .home-store-banner-heading1 {
+        text-align: left;
+    }
+
+    .home-store-banner-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading1 {
+        text-align: left;
+    }
+
+    .home-store-about-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text1 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-img1 {
+        padding-top: 20px;
+    }
+
+    .home-store-about-heading3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-research-heading {
+        text-align: center;
+    }
+
+    .home-store-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-sketch-heading {
+        text-align: center;
+    }
+
+    .home-store-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-colors-heading {
+        text-align: center;
+    }
+
+    .home-store-colors-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-app-img2 {
+        margin-top: 30%;
+    }
+
+    .home-store-app-img4 {
+        margin-top: 30%;
+    }
+
+    .home-store-app-img6 {
+        margin-top: 30%;
+    }
+
+    /* Home Store Web */
+
+    .home-store-web-case-study {
+        padding-top: 50px;
+    }
+
+    .home-store-web-banner-heading {
+        text-align: center;
+    }
+
+    .home-store-web-banner-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-about-heading {
+        text-align: center;
+    }
+
+    .home-store-web-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-design-heading {
+        text-align: center;
+    }
+
+    .home-store-web-design-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-timeline-heading {
+        text-align: center;
+    }
+
+    .home-store-web-problems-heading {
+        text-align: center;
+    }
+
+    .problem-card-1 {
+        margin-top: 20px;
+    }
+
+    .home-store-web-competitive-heading {
+        text-align: left;
+    }
+
+    .home-store-web-competitive-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-web-sitemap-heading {
+        text-align: center;
+    }
+
+    .home-store-web-sitemap-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .home-store-web-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-web-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-typography-heading {
+        text-align: center;
+    }
+
+    .home-store-web-registration-heading {
+        text-align: center;
+    }
+
+    .home-store-web-homepage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-blogpage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-recipe-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-dashboard-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-contact-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-categories-heading {
+        text-align: center;
+    }
+
+    .home-store-web-reports-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-tax-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-coupons-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-orders-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-banners-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-products-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    /* ERP Case Study */
+
+    .erp-banner-heading {
+        text-align: left;
+    }
+
+    .erp-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-about-heading {
+        text-align: center;
+    }
+
+    .erp-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-desc {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .color-palette-heading {
+        text-align: center;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img5 {
+        padding-top: 20px;
+    }
+
+    .erp-dashboard-heading {
+        text-align: center;
+    }
+
+    .erp-dashboard-text {
+        text-align: center;
+        padding-top: 10px;
+    }
 }
 
 
@@ -3768,6 +4901,380 @@
     .toys-sort-app-img6 {
         margin-top: 40%
     }
+
+    /* Home Store App */
+
+    .home-store-banner-heading1 {
+        text-align: left;
+    }
+
+    .home-store-banner-heading2 {
+        text-align: left;
+    }
+
+    .home-store-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading1 {
+        text-align: left;
+    }
+
+    .home-store-about-heading2 {
+        text-align: left;
+    }
+
+    .home-store-about-text1 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-img1 {
+        padding-top: 20px;
+    }
+
+    .home-store-about-heading3 {
+        text-align: left;
+    }
+
+    .home-store-about-heading4 {
+        text-align: left;
+    }
+
+    .home-store-about-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-research-heading {
+        text-align: center;
+    }
+
+    .home-store-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-sketch-heading {
+        text-align: center;
+    }
+
+    .home-store-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-colors-heading {
+        text-align: center;
+    }
+
+    .home-store-colors-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-app-img2 {
+        margin-top: 40%;
+    }
+
+    .home-store-app-img4 {
+        margin-top: 40%;
+    }
+
+    .home-store-app-img6 {
+        margin-top: 40%;
+    }
+
+    /* Home Store Web */
+
+    .home-store-web-case-study {
+        padding-top: 150px;
+    }
+
+    .home-store-web-banner-heading {
+        text-align: left;
+    }
+
+    .home-store-web-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-web-about-heading {
+        text-align: center;
+    }
+
+    .home-store-web-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-design-heading {
+        text-align: center;
+    }
+
+    .home-store-web-design-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-timeline-heading {
+        text-align: center;
+    }
+
+    .home-store-web-problems-heading {
+        text-align: center;
+    }
+
+    .home-store-web-competitive-heading {
+        text-align: left;
+    }
+
+    .home-store-web-competitive-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-web-sitemap-heading {
+        text-align: center;
+    }
+
+    .home-store-web-sitemap-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .home-store-web-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-web-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-typography-heading {
+        text-align: center;
+    }
+
+    .home-store-web-registration-heading {
+        text-align: center;
+    }
+
+    .home-store-web-homepage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-blogpage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-recipe-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-dashboard-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-contact-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-categories-heading {
+        text-align: center;
+    }
+
+    .home-store-web-reports-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-tax-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-coupons-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-orders-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-banners-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-products-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    /* ERP Case Study */
+
+    .erp-banner-heading {
+        text-align: left;
+    }
+
+    .erp-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-about-heading {
+        text-align: center;
+    }
+
+    .erp-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-desc {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .color-palette-heading {
+        text-align: center;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img5 {
+        padding-top: 20px;
+    }
+
+    .erp-dashboard-heading {
+        text-align: center;
+    }
+
+    .erp-dashboard-text {
+        text-align: center;
+        padding-top: 10px;
+    }
 }
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {
@@ -4197,6 +5704,469 @@
 
     .toys-sort-app-img6 {
         margin-top: 40%
+    }
+
+    /* Home Store App */
+
+    .home-store-banner-heading1 {
+        text-align: left;
+    }
+
+    .home-store-banner-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading1 {
+        text-align: left;
+    }
+
+    .home-store-about-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text1 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-img1 {
+        padding-top: 20px;
+    }
+
+    .home-store-about-heading3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-research-heading {
+        text-align: center;
+    }
+
+    .home-store-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-sketch-heading {
+        text-align: center;
+    }
+
+    .home-store-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-colors-heading {
+        text-align: center;
+    }
+
+    .home-store-colors-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-app-img2 {
+        margin-top: 40%;
+    }
+
+    .home-store-app-img4 {
+        margin-top: 40%;
+    }
+
+    .home-store-app-img6 {
+        margin-top: 40%;
+    }
+
+    /* Home Store App */
+
+    .home-store-banner-heading1 {
+        text-align: left;
+    }
+
+    .home-store-banner-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading1 {
+        text-align: left;
+    }
+
+    .home-store-about-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text1 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-img1 {
+        padding-top: 20px;
+    }
+
+    .home-store-about-heading3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-research-heading {
+        text-align: center;
+    }
+
+    .home-store-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-sketch-heading {
+        text-align: center;
+    }
+
+    .home-store-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-colors-heading {
+        text-align: center;
+    }
+
+    .home-store-colors-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    /* Home Store Web */
+
+    .home-store-web-case-study {
+        padding-top: 150px;
+    }
+
+    .home-store-web-banner-heading {
+        text-align: left;
+    }
+
+    .home-store-web-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-web-about-heading {
+        text-align: center;
+    }
+
+    .home-store-web-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-design-heading {
+        text-align: center;
+    }
+
+    .home-store-web-design-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-timeline-heading {
+        text-align: center;
+    }
+
+    .home-store-web-problems-heading {
+        text-align: center;
+    }
+
+    .home-store-web-competitive-heading {
+        text-align: left;
+    }
+
+    .home-store-web-competitive-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-web-sitemap-heading {
+        text-align: center;
+    }
+
+    .home-store-web-sitemap-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .home-store-web-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-web-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-typography-heading {
+        text-align: center;
+    }
+
+    .home-store-web-registration-heading {
+        text-align: center;
+    }
+
+    .home-store-web-homepage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-blogpage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-recipe-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-dashboard-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-contact-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-categories-heading {
+        text-align: center;
+    }
+
+    .home-store-web-reports-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-tax-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-coupons-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-orders-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-banners-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-products-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    /* ERP Case Study */
+
+    .erp-banner-heading {
+        text-align: left;
+    }
+
+    .erp-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-about-heading {
+        text-align: center;
+    }
+
+    .erp-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-desc {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .color-palette-heading {
+        text-align: center;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img5 {
+        padding-top: 20px;
+    }
+
+    .erp-dashboard-heading {
+        text-align: center;
+    }
+
+    .erp-dashboard-text {
+        text-align: center;
+        padding-top: 10px;
     }
 }
 
@@ -4629,6 +6599,469 @@
         margin-top: 30%
     }
 
+    /* Home Store App */
+
+    .home-store-banner-heading1 {
+        text-align: left;
+    }
+
+    .home-store-banner-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading1 {
+        text-align: left;
+    }
+
+    .home-store-about-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text1 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-img1 {
+        padding-top: 20px;
+    }
+
+    .home-store-about-heading3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-research-heading {
+        text-align: center;
+    }
+
+    .home-store-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-sketch-heading {
+        text-align: center;
+    }
+
+    .home-store-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-colors-heading {
+        text-align: center;
+    }
+
+    .home-store-colors-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-app-img2 {
+        margin-top: 40%;
+    }
+
+    .home-store-app-img4 {
+        margin-top: 40%;
+    }
+
+    .home-store-app-img6 {
+        margin-top: 40%;
+    }
+
+    /* Home Store App */
+
+    .home-store-banner-heading1 {
+        text-align: left;
+    }
+
+    .home-store-banner-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading1 {
+        text-align: left;
+    }
+
+    .home-store-about-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text1 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-img1 {
+        padding-top: 20px;
+    }
+
+    .home-store-about-heading3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-heading4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-about-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-research-heading {
+        text-align: center;
+    }
+
+    .home-store-research-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-sketch-heading {
+        text-align: center;
+    }
+
+    .home-store-sketch-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-colors-heading {
+        text-align: center;
+    }
+
+    .home-store-colors-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    /* Home Store Web */
+
+    .home-store-web-case-study {
+        padding-top: 150px;
+    }
+
+    .home-store-web-banner-heading {
+        text-align: left;
+    }
+
+    .home-store-web-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-web-about-heading {
+        text-align: center;
+    }
+
+    .home-store-web-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-design-heading {
+        text-align: center;
+    }
+
+    .home-store-web-design-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-timeline-heading {
+        text-align: center;
+    }
+
+    .home-store-web-problems-heading {
+        text-align: center;
+    }
+
+    .home-store-web-competitive-heading {
+        text-align: left;
+    }
+
+    .home-store-web-competitive-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .home-store-web-sitemap-heading {
+        text-align: center;
+    }
+
+    .home-store-web-sitemap-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .home-store-web-wireframe-heading {
+        text-align: center;
+    }
+
+    .home-store-web-wireframe-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .home-store-web-typography-heading {
+        text-align: center;
+    }
+
+    .home-store-web-registration-heading {
+        text-align: center;
+    }
+
+    .home-store-web-homepage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-blogpage-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-recipe-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-dashboard-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-contact-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-categories-heading {
+        text-align: center;
+    }
+
+    .home-store-web-reports-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-tax-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-coupons-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-orders-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-banners-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .home-store-web-products-heading {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    /* ERP Case Study */
+
+    .erp-banner-heading {
+        text-align: left;
+    }
+
+    .erp-banner-text {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-about-heading {
+        text-align: center;
+    }
+
+    .erp-about-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-desc {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-heading {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-typography-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .color-palette-heading {
+        text-align: center;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading1 {
+        text-align: center;
+    }
+
+    .erp-portal-text1 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row1 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text2 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row2 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text3 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row3 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text4 {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-row4 {
+        padding-top: 20px;
+    }
+
+    .erp-portal-heading5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-text5 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .erp-portal-img5 {
+        padding-top: 20px;
+    }
+
+    .erp-dashboard-heading {
+        text-align: center;
+    }
+
+    .erp-dashboard-text {
+        text-align: center;
+        padding-top: 10px;
+    }
+
 }
 
 @media screen and (max-width: 1309px) {
@@ -4695,5 +7128,86 @@
 		-webkit-transition: all 2s ease-in-out; /**  Chrome & Safari  **/
 		-moz-transition: all 2s ease-in-out; /**  Firefox  **/
 		-o-transition: all 2s ease-in-out; /**  Opera  **/
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.main-timeline .date-content {
+		margin-top: 35px;
+	}
+
+	.main-timeline .date-content:before {
+		width: 22.5%;
+	}
+
+	.main-timeline .timeline-content {
+		padding: 10px 0 10px 30px;
+	}
+
+	.main-timeline .title {
+		font-size: 17px;
+	}
+
+	.main-timeline .process-timeline:nth-child(2n) .timeline-content {
+		padding: 10px 30px 10px 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.main-timeline:before {
+		margin: 0;
+		left: 7px;
+	}
+
+	.main-timeline .process-timeline {
+		margin-bottom: 20px;
+	}
+
+	.main-timeline .process-timeline:last-child {
+		margin-bottom: 0;
+	}
+
+	.main-timeline .icon {
+		margin: auto 0;
+	}
+
+	.main-timeline .date-content {
+		width: 95%;
+		float: right;
+		margin-top: 0;
+	}
+
+	.main-timeline .date-content:before {
+		display: none;
+	}
+
+	.main-timeline .date-outer {
+		width: 110px;
+		height: 110px;
+	}
+
+	.main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+		width: 110px;
+		height: 110px;
+	}
+
+	.main-timeline .date {
+		top: 43%;
+	}
+
+	.main-timeline .year {
+		font-size: 24px;
+	}
+
+	.main-timeline .timeline-content,
+    .main-timeline .process-timeline:nth-child(2n) .timeline-content {
+		width: 95%;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	.main-timeline .title {
+		margin-bottom: 10px;
 	}
 }
