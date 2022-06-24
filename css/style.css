@@ -666,6 +666,10 @@ div.custom-nav > ul > li:hover .nx-dropdown {
 	font-weight: 600;
 }
 
+.sub-menu-column ul li ul li {
+	margin-bottom: 0px;
+}
+
 .sub-menu-section {
 	box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 0.04);
 	border-top: 2px solid #f3f3f3;
@@ -2383,12 +2387,14 @@ footer.ftshap:before {
 .link-hover a:hover {
 	color: #ff1f8e !important;
 }
+
 /** breadcrumb **/
+
 .breadcrumb-area {
 	padding: 150px 0px 90px 0px;
 	position: relative;
 	overflow: hidden;
-	text-align: center;
+	text-align: left;
 }
 
 .breadcrumb-areav2 {
@@ -2439,9 +2445,13 @@ footer.ftshap:before {
 	/* background: -moz-linear-gradient(-45deg, #ffdee9 0%, #c8fff4  100%);
 	background: -webkit-linear-gradient(-45deg, #ffdee9 0%,#c8fff4  100%);
 	background: linear-gradient(135deg, #ffdee9 0%,#c8fff4  100%); */
-	background: -moz-linear-gradient(-45deg, #5495bf 0%, #000000  100%);
+	/* background: -moz-linear-gradient(-45deg, #5495bf 0%, #000000  100%);
 	background: -webkit-linear-gradient(-45deg, #5495bf 0%,#000000  100%);
-	background: linear-gradient(to right, #5495bf 0%,#000000 100%);
+	background: linear-gradient(to right, #5495bf 0%,#000000 100%); */
+	background: -moz-linear-gradient(-45deg, #234358 0%, #fff  100%);
+	background: -webkit-linear-gradient(-45deg, #234358 0%,#fff  100%);
+	background: linear-gradient(to bottom, #234358 0%,#fff 100%);
+
 }
 
 .breadcrumb-area:after {
