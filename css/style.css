@@ -9922,6 +9922,43 @@ input {
 	height: 740px;
 }
 
+/* Career Page */
+
+.career-icons {
+	width: 48px;
+}
+
+/* Contact Page */
+
+.contact-icon {
+	display: inline-block;
+	position: relative;
+}
+
+.contact-detail {
+	margin: auto 0px auto 15px;
+    display: inline-block;
+}
+
+.contact-detail a{
+	color: #050748;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    display: block;
+}
+
+.contact-detail a span {
+    display: block;
+    color: #000000;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.contact-icons {
+	font-size: 48px;
+}
+
 /* Case Study */
 
 .ar-first-cs {
@@ -10409,15 +10446,12 @@ input {
 	padding: 0px 50px;
 }
 
-.about-work-img {
-	width: 75%;
-}
-
 .features-list .item {
     box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
     padding: 50px 37px;
     border-radius: 10px;
     background: linear-gradient(to bottom, #117292 0%,#093ac1 100%);
+	background: linear-gradient(to bottom, #234358 0%,#fff 100%);
     position: relative;
     z-index: 1;
     overflow: hidden;

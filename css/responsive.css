@@ -1853,7 +1853,38 @@
 
 @media only screen and (max-width:767px) {
 
+    /* About Us */
+
+    .about-item2 {
+        margin-top: 20px;
+    }
+
+    .about-item3 {
+        margin-top: 20px;
+    }
+
+    .about-heading {
+        margin-top: 0px;
+    }
+
+    .about-work-heading {
+        text-align: center;
+    }
+
+    .about-work-text {
+        text-align: center;
+    }
+
+    .about-work-img {
+        margin-top: 20px;
+    }
+
+    .thumb {
+        margin-bottom: 20px;
+    }
+
     /* Service */
+
     .hero-heading-sec2 h3 {
         font-size: 30px;
         line-height: 40px;
@@ -2700,6 +2731,32 @@
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
+
+    /* About Us */
+
+    .about-item1 {
+        height: 745px;
+    }
+
+    .about-heading {
+        margin-top: 0px;
+    }
+
+    .about-work-heading {
+        text-align: center;
+    }
+
+    .about-work-text {
+        text-align: center;
+    }
+
+    .about-work-img {
+        margin-top: 20px;
+    }
+
+    .thumb {
+        margin-bottom: 20px;
+    }
 
     /* Service */
 
@@ -3632,6 +3689,20 @@
         list-style: none !important;
     }
 
+    /* About Us */
+
+    .about-item1 {
+        height: 493px;
+    }
+
+    .about-item2 {
+        height: 493px;
+    }
+
+    .about-heading {
+        margin-top: 0px;
+    }
+
     /* Service */
 
     .hero-heading-sec2 h3 {
@@ -4472,8 +4543,22 @@
     }
 }
 
-
 @media only screen and (min-width:1440px) and (max-width:1599px) {
+
+    /* About Us */
+
+    .about-item1 {
+        height: 409px;
+    }
+
+    .about-item2 {
+        height: 409px;
+    }
+
+    .about-heading {
+        margin-top: 0px;
+    }
+
 
     /* Service */
 
@@ -5278,6 +5363,20 @@
 }
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {
+
+    /* About Us */
+
+    .about-item1 {
+        height: 409px;
+    }
+
+    .about-item2 {
+        height: 409px;
+    }
+
+    .about-heading {
+        margin-top: 0px;
+    }
 
     /* Service */
 
@@ -6171,6 +6270,20 @@
 }
 
 @media only screen and (min-width:1920px) {
+
+    /* About Us */
+
+    .about-item1 {
+        height: 409px;
+    }
+
+    .about-item2 {
+        height: 409px;
+    }
+
+    .about-heading {
+        margin-top: 0px;
+    }
 
     /* Service */
 
