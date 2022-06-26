@@ -32,11 +32,11 @@
 }
 
 /** width 1200 **/
-@media (min-width:1200px) {
+/* @media (min-width:1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1200px
     }
-}
+} */
 
 /** width 1370 **/
 @media only screen and (max-width:1370px) {
@@ -1853,6 +1853,17 @@
 
 @media only screen and (max-width:767px) {
 
+    /* Home Page */
+
+    .award-item {
+        width: 250px;
+        height: 300px;
+    }
+    
+    .award-item div div div {
+        height: 300px;
+    }
+
     /* About Us */
 
     .about-item2 {
@@ -1881,6 +1892,44 @@
 
     .thumb {
         margin-bottom: 20px;
+    }
+
+    /* Portfolio */
+
+    .evil-card-item {
+        top: 885px !important;
+    }
+
+    .toys-sort-card-item {
+        top: 1722px !important;
+    }
+
+    .vero-card-item {
+        top: 2587px !important;
+    }
+
+    .home-app-card-item {
+        top: 3395px !important;
+    }
+
+    .home-web-card-item {
+        top: 4176px !important;
+    }
+
+    .erp-card-item {
+        top: 4957px !important;
+    }
+
+    .portfolio-item-info-tt {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .portfolio-wide-image {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 
     /* Service */
@@ -2732,6 +2781,17 @@
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
+    /* Home Page */
+
+    .award-item {
+        width: 250px;
+        height: 350px;
+    }
+    
+    .award-item div div div {
+        height: 350px;
+    }
+
     /* About Us */
 
     .about-item1 {
@@ -2756,6 +2816,44 @@
 
     .thumb {
         margin-bottom: 20px;
+    }
+
+    /* Portfolio */
+
+    .evil-card-item {
+        top: 1049px !important;
+    }
+
+    .toys-sort-card-item {
+        top: 2090px !important;
+    }
+
+    .vero-card-item {
+        top: 3160px !important;
+    }
+
+    .home-app-card-item {
+        top: 4172px !important;
+    }
+
+    .home-web-card-item {
+        top: 5184px !important;
+    }
+
+    .erp-card-item {
+        top: 6197px !important;
+    }
+
+    .portfolio-item-info-tt {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .portfolio-wide-image {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 
     /* Service */
@@ -3689,6 +3787,17 @@
         list-style: none !important;
     }
 
+    /* Home Page */
+
+    .award-item {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .award-item div div div {
+        height: 350px;
+    }
+
     /* About Us */
 
     .about-item1 {
@@ -3701,6 +3810,42 @@
 
     .about-heading {
         margin-top: 0px;
+    }
+
+    /* Portfolio */
+
+    .evil-card-item {
+        top: 563px !important;
+    }
+
+    .toys-sort-card-item {
+        top: 1089px !important;
+    }
+
+    .vero-card-item {
+        top: 1673px !important;
+    }
+
+    .home-app-card-item {
+        top: 2190px !important;
+    }
+
+    .home-web-card-item {
+        top: 2707px !important;
+    }
+
+    .erp-card-item {
+        top: 3224px !important;
+    }
+
+    .portfolio-item-info-tt {
+        margin-left: auto;
+        display: block;
+    }
+
+    .portfolio-wide-image {
+        margin-right: auto;
+        display: block;
     }
 
     /* Service */
@@ -4545,6 +4690,17 @@
 
 @media only screen and (min-width:1440px) and (max-width:1599px) {
 
+    /* Home Page */
+
+    .award-item {
+        width: 250px;
+        height: 350px;
+    }
+    
+    .award-item div div div {
+        height: 350px;
+    }
+
     /* About Us */
 
     .about-item1 {
@@ -4559,6 +4715,41 @@
         margin-top: 0px;
     }
 
+    /* Portfolio */
+
+    .evil-card-item {
+        top: 574px !important;
+    }
+
+    .toys-sort-card-item {
+        top: 1147px !important;
+    }
+
+    .vero-card-item {
+        top: 1721px !important;
+    }
+
+    .home-app-card-item {
+        top: 2295px !important;
+    }
+
+    .home-web-card-item {
+        top: 2869px !important;
+    }
+
+    .erp-card-item {
+        top: 3443px !important;
+    }
+
+    .portfolio-item-info-tt {
+        margin-left: auto;
+        display: block;
+    }
+
+    .portfolio-wide-image {
+        margin-right: auto;
+        display: block;
+    }
 
     /* Service */
 
@@ -4718,6 +4909,22 @@
 
     .deliveries-section h2 {
         padding-bottom: 20px;
+    }
+
+    .mobile-service-img-4 {
+        position: absolute !important;
+        left: 60% !important;
+        top: 380px !important;
+    }
+
+    .web-service-img-4 {
+        position: absolute !important;
+        left: 60% !important;
+        top: 760px !important;
+    }
+
+    .web-service {
+        height: 1140px !important;
     }
 
     /* Placea Case Study */
@@ -5364,6 +5571,17 @@
 
 @media only screen and (min-width:1600px) and (max-width:1919px) {
 
+    /* Home Page */
+
+    .award-item {
+        width: 250px;
+        height: 350px;
+    }
+    
+    .award-item div div div {
+        height: 350px;
+    }
+
     /* About Us */
 
     .about-item1 {
@@ -5376,6 +5594,42 @@
 
     .about-heading {
         margin-top: 0px;
+    }
+
+    /* Portfolio */
+
+     .evil-card-item {
+        top: 574px !important;
+    }
+
+    .toys-sort-card-item {
+        top: 1147px !important;
+    }
+
+    .vero-card-item {
+        top: 1721px !important;
+    }
+
+    .home-app-card-item {
+        top: 2295px !important;
+    }
+
+    .home-web-card-item {
+        top: 2869px !important;
+    }
+
+    .erp-card-item {
+        top: 3443px !important;
+    }
+
+    .portfolio-item-info-tt {
+        margin-left: auto;
+        display: block;
+    }
+
+    .portfolio-wide-image {
+        margin-right: auto;
+        display: block;
     }
 
     /* Service */
@@ -5536,6 +5790,22 @@
 
     .deliveries-section h2 {
         padding-bottom: 20px;
+    }
+
+    .mobile-service-img-4 {
+        position: absolute !important;
+        left: 60% !important;
+        top: 380px !important;
+    }
+
+    .web-service-img-4 {
+        position: absolute !important;
+        left: 60% !important;
+        top: 760px !important;
+    }
+
+    .web-service {
+        height: 1140px !important;
     }
 
     /* Placea Case Study */
@@ -6271,6 +6541,17 @@
 
 @media only screen and (min-width:1920px) {
 
+     /* Home Page */
+
+     .award-item {
+        width: 250px;
+        height: 350px;
+    }
+    
+    .award-item div div div {
+        height: 350px;
+    }
+
     /* About Us */
 
     .about-item1 {
@@ -6283,6 +6564,42 @@
 
     .about-heading {
         margin-top: 0px;
+    }
+
+    /* Portfolio */
+
+    .evil-card-item {
+        top: 574px !important;
+    }
+
+    .toys-sort-card-item {
+        top: 1147px !important;
+    }
+
+    .vero-card-item {
+        top: 1721px !important;
+    }
+
+    .home-app-card-item {
+        top: 2295px !important;
+    }
+
+    .home-web-card-item {
+        top: 2869px !important;
+    }
+
+    .erp-card-item {
+        top: 3443px !important;
+    }
+
+    .portfolio-item-info-tt {
+        margin-left: auto;
+        display: block;
+    }
+
+    .portfolio-wide-image {
+        margin-right: auto;
+        display: block;
     }
 
     /* Service */
@@ -6304,8 +6621,8 @@
         padding-bottom: 10px;
     }
 
-    .type h2, .services h2, .case-studies h2,  .process h2, .techonology-used h2,
-    .global-market h2, .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
+    .type h2, .services h2, .process h2, .techonology-used h2, .global-market h2,
+    .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
     .brand-logo-slider h2, .deliveries-section h2 {
         text-align: center;
     }
@@ -6315,7 +6632,7 @@
     }
 
     .custom-app-dev {
-        height: 160px;
+        height: 190px;
     }
 
     .type .card {
@@ -6443,6 +6760,31 @@
 
     .deliveries-section h2 {
         padding-bottom: 20px;
+    }
+
+    .mobile-service-img-4 {
+        position: absolute !important;
+        left: 60% !important;
+        top: 380px !important;
+    }
+
+    .mobile-app-service {
+        position: relative;
+        height: 770px !important;
+    }
+
+    .portfolio-filter .pf-item:hover .pf-text {
+        bottom: 20%;
+    }
+
+    .web-service-img-4 {
+        position: absolute !important;
+        left: 60% !important;
+        top: 760px !important;
+    }
+
+    .web-service {
+        height: 1140px !important;
     }
 
     /* Placea Case Study */
@@ -6650,6 +6992,10 @@
     }
 
     /* Toys Sort Case Study */
+
+    .toys-sort-case-study {
+        padding: 150px 0px !important;
+    }
 
     .toys-sort-about-heading {
         text-align: left;
@@ -7322,5 +7668,90 @@
 
 	.main-timeline .title {
 		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.services-main-timeline .services-timeline:after {
+		border-radius: 88px 0 0 88px;
+	}
+
+	.services-main-timeline .services-timeline:nth-child(even):after {
+		border-radius: 0 88px 88px 0;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.services-main-timeline .services-timeline {
+		margin-top: -19px;
+	}
+
+	.services-main-timeline .services-timeline:before {
+		border-radius: 50px 0 0 50px;
+		border-width: 10px;
+	}
+
+	.services-main-timeline .services-timeline:after {
+		height: calc(100% - 18px);
+		width: calc(50% - 9px);
+		border-radius: 43px 0 0 43px;
+		border-width: 10px;
+		top: 9px;
+		left: 9px;
+	}
+
+	.services-main-timeline .services-timeline:nth-child(even):before {
+		border-radius: 0 50px 50px 0;
+		border-width: 10px;
+	}
+
+	.services-main-timeline .services-timeline:nth-child(even):after {
+		height: calc(100% - 18px);
+		width: calc(50% - 9px);
+		border-radius: 0 43px 43px 0;
+		border-width: 10px;
+		top: 9px;
+		right: 9px;
+	}
+
+	.services-main-timeline .services-timeline-icon {
+		font-size: 60px;
+	}
+
+	.services-main-timeline .services-timeline-year {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width:479px) {
+	.services-main-timeline .services-timeline-icon {
+		font-size: 50px;
+		transform: translateY(0);
+		top: 25%;
+		left: 10%;
+	}
+
+	.services-main-timeline .services-timeline-year {
+		font-size: 25px;
+		transform: translateY(0);
+		top: 65%;
+		left: 9%;
+	}
+
+	.services-main-timeline .services-content {
+		width: 68%;
+		padding: 10px;
+	}
+
+	.services-main-timeline .title {
+		font-size: 18px;
+	}
+
+	.services-main-timeline .services-timeline:nth-child(even) .services-timeline-icon {
+		right: 10%;
+	}
+
+	.services-main-timeline .services-timeline:nth-child(even) .services-timeline-year {
+		right: 9%;
 	}
 }
