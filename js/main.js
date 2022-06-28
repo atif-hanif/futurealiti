@@ -631,7 +631,7 @@ File Description: Main JS file of the template*/
 	  	}
   	});
 
-	  //Owl-Carousel - clients-reviews
+	//Owl-Carousel - clients-reviews
 	$('.clients-reviews').owlCarousel({
 		items: 3,
 		loop: true,
