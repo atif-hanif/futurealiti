@@ -1153,7 +1153,7 @@ a.play-video::after {
 }
 
 .user-info {
-    margin: 10px 0 0 0px;
+    margin: 10px 0 0 10px;
     text-align: left;
     width: 80%;
     display: inline-block;
@@ -9710,8 +9710,30 @@ img {
 	overflow: hidden;
 }
 
-
 /* Custom */
+
+.type .card {
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.game-app-services .card {
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.game-services4 .card {
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.reviews-block .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    width: 100px;
+    margin: 0;
+    height: 50px;
+    padding: 25px 0 0 0;
+}
 
 /* Popup */
 
@@ -10199,7 +10221,6 @@ input {
 	font-size: 12px;
 }
 
-/*  End Home  */
 
 /*  Our Process  */
 
@@ -11317,6 +11338,80 @@ h3.common-heading {
     margin: 4px 2px;
 	border-color: #263F4A;
 }
+
+/* Game Development Service */
+
+.boxes {
+	background-position: center center;
+	background-size: cover;
+	border: 1px solid #fff;
+	transition: opacity .25s;
+	overflow: hidden;
+	position: relative;
+}
+
+  
+#boxOne, #boxTwo, #boxSeven, #boxEight, #boxThree, #boxFour, #boxFive, #boxSix {
+	height: 337px;
+}
+  
+#boxOne {
+	background-image: url('../images/services/2d-art.png');
+}
+
+.box-bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	color: #fff;
+}
+  
+#boxTwo {
+	background-image: url('../images/services/environment-design.png');
+}
+
+#boxThree {
+	background-image: url('../images/services/3d-art.png');
+}
+
+#boxFour {
+	background-image: url('../images/services/game-development.png');
+}
+  
+#boxFive {
+	background-image: url('../images/services/animation.png');
+}
+
+#boxSix {
+	background-image: url('../images/services/casual-art.png');
+}
+  
+#boxSeven {
+	background-image: url('../images/services/character-design.png');
+}
+  
+#boxEight {
+	background-image: url('../images/services/concept-art.png');
+}
+  
+#boxNine {
+	background-image: url('../images/services/aaa-game.png');
+}  
+
+
+.card-header .fa {
+	transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+	transform: rotate(-90deg);
+    padding-top: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    right: 30px;
+}
+
 
 /*   */
 
