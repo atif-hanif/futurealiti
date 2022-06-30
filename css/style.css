@@ -11801,6 +11801,18 @@ ul.service_box li h5 {
 	background: linear-gradient(to bottom,#904E95 0,#E96443 100%);
 }
 
+.game-apps .card {
+	margin-top: -200px;
+    padding-top: 200px;
+    position: inherit;
+    border-radius: 15px;
+    box-shadow: 1px 1px 11px 0 #e1e1e1;
+}
+
+.game-apps .card-body {
+	text-align: center;
+}
+
 /*   */
 
 .contact-main {
