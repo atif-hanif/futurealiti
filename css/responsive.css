@@ -1858,6 +1858,8 @@
     .award-item {
         width: 250px;
         height: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .award-item div div div {
