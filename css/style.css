@@ -11079,7 +11079,7 @@ word-break: break-word;
 /*  Mobile App Page  */
 
 .mobile-app-page {
-	background-image: url(../images/banner/mobile-app-banner.png);
+	background-image: url(../images/services/mobile-app-development/mobile-app-banner.webp);
 	background-size: cover;
 	padding: 50px 0px;
 }
@@ -11208,7 +11208,7 @@ word-break: break-word;
 }
 
 h2.common-heading {
-	color: #46a2b9;
+	color: #1E3847;
 	text-align: left;
 }
 
@@ -11253,7 +11253,7 @@ h3.common-heading {
 }
 
 .why-choose-section {
-	background-image: url(../images/banner/why-banner.png);
+	background-image: url(../images/services/mobile-app-development/why-choose-us-banner.webp);
 	background-size: cover;
 }
 
@@ -11293,7 +11293,7 @@ h3.common-heading {
 }
 
 .key-highlights {
-	background-image: url(../images/banner/keyhighlight.png);
+	background-image: url(../images/services/mobile-app-development/keyhighlights-banner.webp);
 }
 
 .keyhighlights .card{
@@ -11422,7 +11422,7 @@ h3.common-heading {
 /* Website Page */
 
 .website-page {
-    background-image: url(../images/banner/website-banner.png);
+    background-image: url(../images/services/website-development/website-banner.webp);
     background-size: cover;
     padding: 50px 0px;
 }
