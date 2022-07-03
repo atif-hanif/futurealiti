@@ -11196,6 +11196,15 @@ word-break: break-word;
 	color: white;
 } */
 
+.tech .nav-link {
+	color: #000 !important;
+}
+
+.tech .nav-link.active {
+	color: #1E3847 !important;
+	border-color: transparent transparent #1E3847 transparent !important;
+}
+
 .image-icon {
 	background-color: #fff;
 	border-radius: 50%;
@@ -11253,7 +11262,7 @@ h3.common-heading {
 }
 
 .why-choose-section {
-	background-image: url(../images/services/mobile-app-development/why-choose-us-banner.webp);
+	background-image: url(../images/services/why-choose-us-banner.webp);
 	background-size: cover;
 }
 
@@ -11293,7 +11302,7 @@ h3.common-heading {
 }
 
 .key-highlights {
-	background-image: url(../images/services/mobile-app-development/keyhighlights-banner.webp);
+	background-image: url(../images/services/keyhighlights-banner.webp);
 }
 
 .keyhighlights .card{
