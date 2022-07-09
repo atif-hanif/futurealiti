@@ -11438,6 +11438,113 @@ h3.common-heading {
 
 /* Game Development Service */
 
+.game-page {
+    background-image: url(../images/services/game-development/game-development-banner.webp);
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.game-img-body {
+	position: relative;
+	padding: 0rem;
+}
+
+.card-flip > div {
+	backface-visibility: hidden;
+	transition: transform 500ms;
+	transition-timing-function: linear;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+}
+  
+.card-front {
+	transform: rotateY(0deg);
+}
+
+.card-back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	background: -moz-linear-gradient(top,#904E95 0,#E96443 100%);
+    background: -webkit-linear-gradient(top,#904E95 0,#E96443 100%);
+    background: linear-gradient(to bottom,#904E95 0,#E96443 100%);
+}
+  
+.card-flip:hover .card-front {
+	transform: rotateY(-180deg);
+}
+	
+.card-flip:hover .card-back {
+	transform: rotateY(0deg);
+}
+
+.game-bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+  }
+
+.custom-app-service {
+	background: url(../images/services/games-banner.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+}
+
+.ar-game {
+	background-image: url(../images/services/wall-01.png);
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.vr-game {
+	background-image: url(../images/services/wall-01.png);
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.mr-game {
+	background-image: url(../images/services/wall-01.png);
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.process-section {
+    background: url(../images/services/game-benefits.png) no-repeat;
+    background-size: cover;
+}
+
+.game-service-body {
+	background: -moz-linear-gradient(top,#904E95 0,#E96443 100%);
+	background: -webkit-linear-gradient(top,#904E95 0,#E96443 100%);
+	background: linear-gradient(to bottom,#904E95 0,#E96443 100%);
+}
+
+.game-apps .card {
+	margin-top: -200px;
+    padding-top: 200px;
+    position: inherit;
+    border-radius: 15px;
+    box-shadow: 1px 1px 11px 0 #e1e1e1;
+}
+
+.game-apps .card-body {
+	text-align: center;
+}
+
+.custom-game-app {
+	background: -moz-linear-gradient(top,#904E95 0,#E96443 100%);
+	background: -webkit-linear-gradient(top,#904E95 0,#E96443 100%);
+	background: linear-gradient(to bottom,#904E95 0,#E96443 100%);
+}
+
+.why-choose-img {
+    width: 90px;
+    transform: rotate(-45deg);
+}
+
 .boxes {
 	background-position: center center;
 	background-size: cover;
@@ -11447,15 +11554,6 @@ h3.common-heading {
 	position: relative;
 }
 
-  
-#boxOne, #boxTwo, #boxSeven, #boxEight, #boxThree, #boxFour, #boxFive, #boxSix {
-	height: 337px;
-}
-  
-#boxOne {
-	background-image: url('../images/services/2d-art.png');
-}
-
 .box-bottom-left {
 	position: absolute;
 	bottom: 8px;
@@ -11463,37 +11561,81 @@ h3.common-heading {
 	color: #fff;
 }
   
+#boxOne, #boxTwo, #boxSeven, #boxEight, #boxThree, #boxFour, #boxFive, #boxSix {
+	height: 337px;
+}
+  
+#boxOne {
+	background-image: url('../images/services/game-development/2d-art.webp');
+}
+
+#boxOne:hover {
+	background-image: url('../images/services/game-development/2d-art-hover.webp');
+}
+  
 #boxTwo {
-	background-image: url('../images/services/environment-design.png');
+	background-image: url('../images/services/game-development/environment-design.webp');
+}
+
+#boxTwo:hover  {
+	background-image: url('../images/services/game-development/environment-design-hover.webp');
 }
 
 #boxThree {
-	background-image: url('../images/services/3d-art.png');
+	background-image: url('../images/services/game-development/3d-art.webp');
+}
+
+#boxThree:hover  {
+	background-image: url('../images/services/game-development/3d-art-hover.webp');
 }
 
 #boxFour {
-	background-image: url('../images/services/game-development.png');
+	background-image: url('../images/services/game-development/game-development.webp');
+}
+
+#boxFour:hover  {
+	background-image: url('../images/services/game-development/game-development-hover.webp');
 }
   
 #boxFive {
-	background-image: url('../images/services/animation.png');
+	background-image: url('../images/services/game-development/animation.webp');
+}
+
+#boxFive:hover  {
+	background-image: url('../images/services/game-development/animation-hover.webp');
 }
 
 #boxSix {
-	background-image: url('../images/services/casual-art.png');
+	background-image: url('../images/services/game-development/casual-art.webp');
+}
+
+#boxSix:hover  {
+	background-image: url('../images/services/game-development/casual-art-hover.webp');
 }
   
 #boxSeven {
-	background-image: url('../images/services/character-design.png');
+	background-image: url('../images/services/game-development/character-design.webp');
+}
+
+#boxSeven:hover  {
+	background-image: url('../images/services/game-development/character-design-hover.webp');
 }
   
 #boxEight {
-	background-image: url('../images/services/concept-art.png');
+	background-image: url('../images/services/game-development/concept-art.webp');
+}
+
+#boxEight:hover  {
+	background-image: url('../images/services/game-development/concept-art-hover.webp');
 }
   
 #boxNine {
-	background-image: url('../images/services/aaa-game.png');
-}  
+	background-image: url('../images/services/game-development/aaa-game.webp');
+}
+
+#boxNine:hover {
+	background-image: url('../images/services/game-development/aaa-game-hover.webp');
+} 
 
 .card-header .fa {
 	transition: .3s transform ease-in-out;
@@ -11758,80 +11900,7 @@ ul.service_box li h5 {
     width: 125px;
 }
 
-.game-page {
-    background-image: url(../images/banner/game-banner.png);
-    background-size: cover;
-    padding: 50px 0px;
-}
 
-.game-services-body:hover {
-	background: -moz-linear-gradient(top,#904E95 0,#E96443 100%);
-	background: -webkit-linear-gradient(top,#904E95 0,#E96443 100%);
-	background: linear-gradient(to bottom,#904E95 0,#E96443 100%);
-}
-
-.game-services-body:hover h4, .game-services-body:hover p {
-	color: #fff;
-}
-
-.custom-app-service {
-	background: url(../images/services/games-banner.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 1080px;
-}
-
-.ar-game {
-	background-image: url(../images/services/wall-01.png);
-    background-size: cover;
-    padding: 50px 0px;
-}
-
-.vr-game {
-	background-image: url(../images/services/wall-01.png);
-    background-size: cover;
-    padding: 50px 0px;
-}
-
-.mr-game {
-	background-image: url(../images/services/wall-01.png);
-    background-size: cover;
-    padding: 50px 0px;
-}
-
-.process-section {
-    background: url(../images/services/game-benefits.png) no-repeat;
-    background-size: cover;
-}
-
-.game-service-body {
-	background: -moz-linear-gradient(top,#904E95 0,#E96443 100%);
-	background: -webkit-linear-gradient(top,#904E95 0,#E96443 100%);
-	background: linear-gradient(to bottom,#904E95 0,#E96443 100%);
-}
-
-.game-apps .card {
-	margin-top: -200px;
-    padding-top: 200px;
-    position: inherit;
-    border-radius: 15px;
-    box-shadow: 1px 1px 11px 0 #e1e1e1;
-}
-
-.game-apps .card-body {
-	text-align: center;
-}
-
-.custom-game-app {
-	background: -moz-linear-gradient(top,#904E95 0,#E96443 100%);
-	background: -webkit-linear-gradient(top,#904E95 0,#E96443 100%);
-	background: linear-gradient(to bottom,#904E95 0,#E96443 100%);
-}
-
-.why-choose-img {
-    width: 90px;
-    transform: rotate(-45deg);
-}
 
 /*   */
 
