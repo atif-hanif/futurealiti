@@ -1958,6 +1958,10 @@
         text-align: center;
     }
 
+    .about p{
+        text-align: center;
+    }
+
     h2.common-heading {
         padding-bottom: 10px;
     }
@@ -2090,6 +2094,53 @@
         text-align: center;
         padding-bottom: 10px;
     }
+
+    /* Game Development Page */
+
+    .hire-div img {
+        margin-top: -215px;
+        margin-left: 16px;
+    }  
+    
+    .game-get-button {
+        width: 100%;
+    }
+
+    .game-benefits-section h2 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .game-benefits-section p {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .game-benefits-img {
+        margin-top: 10px;
+    }
+
+    .two-d-game h2, .two-d-game p {
+        text-align: center;
+    }
+
+    .game-button {
+        text-align: center;
+    }
+
+    .two-d-game img {
+        margin-top: 25px;
+    }
+
+    .three-d-game h2, .three-d-game p {
+        text-align: center;
+    }
+
+    .three-d-game img {
+        margin-bottom: 25px;
+    }
+
+    /* Case Studies */
 
     /* Mobile App */
 
@@ -4071,6 +4122,8 @@
     .web-service {
         height: 1140px !important;
     }
+
+    /* Case Study */
 
     /* Mobile App */
 
