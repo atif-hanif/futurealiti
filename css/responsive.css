@@ -1962,9 +1962,9 @@
         text-align: center;
     }
 
-    h2.common-heading {
+    /* h2.common-heading {
         padding-bottom: 10px;
-    }
+    } */
 
     .custom-app-dev {
         height: 212px;
@@ -2138,6 +2138,60 @@
 
     .three-d-game img {
         margin-bottom: 25px;
+    }
+
+    .ar-game-section h2, .ar-game-section p {
+        text-align: center;
+    }
+
+    .ar-game-section img {
+        margin-top: 25px;
+    }
+
+    .vr-game-section h2, .vr-game-section p{
+        text-align: center;
+    }
+
+    .vr-game-section img {
+        margin-bottom: 25px;
+    }
+
+    .mr-game-section h2, .vr-game-section p {
+        text-align: center;
+    }
+
+    .mr-game-section img {
+        margin-top: 25px;
+    }
+
+    .case-studies {
+        text-align: center;
+    }
+
+    .games-bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 70px;
+    }
+
+    .game-dev {
+        margin-bottom: 15px;
+    }
+
+    .vertical-timeline-element-icon {
+        left: 20px;
+    }
+
+    .vertical-timeline-element-content {
+        margin-left: 60px;
+    }
+
+    .game-benefits-section .description {
+        text-align: left;
+    }
+
+    .offline-game-section {
+        text-align: center;
     }
 
     /* Case Studies */
@@ -3110,6 +3164,131 @@
     .web-service {
         height: 1140px !important;
     }
+
+    /* Game Development Page */
+
+    .hero-heading-sec2 .p1 {
+        margin: 60px 0 20px;
+        text-align: center;
+    }
+
+    .hero-heading-sec2 h3 {
+        margin: 0px 0 20px;
+        text-align: center;
+    }
+
+    .hero-heading-sec2 .p2 {
+        margin: 0px 0 20px;
+        text-align: center;
+    }
+
+    .game-page img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about p {
+        text-align: center;
+    }
+
+    .hire-div img {
+        margin-top: -55px;
+        margin-left: 40px;
+    }  
+    
+    .game-get-button {
+        width: 100%;
+    }
+
+    .game-benefits-section h2 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .game-benefits-section p {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .game-benefits-img {
+        margin-top: 10px;
+    }
+
+    .two-d-game h2, .two-d-game p {
+        text-align: center;
+    }
+
+    .game-button {
+        text-align: center;
+    }
+
+    .two-d-game img {
+        margin-top: 25px;
+    }
+
+    .three-d-game h2, .three-d-game p {
+        text-align: center;
+    }
+
+    .three-d-game img {
+        margin-bottom: 25px;
+    }
+
+    .ar-game-section h2, .ar-game-section p{
+        text-align: center;
+    }
+
+    .ar-game-section img {
+        margin-top: 25px;
+    }
+
+    .vr-game-section h2, .vr-game-section p {
+        text-align: center;
+    }
+
+    .vr-game-section img {
+        margin-bottom: 25px;
+    }
+
+    .mr-game-section h2, .mr-game-section p {
+        text-align: center;
+    }
+
+    .mr-game-section img {
+        margin-top: 25px;
+    }
+
+    .case-studies h2, .case-studies p {
+        text-align: left;
+    }
+
+    .games-bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 70px;
+    }
+
+    .game-dev {
+        margin-bottom: 15px;
+    }
+
+    .vertical-timeline-element-icon {
+        left: 20px;
+    }
+
+    .vertical-timeline-element-content {
+        margin-left: 60px;
+    }
+
+    .game-benefits-section .description {
+        text-align: left;
+    }
+
+    .offline-game-section {
+        text-align: center;
+    }
+
+    /* Case Study */
 
     /* Mobile App */
 

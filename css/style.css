@@ -10637,8 +10637,6 @@ word-break: break-word;
    max-width: 400px;
 }
 
-
-
 /* Contact Us Page */
 
 .contact-banner {
@@ -10785,8 +10783,7 @@ word-break: break-word;
 	position: relative;
 }
 
-.services-main-timeline:before,
-            .services-main-timeline:after {
+.services-main-timeline:before, .services-main-timeline:after {
 	content: '';
 	height: 40px;
 	width: 40px;
@@ -10812,8 +10809,7 @@ word-break: break-word;
 	z-index: 1;
 }
 
-.services-main-timeline .services-timeline:before,
-            .services-main-timeline .services-timeline:after {
+.services-main-timeline .services-timeline:before, .services-main-timeline .services-timeline:after {
 	content: '';
 	height: 100%;
 	width: 50%;
@@ -11748,6 +11744,11 @@ h3.common-heading {
 
 .game-development-icon {
 	padding: 0px 5px 0px 15px;
+}
+
+.game-development-img {
+	max-width: 173px;
+	height: 319px;
 }
 
 /* Timeline */
