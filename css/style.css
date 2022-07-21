@@ -11489,6 +11489,61 @@ h3.common-heading {
     height: 1080px;
 }
 
+.custom-app-service-animation {
+    margin-top: -760px;
+	margin-left: -35px;
+	-webkit-animation: bounce 3s infinite ease-in-out;
+	-o-animation: bounce 3s infinite ease-in-out;
+	-ms-animation: bounce 3s infinite ease-in-out;
+	-moz-animation: bounce 3s infinite ease-in-out;
+	animation: bounce 3s infinite ease-in-out;
+}
+
+.hire-game-developer1 {
+	margin-top: -65px;
+    margin-left: 40px;
+	-webkit-animation: bounce 3s infinite ease-in-out;
+	-o-animation: bounce 3s infinite ease-in-out;
+	-ms-animation: bounce 3s infinite ease-in-out;
+	-moz-animation: bounce 3s infinite ease-in-out;
+	animation: bounce 3s infinite ease-in-out;
+}
+
+.twod-game-animation {
+	display: block;
+    margin: 0 auto;
+	-webkit-animation: bounce 3s infinite ease-in-out;
+	-o-animation: bounce 3s infinite ease-in-out;
+	-ms-animation: bounce 3s infinite ease-in-out;
+	-moz-animation: bounce 3s infinite ease-in-out;
+	animation: bounce 3s infinite ease-in-out;
+}
+
+.twod-game-image {
+	margin-top: -270px;
+	position: relative;
+}
+
+.hire-game-developer2 {
+	margin-top: -190px;
+    margin-left: 40px;
+	-webkit-animation: bounce 3s infinite ease-in-out;
+	-o-animation: bounce 3s infinite ease-in-out;
+	-ms-animation: bounce 3s infinite ease-in-out;
+	-moz-animation: bounce 3s infinite ease-in-out;
+	animation: bounce 3s infinite ease-in-out;
+}
+
+.ar-game-development-animation {
+    margin-top: -300px;
+    margin-left: 400px;
+	-webkit-animation: bounce 3s infinite ease-in-out;
+	-o-animation: bounce 3s infinite ease-in-out;
+	-ms-animation: bounce 3s infinite ease-in-out;
+	-moz-animation: bounce 3s infinite ease-in-out;
+	animation: bounce 3s infinite ease-in-out;
+}
+
 .ar-game {
 	background-image: url(../images/services/wall-01.png);
     background-size: cover;
@@ -11681,11 +11736,6 @@ h3.common-heading {
 	width: 45%;
 }
 
-.hire-div img {
-	margin-top: -65px;
-    margin-left: 40px;
-}
-
 .game-benefits-section {
 	background: url(../images/services/game-development/mobile-game-benefits.webp) no-repeat;
     background-size: cover;
@@ -11749,6 +11799,34 @@ h3.common-heading {
 .game-development-img {
 	max-width: 173px;
 	height: 319px;
+}
+
+@-webkit-keyframes bounce {
+	0% {
+		transform:translateY(-5px)
+	}
+
+	50% {
+	transform:translateY(10px)
+	}
+	
+	100% {
+		transform:translateY(-5px)
+	}
+}
+
+@keyframes bounce {
+	0% {
+		transform:translateY(-5px)
+	}
+
+	50% {
+	transform:translateY(10px)
+	}
+	
+	100% {
+		transform:translateY(-5px)
+	}
 }
 
 /* Timeline */
