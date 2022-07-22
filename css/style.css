@@ -11534,20 +11534,20 @@ h3.common-heading {
 	animation: bounce 3s infinite ease-in-out;
 }
 
-.ar-game-development-animation {
-    margin-top: -300px;
-    margin-left: 400px;
-	-webkit-animation: bounce 3s infinite ease-in-out;
-	-o-animation: bounce 3s infinite ease-in-out;
-	-ms-animation: bounce 3s infinite ease-in-out;
-	-moz-animation: bounce 3s infinite ease-in-out;
-	animation: bounce 3s infinite ease-in-out;
-}
-
 .ar-game {
 	background-image: url(../images/services/wall-01.png);
     background-size: cover;
     padding: 50px 0px;
+}
+
+.ar-game-development-animation {
+    margin-top: -300px;
+    margin-left: 400px;
+	-webkit-animation: walk 3s infinite ease-in-out;
+	-o-animation: walk 3s infinite ease-in-out;
+	-ms-animation: walk 3s infinite ease-in-out;
+	-moz-animation: walk 3s infinite ease-in-out;
+	animation: walk 3s infinite ease-in-out;
 }
 
 .vr-game {
@@ -11556,10 +11556,25 @@ h3.common-heading {
     padding: 50px 0px;
 }
 
+.vr-game-development-animation {
+    margin-left: -135px;
+    margin-top: -525px;
+}
+
 .mr-game {
 	background-image: url(../images/services/wall-01.png);
     background-size: cover;
     padding: 50px 0px;
+}
+
+.mr-game-development-animation {
+    margin-top: -250px;
+    margin-left: 325px;
+	-webkit-animation: walk 3s infinite ease-in-out;
+	-o-animation: walk 3s infinite ease-in-out;
+	-ms-animation: walk 3s infinite ease-in-out;
+	-moz-animation: walk 3s infinite ease-in-out;
+	animation: walk 3s infinite ease-in-out;
 }
 
 .process-section {
@@ -11828,6 +11843,46 @@ h3.common-heading {
 		transform:translateY(-5px)
 	}
 }
+
+@-webkit-keyframes walk {
+	0% {
+		transform:translateX(-5px)
+	}
+
+	50% {
+	transform:translateX(10px)
+	}
+	
+	100% {
+		transform:translateX(-5px)
+	}
+}
+
+@keyframes walk {
+	0% {
+		transform:translateX(-5px)
+	}
+
+	50% {
+	transform:translateX(10px)
+	}
+	
+	100% {
+		transform:translateX(-5px)
+	}
+}
+
+@-webkit-keyframes spinner { 
+    from 
+    { 
+        -webkit-transform: rotateY(0deg); 
+    } 
+    to { 
+        -webkit-transform: rotateY(-360deg); 
+    } 
+} 
+
+
 
 /* Timeline */
 
