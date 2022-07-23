@@ -11480,7 +11480,48 @@ h3.common-heading {
 	position: absolute;
 	bottom: 8px;
 	left: 16px;
-  }
+}
+
+/* .service2 img {
+	position: absolute;
+}
+
+.service2 .mobile {
+	z-index: 3;
+}
+
+.service2 .service-images {
+	z-index: 1;
+} */
+
+.service2 .nav-link {
+	color: #000;
+}
+
+.service2 .nav-tabs .nav-link.active {
+	border-color: transparent;
+	color: #1E3847;
+	font-weight: bold;
+}
+
+.service2 .nav-tabs .nav-link:hover {
+	-webkit-box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,.3);
+    box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+}
+
+.service2 .card {
+	border: 1px solid transparent;
+}
+
+.service-name {
+	float: left;
+	width: 50%;
+}
+
+.service-icon {
+	float: right;
+}
 
 .custom-app-service {
 	background: url(../images/services/games-banner.png) no-repeat;
@@ -11611,98 +11652,6 @@ h3.common-heading {
     transform: rotate(-45deg);
 }
 
-.boxes {
-	background-position: center center;
-	background-size: cover;
-	border: 1px solid #fff;
-	transition: opacity .25s;
-	overflow: hidden;
-	position: relative;
-}
-
-.box-bottom-left {
-	position: absolute;
-	bottom: 8px;
-	left: 16px;
-	color: #fff;
-}
-  
-#boxOne, #boxTwo, #boxSeven, #boxEight, #boxThree, #boxFour, #boxFive, #boxSix {
-	height: 337px;
-}
-  
-#boxOne {
-	background-image: url('../images/services/game-development/2d-art.webp');
-}
-
-#boxOne:hover {
-	background-image: url('../images/services/game-development/2d-art-hover.webp');
-}
-  
-#boxTwo {
-	background-image: url('../images/services/game-development/environment-design.webp');
-}
-
-#boxTwo:hover  {
-	background-image: url('../images/services/game-development/environment-design-hover.webp');
-}
-
-#boxThree {
-	background-image: url('../images/services/game-development/3d-art.webp');
-}
-
-#boxThree:hover  {
-	background-image: url('../images/services/game-development/3d-art-hover.webp');
-}
-
-#boxFour {
-	background-image: url('../images/services/game-development/game-development.webp');
-}
-
-#boxFour:hover  {
-	background-image: url('../images/services/game-development/game-development-hover.webp');
-}
-  
-#boxFive {
-	background-image: url('../images/services/game-development/animation.webp');
-}
-
-#boxFive:hover  {
-	background-image: url('../images/services/game-development/animation-hover.webp');
-}
-
-#boxSix {
-	background-image: url('../images/services/game-development/casual-art.webp');
-}
-
-#boxSix:hover  {
-	background-image: url('../images/services/game-development/casual-art-hover.webp');
-}
-  
-#boxSeven {
-	background-image: url('../images/services/game-development/character-design.webp');
-}
-
-#boxSeven:hover  {
-	background-image: url('../images/services/game-development/character-design-hover.webp');
-}
-  
-#boxEight {
-	background-image: url('../images/services/game-development/concept-art.webp');
-}
-
-#boxEight:hover  {
-	background-image: url('../images/services/game-development/concept-art-hover.webp');
-}
-  
-#boxNine {
-	background-image: url('../images/services/game-development/aaa-game.webp');
-}
-
-#boxNine:hover {
-	background-image: url('../images/services/game-development/aaa-game-hover.webp');
-} 
-
 .card-header .fa {
 	transition: .3s transform ease-in-out;
 }
@@ -11804,16 +11753,53 @@ h3.common-heading {
 .games-bottom-left {
 	position: absolute;
   	bottom: 8px;
-  	left: 16px;
+  	left: 0px;
+	font-size: 15px;
 }
 
 .game-development-icon {
 	padding: 0px 5px 0px 15px;
 }
 
-.game-development-img {
+/* .game-development-img {
 	max-width: 173px;
 	height: 319px;
+} */
+
+.offline-game-section {
+	background: url(../images/services/game-development/offline-multiplayer-game-development.webp) no-repeat;
+    background-size: cover;
+}
+
+.offline-game-section h2, .offline-game-section p {
+	color: white;
+}
+
+.ui-ux-game {
+	background: url(../images/services/game-development/game-ui-ux-design-development.webp) no-repeat;
+    background-size: cover;
+}
+
+.ui-ux-game h2, .ui-ux-game p {
+	color: white;
+}
+
+.character-game {
+	background: url(../images/services/game-development/game-character-creation-development.webp) no-repeat;
+    background-size: cover;
+}
+
+.character-game h2, .character-game p {
+	color: white;
+}
+
+.game-art {
+	background: url(../images/services/game-development/mobile-game-art-asset-creation-development.webp) no-repeat;
+    background-size: cover;
+}
+
+.game-art h2, .game-art p {
+	color: white;
 }
 
 @-webkit-keyframes bounce {
