@@ -5008,6 +5008,10 @@
         height: 409px;
     }
 
+    .about-item3 {
+        height: 409px;
+    }
+
     .about-heading {
         margin-top: 0px;
     }
@@ -5890,6 +5894,10 @@
     }
 
     .about-item2 {
+        height: 409px;
+    }
+
+    .about-item3 {
         height: 409px;
     }
 
@@ -6875,6 +6883,10 @@
         height: 409px;
     }
 
+    .about-item3 {
+        height: 409px;
+    }
+
     .about-heading {
         margin-top: 0px;
     }
@@ -6942,6 +6954,10 @@
 
     h2.heading3 {
         text-align: left;
+    }
+
+    .client-reviews h2 {
+        text-align: center;
     }
 
     .about h2, .custom-app h2, .ideal h2, .tech h2, .our-work h2, .app h2 {

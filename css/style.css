@@ -10571,8 +10571,9 @@ input {
     box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);
     padding: 50px 37px;
     border-radius: 10px;
-    background: linear-gradient(to bottom, #117292 0%,#093ac1 100%);
-	background: linear-gradient(to bottom, #234358 0%,#fff 100%);
+    /* background: linear-gradient(to bottom, #117292 0%,#093ac1 100%);
+	background: linear-gradient(to bottom, #234358 0%,#fff 100%); */
+	background: linear-gradient(to right, #5495bf 0%,#000000 100%);
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -10634,7 +10635,7 @@ input {
     min-width: 45px;
 }
 
-/* Clients */
+/* Clients Page */
 
 .hero-heading h3 {
 	font-size: 50px;
@@ -10668,7 +10669,11 @@ input {
 	padding-top: 15px;
 }
 
-/* Portfolio */
+.blog-section h5 a {
+	color: #050748;
+}
+
+/* Portfolio Page */
 
 .portfolio-text {
 word-break: break-word;
@@ -11364,6 +11369,15 @@ h3.common-heading {
 	background-size: cover;
 }
 
+.hire-developers img {
+	width: 64px;
+	height: 64px;
+}
+
+.hire-developers p {
+	line-height: 22px;
+}
+
 .related-blog {
 	color:#677CAA;
 }
@@ -11813,7 +11827,7 @@ h3.common-heading {
 } */
 
 .offline-game-section {
-	background: url(../images/services/game-development/offline-multiplayer-game-development.webp) no-repeat;
+	background: url(../images/services/game-development/offline-multiplayer-game-development-banner.webp) no-repeat;
     background-size: cover;
 }
 
@@ -11822,7 +11836,7 @@ h3.common-heading {
 }
 
 .ui-ux-game {
-	background: url(../images/services/game-development/game-ui-ux-design-development.webp) no-repeat;
+	background: url(../images/services/game-development/game-ui-ux-design-development-banner.webp) no-repeat;
     background-size: cover;
 }
 
@@ -11831,7 +11845,7 @@ h3.common-heading {
 }
 
 .character-game {
-	background: url(../images/services/game-development/game-character-creation-development.webp) no-repeat;
+	background: url(../images/services/game-development/game-character-creation-development-banner.webp) no-repeat;
     background-size: cover;
 }
 
@@ -11840,7 +11854,7 @@ h3.common-heading {
 }
 
 .game-art {
-	background: url(../images/services/game-development/mobile-game-art-asset-creation-development.webp) no-repeat;
+	background: url(../images/services/game-development/mobile-game-art-asset-creation-development-banner.webp) no-repeat;
     background-size: cover;
 }
 
