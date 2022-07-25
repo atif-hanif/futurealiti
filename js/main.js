@@ -665,6 +665,108 @@ File Description: Main JS file of the template*/
 	  	}
   	});
 
+	//Owl-Carousel - tech-slider1
+	$('.tech-slider1').owlCarousel({
+		items: 3,
+		loop: true,
+		autoplay: true,
+		centre: true,
+		margin: 20,
+		nav: false,
+		dots: false,
+		autoplayTimeout: 1000,
+		autoplayHoverPause: true,
+		smartSpeed: 2000,
+		responsive: {
+			0: {
+			items: 3
+			},
+			520: {
+			items: 3
+			},
+			768: {
+			items: 6
+			},
+			1200: {
+			items: 6
+			},
+			1400: {
+			items: 6
+			},
+			1600: {
+			items: 6
+			},
+	  	}
+  	});
+
+	//Owl-Carousel - tech-slider2
+	$('.tech-slider2').owlCarousel({
+		items: 3,
+		loop: true,
+		autoplay: true,
+		centre: true,
+		margin: 20,
+		nav: false,
+		dots: false,
+		autoplayTimeout: 1000,
+		autoplayHoverPause: true,
+		smartSpeed: 2000,
+		responsive: {
+			0: {
+			items: 3
+			},
+			520: {
+			items: 3
+			},
+			768: {
+			items: 3
+			},
+			1200: {
+			items: 3
+			},
+			1400: {
+			items: 3
+			},
+			1600: {
+			items: 3
+			},
+			}
+	});
+
+	//Owl-Carousel - tech-slider3
+	$('.tech-slider3').owlCarousel({
+		items: 3,
+		loop: true,
+		autoplay: true,
+		centre: true,
+		margin: 20,
+		nav: false,
+		dots: false,
+		autoplayTimeout: 1000,
+		autoplayHoverPause: true,
+		smartSpeed: 2000,
+		responsive: {
+			0: {
+			items: 3
+			},
+			520: {
+			items: 3
+			},
+			768: {
+			items: 5
+			},
+			1200: {
+			items: 5
+			},
+			1400: {
+			items: 5
+			},
+			1600: {
+			items: 5
+			},
+	  	}
+  	});
+
 	//Counter Up	
 	$(".counter").counterUp({
 		delay: 10,

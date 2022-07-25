@@ -1866,7 +1866,15 @@
         height: 300px;
     }
 
-    /* About Us */
+    .process-number {
+        width: 25%;
+    }
+    
+    .process-heading {
+        width: 74%;
+    }
+
+    /* About Us Page */
 
     .about-item2 {
         margin-top: 20px;
@@ -1896,7 +1904,7 @@
         margin-bottom: 20px;
     }
 
-    /* Portfolio */
+    /* Portfolio Page */
 
     .evil-card-item {
         top: 885px !important;
@@ -1934,7 +1942,7 @@
         display: block;
     }
 
-    /* Service */
+    /* Service Page */
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -2921,7 +2929,11 @@
         height: 350px;
     }
 
-    /* About Us */
+    .process-number {
+        width: 10%;
+    }
+    
+    /* About Us Page */
 
     .about-item1 {
         height: 745px;
@@ -2947,7 +2959,7 @@
         margin-bottom: 20px;
     }
 
-    /* Portfolio */
+    /* Portfolio Page */
 
     .evil-card-item {
         top: 1049px !important;
@@ -2985,7 +2997,7 @@
         display: block;
     }
 
-    /* Service */
+    /* Services Page */
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -4067,7 +4079,11 @@
         height: 350px;
     }
 
-    /* About Us */
+    .process-number {
+        width: 20%;
+    }
+
+    /* About Us Page */
 
     .about-item1 {
         height: 493px;
@@ -4081,7 +4097,7 @@
         margin-top: 0px;
     }
 
-    /* Portfolio */
+    /* Portfolio Page */
 
     .evil-card-item {
         top: 563px !important;
@@ -4117,7 +4133,7 @@
         display: block;
     }
 
-    /* Service */
+    /* Services Page */
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -4978,7 +4994,11 @@
         height: 350px;
     }
 
-    /* About Us */
+    .process-number {
+        width: 25%;
+    }
+
+    /* About Us Page */
 
     .about-item1 {
         height: 409px;
@@ -4992,7 +5012,7 @@
         margin-top: 0px;
     }
 
-    /* Portfolio */
+    /* Portfolio Page */
 
     .evil-card-item {
         top: 574px !important;
@@ -5028,7 +5048,7 @@
         display: block;
     }
 
-    /* Service */
+    /* Services Page */
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -5859,7 +5879,11 @@
         height: 350px;
     }
 
-    /* About Us */
+    .process-number {
+        width: 25%;
+    }
+
+    /* About Us Page */
 
     .about-item1 {
         height: 409px;
@@ -5873,7 +5897,7 @@
         margin-top: 0px;
     }
 
-    /* Portfolio */
+    /* Portfolio Page */
 
      .evil-card-item {
         top: 574px !important;
@@ -5909,7 +5933,7 @@
         display: block;
     }
 
-    /* Service */
+    /* Services Page */
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -6837,7 +6861,11 @@
         height: 350px;
     }
 
-    /* About Us */
+    .process-number {
+        width: 25%;
+    }
+
+    /* About Us Page */
 
     .about-item1 {
         height: 409px;
@@ -6851,7 +6879,7 @@
         margin-top: 0px;
     }
 
-    /* Portfolio */
+    /* Portfolio Page */
 
     .evil-card-item {
         top: 574px !important;
@@ -6887,7 +6915,7 @@
         display: block;
     }
 
-    /* Service */
+    /* Services Page */
 
     .hero-heading-sec2 h3 {
         font-size: 30px;

@@ -73,6 +73,10 @@ button:focus {
 	outline: none!important;
 }
 
+span.circle {
+	display: none !important;
+}
+
 .fa-icon {
 	margin-left: 5px;
 	font-size: 12px;
@@ -10135,7 +10139,8 @@ input {
 /*  Tech  */
 
 .tech-logo {
-    width: 50px;
+    width: 50px !important;
+	margin: 0 auto;
 }
 
 /*  Testinomials  */
@@ -10208,6 +10213,30 @@ input {
 
 .fade.in {
 	opacity: 1;
+}
+
+.technlogies-stack .card {
+	background-color: #ECEFF0;
+}
+
+.technlogies-stack .card:hover, .technlogies-stack .card:hover h4, .technlogies-stack .card:hover h3 {
+	background-color: #5495bf;
+	color: #fff;
+}
+
+.technlogies-stack .card:hover img {
+	background-color: #fff;
+	padding: 5px;
+}
+
+.technlogies-stack h3 {
+	font-size: 24px;
+}
+
+.technlogies-stack h4 {
+	font-size: 15px;
+	text-align: center;
+	line-height: 20px;
 }
 
 .tab-body {
@@ -10415,18 +10444,30 @@ input {
 .process-number {
 	color: rgba(255,255,255,0.29);
 	font-size: 48px;
-    width: 25%;
+	float: Left;
 }
 
 .process-heading {
     color: #fff;
-    width: 74%;
     font-size: 20px;
+	float: Left;
 }
 
 .process-desc {
     color: #fff;
-    padding-top: 20px;
+    padding-top: 50px;
+}
+
+.why-choose-section h5 {
+	font-size: 18px;
+}
+
+.why-choose-section h6 {
+	color: #1E3847;
+}
+
+.why-choose-section img {
+	border-radius: 20px;
 }
 
 /* Career Page */
@@ -11316,6 +11357,11 @@ h3.common-heading {
 
 .key-desc {
 	color: #fff;
+}
+
+.hire-developers {
+	background-image: url(../images/services/why-choose-us-banner.webp);
+	background-size: cover;
 }
 
 .related-blog {
