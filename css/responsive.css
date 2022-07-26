@@ -1942,7 +1942,7 @@
         display: block;
     }
 
-    /* Service Page */
+    /* Services Page */
 
     .hero-heading-sec2 h3 {
         font-size: 30px;
@@ -2105,6 +2105,23 @@
 
     /* Game Development Page */
 
+    .custom-app-service-animation {
+        margin-top: -470px;
+        margin-left: 0px;
+    }
+
+    .service-name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .service-icon {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        padding-top: 15px;
+    }
+
     .hire-div img {
         margin-top: -215px;
         margin-left: 16px;
@@ -2136,8 +2153,13 @@
         text-align: center;
     }
 
-    .two-d-game img {
+    .twod-game-animation {
+        width: 150px;
         margin-top: 25px;
+    }
+
+    .twod-game-image {
+        margin-top: -125px;
     }
 
     .three-d-game h2, .three-d-game p {
@@ -2152,24 +2174,38 @@
         text-align: center;
     }
 
-    .ar-game-section img {
+    .ar-game-development-image {
         margin-top: 25px;
+    }
+    
+    .ar-game-development-animation {
+        margin-left: 200px;
+        width: 100px;
+        margin-top: -100px;
     }
 
     .vr-game-section h2, .vr-game-section p{
         text-align: center;
     }
 
-    .vr-game-section img {
-        margin-bottom: 25px;
+    .vr-game-development-animation {
+        margin-left: -20px;
+        margin-top: -305px;
+        width: 100px;
     }
 
-    .mr-game-section h2, .vr-game-section p {
+    .mr-game-section h2, .mr-game-section p {
         text-align: center;
     }
 
-    .mr-game-section img {
+    .mr-game-development-image {
         margin-top: 25px;
+    }
+
+    .mr-game-development-animation {
+        margin-top: -60px;
+        margin-left: 150px;
+        width: 150px;
     }
 
     .case-studies {
@@ -3194,6 +3230,18 @@
         text-align: center;
     }
 
+    .service-name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .service-icon {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        padding-top: 15px;
+    }
+
     .game-page img {
         display: block;
         margin: 0 auto;
@@ -3203,7 +3251,7 @@
         text-align: center;
     }
 
-    .hire-div img {
+    .hire-game-developer1 {
         margin-top: -55px;
         margin-left: 40px;
     }  
@@ -3234,8 +3282,12 @@
         text-align: center;
     }
 
-    .two-d-game img {
+    .twod-game-animation {
         margin-top: 25px;
+    }
+
+    .twod-game-image {
+        margin-top: -285px;
     }
 
     .three-d-game h2, .three-d-game p {
@@ -3245,6 +3297,10 @@
     .three-d-game img {
         margin-bottom: 25px;
     }
+    
+    .hire-game-developer2 {
+        margin-top: -125px;
+    }
 
     .ar-game-section h2, .ar-game-section p{
         text-align: center;
@@ -3252,6 +3308,10 @@
 
     .ar-game-section img {
         margin-top: 25px;
+    }
+
+    .ar-game-development-animation {
+        margin-left: 430px;
     }
 
     .vr-game-section h2, .vr-game-section p {
