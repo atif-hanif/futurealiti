@@ -10507,35 +10507,6 @@ input {
 	font-size: 48px;
 }
 
-/* Solutions */
-
-.listSec ul li {
-    list-style: none;
-    margin: 0 0 25px;
-    display: block;
-}
-
-.listSec ul li img {
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px 0 0;
-    max-width: 35px;
-}
-
-.listSec ul li p {
-    width: 80%;
-    display: inline-block;
-    margin: 0 0 0 15px;
-	text-align: left;
-}
-
-.listSec ul li p span {
-    font-size: 24px;
-    font-weight: bold;
-    display: block;
-    color: #000;
-}
-
 /*  About Us Page  */
 
 .about-heading {
@@ -12736,4 +12707,33 @@ h2.vero-about-heading {
 
 .home-store-web-backend {
 	background-color: #454545;
+}
+
+/* Solutions */
+
+.listSec ul li {
+    list-style: none;
+    margin: 0 0 25px;
+    display: block;
+}
+
+.listSec ul li img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0 0;
+    max-width: 35px;
+}
+
+.listSec ul li p {
+    width: 80%;
+    display: inline-block;
+    margin: 0 0 0 15px;
+	text-align: left;
+}
+
+.listSec ul li p span {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    color: #000;
 }
