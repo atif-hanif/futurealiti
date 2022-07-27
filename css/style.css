@@ -11258,10 +11258,10 @@ word-break: break-word;
 	padding-top: 20px;
 }
 
-h2.common-heading {
+/* h2.common-heading {
 	color: #1E3847;
 	text-align: left;
-}
+} */
 
 h3.common-heading {
 	color: #46a2b9;
@@ -11484,6 +11484,10 @@ h3.common-heading {
 	border-color: #263F4A;
 }
 
+.game-button a {
+	color: #5495bf !important;
+}
+
 /* Website Page */
 
 .website-page {
@@ -11493,6 +11497,10 @@ h3.common-heading {
 }
 
 /* Game Development Service */
+
+.services4 .btn {
+    text-align: left;
+}
 
 .game-page {
     background-image: url(../images/services/game-development/game-development-banner.webp);

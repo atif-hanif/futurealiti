@@ -2189,7 +2189,7 @@
     }
 
     .vr-game-development-animation {
-        margin-left: -20px;
+        margin-left: -10px;
         margin-top: -305px;
         width: 100px;
     }
@@ -2212,10 +2212,17 @@
         text-align: center;
     }
 
+    .game-development-img {
+        max-width: 173px;
+        height: 319px;
+    }
+
     .games-bottom-left {
         position: absolute;
         bottom: 8px;
-        left: 70px;
+        left: 95px;
+        display: flex;
+        justify-content: center;
     }
 
     .game-dev {
@@ -2237,6 +2244,7 @@
     .offline-game-section {
         text-align: center;
     }
+
 
     /* Case Studies */
 
@@ -3213,6 +3221,14 @@
         height: 1140px !important;
     }
 
+    .case-studies h2 {
+        text-align: center;
+    }
+
+    .case-studies-text, .case-studies-heading {
+        text-align: left;
+    }
+
     /* Game Development Page */
 
     .hero-heading-sec2 .p1 {
@@ -3253,11 +3269,15 @@
 
     .hire-game-developer1 {
         margin-top: -55px;
-        margin-left: 40px;
+        margin-left: 20px;
     }  
+
+    .hire-game-developer2 {
+        margin-left: 20px;
+    } 
     
     .game-get-button {
-        width: 100%;
+        width: 40%;
     }
 
     .game-benefits-section h2 {
@@ -3306,38 +3326,54 @@
         text-align: center;
     }
 
-    .ar-game-section img {
-        margin-top: 25px;
+    .ar-game-development-animation {
+        margin-left: 500px;
+        margin-top: -300px;
+        width: 200px;
     }
 
-    .ar-game-development-animation {
-        margin-left: 430px;
+    .ar-game-development-image {
+        margin-top: 25px;
     }
 
     .vr-game-section h2, .vr-game-section p {
         text-align: center;
     }
 
-    .vr-game-section img {
+    .vr-game-development-image {
         margin-bottom: 25px;
+    }
+
+    .vr-game-development-animation {
+        margin-left: -10px;
+        margin-top: -650px;
+        width: 200px;
+    }
+
+    .mr-game-development-image {
+        margin-top: 25px;
+    }
+
+    .mr-game-development-animation {
+        width: 300px;
+        margin-left: 430px;
     }
 
     .mr-game-section h2, .mr-game-section p {
         text-align: center;
     }
 
-    .mr-game-section img {
-        margin-top: 25px;
-    }
-
-    .case-studies h2, .case-studies p {
-        text-align: left;
+    .game-development-img {
+        max-width: 173px;
+        height: 319px;
     }
 
     .games-bottom-left {
         position: absolute;
         bottom: 8px;
-        left: 70px;
+        left: 40px;
+        display: flex;
+        justify-content: center;
     }
 
     .game-dev {
@@ -4376,6 +4412,61 @@
 
     .web-service {
         height: 1140px !important;
+    }
+
+    .case-studies-text, .case-studies-heading {
+        text-align: left;
+    }
+
+    /* Game Development Page */
+
+    .common-heading {
+        text-align: left;
+    }
+
+    .service-name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .service-icon {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        padding-top: 15px;
+    }
+
+    .game-get-button {
+        width: 70%;
+    }
+
+    .game-development-img {
+        max-width: 173px;
+        height: 319px;
+    }
+
+    .games-bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .game-dev {
+        margin-bottom: 15px;
+    }
+
+    .ar-game-development-animation {
+        margin-left: 300px;
+        margin-top: -230px;    
+        width: 200px;
+    }
+
+    .mr-game-development-animation {
+        width: 250px;
+        margin-left: 250px;
+        margin-top: -145px;
     }
 
     /* Case Study */
