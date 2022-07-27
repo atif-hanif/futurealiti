@@ -2958,6 +2958,16 @@
         text-align: center;
         padding-top: 10px;
     }
+
+    /* L-Drive */
+
+    .headingAboutSec, .serviceWeOffer p, .dealership p {
+        text-align: center;
+    }
+
+    .advantagesList {
+        padding: 20px 0px 0px 20px;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
@@ -4156,6 +4166,16 @@
         padding-top: 10px;
     }
 
+    /* L-Drive */
+
+    .headingAboutSec, .serviceWeOffer p, .dealership p {
+        text-align: center;
+    }
+
+    .advantagesList {
+        padding: 20px 0px 0px 20px;
+    }
+
 }
 
 @media only screen and (min-width:1024px) and (max-width:1439px) {
@@ -5129,6 +5149,16 @@
     .erp-dashboard-text {
         text-align: center;
         padding-top: 10px;
+    }
+
+    /* L-Drive */
+
+    .serviceWeOffer p {
+        text-align: center;
+    }
+
+    .advantagesList {
+        padding: 20px 0px 0px 20px;
     }
 }
 
