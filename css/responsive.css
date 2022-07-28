@@ -8269,3 +8269,27 @@
 		right: 9%;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.cardSmartTouch{
+		height: auto!important;
+	}
+}
+
+@media screen and (max-width: 1201px) {
+	.nextAboutSection{
+		margin-top: 0px!important;
+	}	
+}
+
+@media screen and (max-width: 767px) {
+	.cardSmartTouch{
+		height: auto!important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.textSideAbout{
+		margin-top: 0;
+	}
+}

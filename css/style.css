@@ -2395,10 +2395,10 @@ footer.ftshap:before {
 /* * breadcrumb * */
 
 .breadcrumb-area {
-	padding: 150px 0px 90px 0px;
-	position: relative;
-	overflow: hidden;
-	text-align: left;
+    padding: 250px 0px 250px 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
 }
 
 .breadcrumb-areav2 {
@@ -2452,9 +2452,9 @@ footer.ftshap:before {
 	/*  background: -moz-linear-gradient(-45deg, #5495bf 0%, #000000  100%);
 	background: -webkit-linear-gradient(-45deg, #5495bf 0%,#000000  100%);
 	background: linear-gradient(to right, #5495bf 0%,#000000 100%);  */
-	background: -moz-linear-gradient(-45deg, #234358 0%, #fff  100%);
+	/* background: -moz-linear-gradient(-45deg, #234358 0%, #fff  100%);
 	background: -webkit-linear-gradient(-45deg, #234358 0%,#fff  100%);
-	background: linear-gradient(to bottom, #234358 0%,#fff 100%);
+	background: linear-gradient(to bottom, #234358 0%,#fff 100%); */
 
 }
 
@@ -5910,7 +5910,7 @@ h6 {
 }
 
 p {
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 28px;
 }
 
@@ -10621,6 +10621,7 @@ input {
 
 .common-heading span {
 	color:#677CAA;
+	text-align: center;
 }
 
 .client-text {
@@ -10794,6 +10795,10 @@ word-break: break-word;
 }
 
 /* Services Page */
+
+.reviews-block p {
+	text-align: center;
+}
 
 .services-main-timeline {
 	padding: 20px 0;
@@ -11469,6 +11474,14 @@ h3.common-heading {
 
 /* Game Development Service */
 
+.service2 {
+	background-color: #101010;
+}
+
+.service2 .card {
+	background-color: transparent;
+}
+
 .services4 .btn {
     text-align: left;
 }
@@ -11541,6 +11554,10 @@ h3.common-heading {
 	border-color: transparent;
 	color: #1E3847;
 	font-weight: bold;
+}
+
+.service2 .nav-tabs .nav-link.active h5 {
+	color: #1E3847 !important;
 }
 
 .service2 .nav-tabs .nav-link:hover {
@@ -12739,7 +12756,7 @@ h2.vero-about-heading {
 }
 
 
-/* L-Drive */
+/* Smart Drive */
 
 .serviceWeOffer .drive-box {
 	width: 100%;
@@ -12950,7 +12967,7 @@ h2.vero-about-heading {
 	font-weight: 500; 
 }
   
-  .submitting {
+.submitting {
 	float: left;
 	width: 100%;
 	padding: 10px 0;
@@ -12992,3 +13009,167 @@ h2.vero-about-heading {
 	list-style-type: disc;
 	padding: 20px 0px 0px 30px;
 }
+
+/* Smart Touch */
+
+.touchMainBanner{
+	background-image: url(../images/solutions/smart-touch/main-banner.webp);
+	background-size: cover;
+}
+
+.smart-touch-portfolio {
+	height: 1070px !important;
+}
+
+.smart-touch-img-9 {
+	left: 60% !important;
+    top: 760px !important;
+}
+
+.smart-touch-img {
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 44%;
+	transform: translate(-40%, -50%);
+}
+
+.touchBannerHeading{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 900;
+	line-height: 80px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+}
+
+.touchBannerSubHeading{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 60px;
+}
+
+.smart-touch-desc{	
+	background-color: #161719;
+}
+
+.cardSmartTouch{
+	border: none;
+}
+
+.largeImageAboutSec{
+	margin-bottom: -50px!important;
+}
+
+.nextAboutSection{
+	margin-top: -100px!important;
+}
+
+.plan-heading{
+	text-transform: uppercase;
+}
+
+.cardSmartTouchText{
+	background-color: #161719;
+	border-radius: 20px;
+	padding: 25px 20px;
+	height: 335px;
+}
+
+.cardSmartTouchTextHeading{
+	font-style: normal;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 39px;
+	color: #FFFFFF;
+
+}
+
+.cardSmartTouchTextDescription{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 41px;
+	color: #FFFFFF;
+}
+
+.mySlides {
+	display: none;
+}
+  
+.cursor {
+	cursor: pointer;
+}
+  
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+  
+.numbertext {
+	color: #000;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+  
+.caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+  
+.allComingImages:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+  
+.NextComingImages {
+	float: left;
+	width: 16.66%;
+}
+  
+.demo {
+	opacity: 0.6;
+}
+  
+.active, .demo:hover {
+	opacity: 1;
+}
+
+.demo{
+	width: 100%;
+    margin: 10px;
+    height: auto;
+}
+
