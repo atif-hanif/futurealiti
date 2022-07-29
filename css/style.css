@@ -6486,9 +6486,9 @@ html .pb140 {
 }
 
 .niwax-btn2 {
-    background: -moz-linear-gradient(to right, #FF5652, #FF974F, #FF5752, #FFC323);
+    /* background: -moz-linear-gradient(to right, #FF5652, #FF974F, #FF5752, #FFC323);
     background: -webkit-linear-gradient(to right, #FF5652, #FF974F, #FF5752, #FFC323);
-    background-image: linear-gradient(to right, #FF5652, #FF974F, #FF5752, #FFC323);
+    background-image: linear-gradient(to right, #FF5652, #FF974F, #FF5752, #FFC323); */
     box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
 }
 
@@ -8674,7 +8674,7 @@ a {
 }
 
 .niwax-btn2 {
-    background-image: linear-gradient(to right, #ff5652, #ff974f, #ff5752, #ffc323);
+    background-image: linear-gradient(to right, #ff5652, #cd0e00, #ff5752, #ffc323);
     box-shadow: 0 10px 15px 0px rgb(175 0 87 / 20%);
 }
 
