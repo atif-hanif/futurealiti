@@ -2959,7 +2959,7 @@
         padding-top: 10px;
     }
 
-    /* L-Drive */
+    /* Smart Drive */
 
     .headingAboutSec, .serviceWeOffer p, .dealership p {
         text-align: center;
@@ -2967,6 +2967,16 @@
 
     .advantagesList {
         padding: 20px 0px 0px 20px;
+    }
+
+    /* Smart Touch */
+
+    .smart-touch-desc h3, .smart-touch-desc p {
+        text-align: center;
+    }
+
+    .plan-heading, .plan-text {
+        text-align: center;
     }
 }
 
@@ -4166,7 +4176,7 @@
         padding-top: 10px;
     }
 
-    /* L-Drive */
+    /* Smart Drive */
 
     .headingAboutSec, .serviceWeOffer p, .dealership p {
         text-align: center;
@@ -4174,6 +4184,16 @@
 
     .advantagesList {
         padding: 20px 0px 0px 20px;
+    }
+
+    /* Smart Touch */
+
+    .smart-touch-desc h3, .smart-touch-desc p {
+        text-align: center;
+    }
+
+    .plan-heading, .plan-text {
+        text-align: center;
     }
 
 }
@@ -5151,7 +5171,7 @@
         padding-top: 10px;
     }
 
-    /* L-Drive */
+    /* Smart Drive */
 
     .serviceWeOffer p {
         text-align: center;
@@ -5159,6 +5179,21 @@
 
     .advantagesList {
         padding: 20px 0px 0px 20px;
+    }
+
+    /* Smart Touch */
+
+    .smart-touch-portfolio {
+        height: 1070px !important;
+    }
+
+    .smart-touch-card {
+        height: 335px;
+    }
+
+    .smart-touch-img-9 {
+        left: 60% !important;
+        top: 760px !important;
     }
 }
 
