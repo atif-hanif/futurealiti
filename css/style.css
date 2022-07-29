@@ -6426,7 +6426,8 @@ html .pb140 {
     background: linear-gradient(to right, #5495bf 0%, #000000 100%);
     -webkit-box-shadow: 0 10px 15px 0px rgba(56, 0, 189, .2);
     box-shadow: 0 10px 15px 0px rgba(56, 0, 189, .2);
-    background-image: linear-gradient(to right, #FF5652, #FF974F, #FF5752, #FFC323);
+    /* background-image: linear-gradient(to right, #FF5652, #FF974F, #FF5752, #FFC323); */
+    background-image: linear-gradient(to right, #cd0e00, #FF974F, #FF5752, #cd0e00);
     background: -moz-linear-gradient(to right, #FF5652, #FF974F, #FF5752, #FFC323);
     background: -webkit-linear-gradient(to right, #FF5652, #FF974F, #FF5752, #FFC323);
 }
