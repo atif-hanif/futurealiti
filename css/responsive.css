@@ -8328,3 +8328,9 @@
 		margin-top: 0;
 	}
 }
+
+@media screen and (min-width: 767px) {
+	.comparison-div .comparison-slider .overlay {
+	    display: block;
+	}
+}

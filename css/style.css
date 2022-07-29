@@ -13153,3 +13153,188 @@ h2.vero-about-heading {
     height: auto;
 }
 
+/* Smart Room */
+
+.smart-room-banner{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../images/solutions/smart-room/smart-room-banner.webp);
+	background-size: cover;
+}
+
+.smart-room-heading {
+	color: #142432;
+	text-transform: capitalize;
+}
+
+.smart-room-text {
+	color: #142432;
+}
+
+.smart-room-btn {
+	background: #142432;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+	border: 1px solid #142432;
+  	color: white;
+  	padding: 16px 80px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+.smart-room-btn:hover {
+	background: white;
+	border: 1px solid #142432;
+	color:  #142432;
+	transition-duration: 0.4s;
+}
+
+.smart-room-about-heading {
+	text-transform: capitalize;
+}
+
+.smart-room-about-text {
+	letter-spacing: 0.45px;
+}
+
+.smart-room-video {
+	background: linear-gradient(269.84deg, #000000 54.46%, #3C7494 154.18%);
+}
+
+/* compersion slider  */
+
+.container .inner {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 20px 30px;
+	background-color: #EEE;
+}
+  
+.comparison-div {
+	position: relative;
+	width: 100%;
+	margin: 20px 0;
+	background-color: white;
+}
+
+.comparison-div .comparison-slider {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	border: 5px white solid;
+	box-sizing: border-box;
+}
+
+.comparison-div .comparison-slider > img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.comparison-div .comparison-slider .overlay {
+	display: none;
+	position: absolute;
+	width: 250px;
+	bottom: 20px;
+	right: 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+	box-sizing: border-box;
+	color: #DDD;
+	text-align: right;
+}
+
+
+.comparison-div .comparison-slider .resize {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+}
+
+.comparison-div .comparison-slider .resize > img {
+	display: block;
+}
+
+.comparison-div .comparison-slider .resize .overlay {
+	right: auto;
+	left: 20px;
+	text-align: left;
+}
+
+.comparison-div .comparison-slider .divider {
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.2);
+	left: 50%;
+	top: 0;
+	bottom: 0;
+	margin-left: -1px;
+	cursor: ew-resize;
+}
+
+.comparison-div .comparison-slider .divider:before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: -9px;
+	top: 50%;
+	margin-top: -10px;
+	background-color: white;
+	transform: rotate(45deg);
+	transition: all 0.1s ease-in-out;
+}
+
+.comparison-div .comparison-slider .divider:after {
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: -5px;
+	top: 50%;
+	margin-top: -6px;
+	background-color: white;
+	transform: rotate(45deg);
+	transition: all 0.1s ease-in-out;
+}
+
+.comparison-div .comparison-slider .divider.draggable:before {
+	width: 30px;
+	height: 30px;
+	left: -14px;
+	margin-top: -15px;
+}
+
+.comparison-div .comparison-slider .divider.draggable:after {
+	width: 20px;
+	height: 20px;
+	left: -9px;
+	margin-top: -10px;
+	background-color: #555;
+}
+
+.comparison-div .caption {
+	position: relative;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.smart-room-customize {
+	background: linear-gradient(269.84deg, #000000 54.46%, #3C7494 154.18%);
+}
+
+.smart-room-virtual {
+	background: linear-gradient(269.84deg, #000000 54.46%, #3C7494 154.18%);
+}
