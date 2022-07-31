@@ -2096,12 +2096,6 @@
 	}	
 }
 
-@media screen and (max-width: 767px) {
-	.cardSmartTouch{
-		height: auto!important;
-	}
-}
-
 @media screen and (max-width: 991px) {
 	.textSideAbout{
 		margin-top: 0;
@@ -2111,6 +2105,42 @@
 @media screen and (min-width: 767px) {
 	.comparison-div .comparison-slider .overlay {
 	    display: block;
+	}
+
+    .floor-plan-comparison-div .floor-plan-comparison-slider .overlay {
+		display: block;
+	}
+}
+
+@media (max-width: 1200px) {
+	.exterior-gallery {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+	}
+}
+
+@media (max-width: 1000px) {
+	.exterior-gallery {
+	 -moz-column-count:    3;
+	 -webkit-column-count: 3;
+	 column-count:         3;
+	}
+}
+
+@media (max-width: 800px) {
+	.exterior-gallery {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+	}
+}
+
+@media (max-width: 400px) {
+	.exterior-gallery {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
 	}
 }
 
@@ -2508,6 +2538,32 @@
         text-align: center;
     }
 
+    /* 2D 3D Floor Plan */
+
+    .floor-plan-benefits p {
+        text-align: center;
+    }
+
+
+    /* 3D Exterior Rendering */
+
+    .threed-exterior-properties .icons-cards {
+        width: 90%;
+    }
+
+    .threed-exterior-visualizations h3 {
+        text-align: center;
+    }
+
+    /* 3D Interior Rendering */
+
+    .threed-interior-properties .icons-cards {
+        width: 90%;
+    }
+
+    .threed-interior-visualizations h3 {
+        text-align: center;
+    }
 
     /* Case Studies */
 
@@ -3256,6 +3312,7 @@
     .smart-room-about-heading, .smart-room-about-text {
         text-align: center;
     }
+
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
@@ -3691,6 +3748,26 @@
     }
 
     .offline-game-section {
+        text-align: center;
+    }
+
+    /* 3D Exterior Rendering */
+
+    .threed-exterior-properties .icons-cards {
+        width: 44%;
+    }
+
+    .threed-exterior-visualizations h3 {
+        text-align: center;
+    }
+
+    /* 3D Interior Rendering */
+
+    .threed-interior-properties .icons-cards {
+        width: 44%;
+    }
+
+    .threed-interior-visualizations h3 {
         text-align: center;
     }
 
