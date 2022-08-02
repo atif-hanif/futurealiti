@@ -2113,7 +2113,7 @@
 }
 
 @media (max-width: 1200px) {
-	.exterior-gallery {
+	.exterior-gallery, .interior-gallery {
         -moz-column-count: 4;
         -webkit-column-count: 4;
         column-count: 4;
@@ -2121,7 +2121,7 @@
 }
 
 @media (max-width: 1000px) {
-	.exterior-gallery {
+	.exterior-gallery, .interior-gallery {
 	 -moz-column-count:    3;
 	 -webkit-column-count: 3;
 	 column-count:         3;
@@ -2129,7 +2129,7 @@
 }
 
 @media (max-width: 800px) {
-	.exterior-gallery {
+	.exterior-gallery, .interior-gallery {
         -moz-column-count: 2;
         -webkit-column-count: 2;
         column-count: 2;
@@ -2137,7 +2137,7 @@
 }
 
 @media (max-width: 400px) {
-	.exterior-gallery {
+	.exterior-gallery, .interior-gallery {
         -moz-column-count: 1;
         -webkit-column-count: 1;
         column-count: 1;
@@ -3310,6 +3310,12 @@
     }
 
     .smart-room-about-heading, .smart-room-about-text {
+        text-align: center;
+    }
+
+    /* Virtual Reality Real Estate */
+
+    .vr-real-estate-buisness h3, .vr-real-estate-buisness p {
         text-align: center;
     }
 
