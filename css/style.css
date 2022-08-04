@@ -12748,16 +12748,18 @@ ul.service_box li h5 {
 
 .solution-img {
     margin-top: -320px;
+    transform: rotateY(45deg);
+	
 }
 
 .solution-images {
     width: 70%;
     margin-left: 45px;
-    /* -webkit-animation: bounce 3s infinite ease-in-out;
+    -webkit-animation: bounce 3s infinite ease-in-out;
     -o-animation: bounce 3s infinite ease-in-out;
     -ms-animation: bounce 3s infinite ease-in-out;
     -moz-animation: bounce 3s infinite ease-in-out;
-    animation: bounce 3s infinite ease-in-out; */
+    animation: bounce 3s infinite ease-in-out;
 }
 
 /*   */
