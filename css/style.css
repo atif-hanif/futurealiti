@@ -125,6 +125,11 @@ span.circle {
     margin-bottom: 0px;
 }
 
+.common-heading span {
+    color: #677CAA;
+    text-align: left;
+}
+
 .inner-heading h2 {
     margin-bottom: 30px;
 }
@@ -12067,7 +12072,7 @@ h3.common-heading {
     border-radius: 5px;
     padding: 5px 0px;
     text-align: center;
-    width: 45%;
+    width: 30%;
 }
 
 .game-benefits-section {
@@ -12659,6 +12664,12 @@ ul.service_box li h5 {
 
 /* Augumented Reality Development */
 
+.ar-app-page {
+    background-image: url(../images/services/ar-development/ar-main-banner.webp);
+    background-size: cover;
+    padding: 50px 0px;
+}
+
 .btn-custom {
     background: -moz-linear-gradient(left, #A71B5C 0%, #013358 100%);
     background: -webkit-linear-gradient(left, #A71B5C 0%, #013358 100%);
@@ -12673,14 +12684,13 @@ ul.service_box li h5 {
     background: linear-gradient(to right, #A71B5C 0%, #013358 100%);
 }
 
-.custom-ar-service {
+.ar-services .card {
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0);
     background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: linear-gradient(to right, #0069A2 0%, #003358 100%);
-}
-
-.ar-services .card {
-    height: 100%;
 }
 
 .ar-solutions {
@@ -12691,7 +12701,7 @@ ul.service_box li h5 {
     background: -moz-linear-gradient(bottom, #00FFF3 0%, #003358 100%);
     background: -webkit-linear-gradient(bottom, #00FFF3 0%, #003358 100%);
     background: linear-gradient(to bottom, #00FFF3 0%, #003358 100%);
-    border: 1px solid transparent !important;
+    border: 1px solid #00FFF3 !important;
     border-radius: 0px;
 }
 
@@ -12702,11 +12712,54 @@ ul.service_box li h5 {
     border: 1px solid transparent !important;
 }
 
+.ar-service-img {
+    float: left;
+}
+
+.ar-services-heading {
+    float: left;
+    padding-top: 13px;
+    padding-left: 5px;
+}
+
+.ar-services-text {
+    padding-top: 4rem;
+}
+
+.ar-solution-img {
+    float: left;
+}
+
+.ar-solution-name {
+    float: left;
+    padding-top: 13px;
+    padding-left: 8px;
+    font-weight: 500;
+}
+
+.ar-solution-text {
+    padding-top: 5rem;
+}
+
 .ar-service-box {
     flex: 1 1 auto;
     padding: 1rem 1rem;
 }
-  
+
+.solution-img {
+    margin-top: -320px;
+}
+
+.solution-images {
+    width: 70%;
+    margin-left: 45px;
+    /* -webkit-animation: bounce 3s infinite ease-in-out;
+    -o-animation: bounce 3s infinite ease-in-out;
+    -ms-animation: bounce 3s infinite ease-in-out;
+    -moz-animation: bounce 3s infinite ease-in-out;
+    animation: bounce 3s infinite ease-in-out; */
+}
+
 /*   */
 
 .contact-main {
@@ -13980,6 +14033,10 @@ h2.vero-about-heading {
     height: 250px !important;
 }
 
+.ar-center-img {
+    width: 100%;
+}
+
 /* Virtual Reality in Real Estate */
 
 .vr-real-estate-banner {
@@ -14001,4 +14058,8 @@ h2.vero-about-heading {
 
 .vr-real-estate-video {
     background: linear-gradient(269.84deg, #000000 54.46%, #3C7494 154.18%);
+}
+
+.vr-center-img {
+    width: 100%;
 }
