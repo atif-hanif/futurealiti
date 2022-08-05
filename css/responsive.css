@@ -2544,7 +2544,6 @@
         text-align: center;
     }
 
-
     /* 3D Exterior Rendering */
 
     .threed-exterior-properties .icons-cards {
@@ -2563,6 +2562,38 @@
 
     .threed-interior-visualizations h3 {
         text-align: center;
+    }
+
+    /* AR Development */
+
+    .ar-about h2, .ar-about h4, .ar-about p {
+        text-align: center;
+    }
+
+    .btn-custom {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .ar-services-heading {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .solution-img {
+        margin-top: -230px;
+    }
+
+    .solution-images {
+        padding-top: 75px;
+        width: 50%;
+        margin-left: 60px;
+    }
+
+    .ar-solution-name {
+        width: 100%;
+        padding-left: 0px;
+        text-align: left;
     }
 
     /* Case Studies */
@@ -3777,6 +3808,38 @@
         text-align: center;
     }
 
+    /* AR Development */
+
+    .ar-about h2, .ar-about h4, .ar-about p {
+        text-align: center;
+    }
+
+    .btn-custom {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .ar-services-heading {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .solution-img {
+        margin-top: -295px;
+    }
+
+    .solution-images {
+        padding-top: 75px;
+        width: 40%;
+        margin-left: 160px;
+    }
+
+    .ar-solution-name {
+        width: 100%;
+        padding-left: 0px;
+        text-align: left;
+    }
+
     /* Case Study */
 
     /* Mobile App */
@@ -4874,6 +4937,29 @@
         width: 250px;
         margin-left: 250px;
         margin-top: -145px;
+    }
+
+    /* AR Development */
+
+    .ar-services-heading {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .solution-img {
+        margin-top: -275px;
+    }
+
+    .solution-images {
+        padding-top: 75px;
+        width: 60%;
+        margin-left: 60px;
+    }
+
+    .ar-solution-name {
+        width: 100%;
+        padding-left: 0px;
+        text-align: left;
     }
 
     /* Case Study */
