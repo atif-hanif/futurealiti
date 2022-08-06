@@ -12764,6 +12764,44 @@ ul.service_box li h5 {
     animation: bounce 3s infinite ease-in-out;
 }
 
+/* Virtual Reality Development */
+
+.vr-business-item .card {
+    height: 100%;
+}
+
+.vr-business-slider .owl-nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.vr-business-slider .owl-prev {
+    font-size: 20px !important;
+    color: #089674 !important;
+    margin-right: 30px;
+}
+
+.vr-business-slider .owl-next {
+    font-size: 20px !important;
+    color: #089674 !important;
+}
+
+.vr-services {
+    background: -moz-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: -webkit-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: linear-gradient(to right, #A71B5C 0%, #013358 100%);
+}
+
+.vr-services .card {
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0);
+    background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
 /*   */
 
 .contact-main {
