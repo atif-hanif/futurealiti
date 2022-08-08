@@ -116,7 +116,6 @@ span.circle {
 
 .common-heading {
     padding: 0;
-    text-align: center;
     position: relative;
     z-index: 10;
 }
@@ -9941,7 +9940,7 @@ div.custom-nav>ul>li:hover .nx-dropdown {
     -webkit-transform-origin: 50% -50px;
     -ms-transform-origin: 50% -50px;
     transform-origin: 50% -50px;
-    width: 97vw;
+    width: 100vw;
     right: 0;
     left: 0;
     margin: 0 auto;
@@ -11110,7 +11109,7 @@ input {
 
 /* Services Page */
 
-.reviews-block p {
+.reviews-block .testimonial-card .t-text p {
     text-align: center;
 }
 
@@ -11408,6 +11407,23 @@ input {
 
 .services-main-timeline .services-timeline:nth-child(5n+9) .services-title {
     color: #0071BD;
+}
+
+.equipment-slider .owl-nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.equipment-slider .owl-next {
+    font-size: 20px !important;
+    color: #089674 !important;
+}
+
+.equipment-slider .owl-prev {
+    font-size: 20px !important;
+    color: #089674 !important;
+    margin-right: 30px;
 }
 
 
@@ -11786,7 +11802,7 @@ h3.common-heading {
 }
 
 
-/* Website Page */
+/* Website Development Service */
 
 .website-page {
     background-image: url(../images/services/website-development/website-banner.webp);
@@ -12077,7 +12093,6 @@ h3.common-heading {
     border-radius: 5px;
     padding: 5px 0px;
     text-align: center;
-    width: 30%;
 }
 
 .game-benefits-section {
@@ -12243,7 +12258,6 @@ h3.common-heading {
         -webkit-transform: rotateY(-360deg);
     }
 }
-
 
 /* Timeline */
 
@@ -12490,6 +12504,9 @@ ul.service_box li h5 {
     width: 125px;
 }
 
+.why-choose-section span {
+    text-align: center;
+}
 
 /* 2D 3D Floor Plan */
 
@@ -12521,7 +12538,6 @@ ul.service_box li h5 {
 .floor-plan-benefits .card {
     height: 100%;
 }
-
 
 /* 3D Exterior Rendering */
 

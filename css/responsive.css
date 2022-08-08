@@ -2149,14 +2149,14 @@
     /* Home Page */
 
     .award-item {
-        width: 250px;
-        height: 300px;
+        width: 90%;
+        height: 100%;
         margin-left: auto;
         margin-right: auto;
     }
     
     .award-item div div div {
-        height: 300px;
+        height: 100%;
     }
 
     .process-number {
@@ -2396,6 +2396,25 @@
         padding-bottom: 10px;
     }
 
+    /* Mobile App Development Page */
+
+    .case-study-icon-img {
+        margin: 0 auto;
+    }
+
+    .case-study-text {
+        text-align: center;
+    }
+
+    .case-study-link {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .custom-app-text {
+        text-align: center;
+    }
+
     /* Game Development Page */
 
     .custom-app-service-animation {
@@ -2597,25 +2616,6 @@
     }
 
     /* Case Studies */
-
-    /* Mobile App */
-
-    .case-study-icon-img {
-        margin: 0 auto;
-    }
-
-    .case-study-text {
-        text-align: center;
-    }
-
-    .case-study-link {
-        margin: 0 auto;
-        display: block;
-    }
-
-    .custom-app-text {
-        text-align: center;
-    }
 
     /* Placea Case Study */
 
@@ -3357,12 +3357,12 @@
     /* Home Page */
 
     .award-item {
-        width: 250px;
-        height: 350px;
+        width: 90%;
+        height: 100%;
     }
     
     .award-item div div div {
-        height: 350px;
+        height: 100%;
     }
 
     .process-number {
@@ -3448,8 +3448,9 @@
         margin: 20px 0;
     }
 
-    h2.common-heading {
+    .common-heading {
         padding-bottom: 10px;
+        text-align: center;
     }
 
     .custom-app-dev {
@@ -3593,6 +3594,29 @@
         padding-bottom: 10px;
     }
 
+    .case-studies h2 {
+        text-align: center;
+    }
+
+    .case-studies-text, .case-studies-heading {
+        text-align: left;
+    }
+
+     /* Mobile App Development Page */
+
+    .app-hero-bnr {
+        margin-top: 70px;
+    }
+
+    .case-study-heading {
+        text-align: left !important;
+    }
+
+    .case-study-link {
+        margin: 0 auto;
+        display: block;
+    }
+
     .mobile-service-img-4 {
         position: absolute !important;
         left: 66.5278% !important;
@@ -3603,6 +3627,8 @@
         height: 750px !important;
     }
 
+    /* Web Development Page */
+
     .web-service-img-4 {
         position: absolute !important;
         left: 66.5278% !important;
@@ -3611,14 +3637,6 @@
 
     .web-service {
         height: 1140px !important;
-    }
-
-    .case-studies h2 {
-        text-align: center;
-    }
-
-    .case-studies-text, .case-studies-heading {
-        text-align: left;
     }
 
     /* Game Development Page */
@@ -3841,21 +3859,6 @@
     }
 
     /* Case Study */
-
-    /* Mobile App */
-
-    .app-hero-bnr {
-        margin-top: 70px;
-    }
-
-    .case-study-heading {
-        text-align: left !important;
-    }
-
-    .case-study-link {
-        margin: 0 auto;
-        display: block;
-    }
 
     /* Placea Case Study */
 
@@ -4636,17 +4639,25 @@
 
     /* Home Page */
 
+    .badges-section span {
+        text-align: center;
+    }
+
     .award-item {
-        width: 350px;
-        height: 350px;
+        width: 80%;
+        height: 100%;
     }
     
     .award-item div div div {
-        height: 350px;
+        height: 100%;
     }
 
     .process-number {
         width: 20%;
+    }
+
+    .reviews-block span {
+        text-align: center;
     }
 
     /* About Us Page */
@@ -4714,8 +4725,9 @@
         margin: 20px 0;
     }
 
-    h2.common-heading {
+    .common-heading {
         padding-bottom: 10px;
+        text-align: left;
     }
 
     .type h2, .services h2, .case-studies h2, .process h2, .techonology-used h2,
@@ -4864,6 +4876,8 @@
         height: 425px;
     }
 
+    /* Mobile App Development Page */
+
     .mobile-service-img-4 {
         position: absolute !important;
         left: 60% !important;
@@ -4873,6 +4887,8 @@
     .mobile-app-service {
         height: 750px !important;
     }
+
+    /* Web Development Page */
 
     .web-service-img-4 {
         position: absolute !important;
@@ -4889,10 +4905,6 @@
     }
 
     /* Game Development Page */
-
-    .common-heading {
-        text-align: left;
-    }
 
     .service-name {
         text-align: center;
@@ -5654,17 +5666,25 @@
 
     /* Home Page */
 
+    .badges-section span {
+        text-align: center;
+    }
+
     .award-item {
-        width: 250px;
-        height: 350px;
+        width: 90%;
+        height: 100%;
     }
     
     .award-item div div div {
-        height: 350px;
+        height: 100%;
     }
 
     .process-number {
         width: 25%;
+    }
+
+    .reviews-block span {
+        text-align: center;
     }
 
     /* About Us Page */
@@ -5736,8 +5756,9 @@
         margin: 20px 0;
     }
 
-    h2.common-heading {
+    .common-heading {
         padding-bottom: 10px;
+        text-align: left;
     }
 
     .type h2, .services h2, .case-studies h2,  .process h2, .techonology-used h2,
@@ -5871,6 +5892,8 @@
         padding-bottom: 20px;
     }
 
+    /* Web Development Page */
+
     .mobile-service-img-4 {
         position: absolute !important;
         left: 60% !important;
@@ -5886,6 +5909,14 @@
     .web-service {
         height: 1140px !important;
     }
+
+    /* Game Development Page */
+
+    .game-get-button {
+        width: 70%;
+    }
+
+    /* Case Study */
 
     /* Mobile App */
 
@@ -6554,17 +6585,25 @@
 
     /* Home Page */
 
+    .badges-section span {
+        text-align: center;
+    }
+
     .award-item {
-        width: 250px;
-        height: 350px;
+        width: 90%;
+        height: 100%;
     }
     
     .award-item div div div {
-        height: 350px;
+        height: 100%;
     }
 
     .process-number {
         width: 25%;
+    }
+
+    .reviews-block span {
+        text-align: center;
     }
 
     /* About Us Page */
@@ -6636,8 +6675,9 @@
         margin: 20px 0;
     }
 
-    h2.common-heading {
+    .common-heading {
         padding-bottom: 10px;
+        text-align: left;
     }
 
     .type h2, .services h2, .case-studies h2,  .process h2, .techonology-used h2,
@@ -6781,6 +6821,8 @@
         padding-bottom: 20px;
     }
 
+    /* Web Development Page */
+
     .mobile-service-img-4 {
         position: absolute !important;
         left: 60% !important;
@@ -6797,6 +6839,8 @@
         height: 1140px !important;
     }
 
+    /* Mobile App */
+
     .mobile-app-service {
         height: 800px !important;
     }
@@ -6804,6 +6848,14 @@
     .case-study-heading {
         text-align: left !important;
     }
+
+    /* Game Development Page */
+
+    .game-get-button {
+        width: 70%;
+    }
+
+    /* Case Study */
 
     /* Placea Case Study */
 
@@ -7551,17 +7603,25 @@
 
      /* Home Page */
 
-     .award-item {
-        width: 250px;
-        height: 350px;
+    .badges-section span {
+        text-align: center;
+    }
+
+    .award-item {
+        width: 90%;
+        height: 100%;
     }
     
     .award-item div div div {
-        height: 350px;
+        height: 100%;
     }
 
     .process-number {
         width: 25%;
+    }
+
+    .reviews-block span {
+        text-align: center;
     }
 
     /* About Us Page */
@@ -7633,13 +7693,13 @@
         margin: 20px 0;
     }
 
-    h2.common-heading {
+    .common-heading {
         padding-bottom: 10px;
+        text-align: left;
     }
 
-    .type h2, .services h2, .process h2, .techonology-used h2, .global-market h2,
-    .deliver h2, .badges-section h2, .faq-section h2, .reviews-block h2,
-    .brand-logo-slider h2, .deliveries-section h2, .case-studies h2 {
+    .type h2, .services h2, .process h2, .techonology-used h2, .global-market h2, .deliver h2, .badges-section h2,
+    .faq-section h2, .reviews-block h2, .brand-logo-slider h2, .deliveries-section h2, .common-heading {
         text-align: center;
     }
 
@@ -7786,6 +7846,40 @@
         padding-bottom: 20px;
     }
 
+    .portfolio-filter .pf-item:hover .pf-text {
+        bottom: 20%;
+    }
+
+    .reviews-block div.common-heading p {
+        text-align: center;
+    }
+
+    h2.case-studies-heading {
+        text-align: left;
+    }
+
+    /* Web Development Page */
+
+    .web-service-img-4 {
+        position: absolute !important;
+        left: 60% !important;
+        top: 760px !important;
+    }
+
+    .web-service {
+        height: 1140px !important;
+    }
+
+    /* Mobile App Development Page */
+
+    .mobile-app-service {
+        height: 800px !important;
+    }
+
+    .case-study-heading {
+        text-align: left !important;
+    }
+
     .mobile-service-img-4 {
         position: absolute !important;
         left: 60% !important;
@@ -7797,19 +7891,13 @@
         height: 770px !important;
     }
 
-    .portfolio-filter .pf-item:hover .pf-text {
-        bottom: 20%;
+    /* Game Development Page */
+
+    .game-get-button {
+        width: 70%;
     }
 
-    .web-service-img-4 {
-        position: absolute !important;
-        left: 60% !important;
-        top: 760px !important;
-    }
-
-    .web-service {
-        height: 1140px !important;
-    }
+    /* Case Study */
 
     /* Placea Case Study */
 
