@@ -11330,23 +11330,23 @@ input {
 }
 
 .services-main-timeline .services-timeline:nth-child(5n+6):before {
-    border-color: #EA3C14;
+    border-color: #9933ff;
 }
 
 .services-main-timeline .services-timeline:nth-child(5n+6):after {
-    border-color: #EF5720;
+    border-color: #6600ff;
 }
 
 .services-main-timeline .services-timeline:nth-child(5n+6) .services-timeline-icon {
-    color: #EA3C14;
+    color: #9933ff;
 }
 
 .services-main-timeline .services-timeline:nth-child(5n+6) .services-timeline-year {
-    color: #EA3C14;
+    color: #9933ff;
 }
 
 .services-main-timeline .services-timeline:nth-child(5n+6) .services-title {
-    color: #EA3C14;
+    color: #9933ff;
 }
 
 .services-main-timeline .services-timeline:nth-child(5n+7):before {
@@ -12831,6 +12831,23 @@ ul.service_box li h5 {
     height: 100%;
     border-radius: 20px;
     border: 1px solid rgba(0,0,0,0);
+    background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
+/* Mixed Reality Development */
+
+.mr-services {
+    background: -moz-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: -webkit-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: linear-gradient(to right, #A71B5C 0%, #013358 100%);
+}
+
+.mr-services .card {
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
     background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: linear-gradient(to right, #0069A2 0%, #003358 100%);

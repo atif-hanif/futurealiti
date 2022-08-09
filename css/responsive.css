@@ -3858,6 +3858,12 @@
         text-align: left;
     }
 
+    /* Virtual Reality Development */
+
+    .vr-business-item .card {
+        height: 438px;
+    }
+
     /* Case Study */
 
     /* Placea Case Study */
@@ -4974,6 +4980,12 @@
         text-align: left;
     }
 
+    /* Virtual Reality Development */
+
+    .vr-business-item .card {
+        height: 324px;
+    }
+
     /* Case Study */
 
     /* Mobile App */
@@ -5916,6 +5928,12 @@
         width: 70%;
     }
 
+    /* Virtual Reality Development */
+
+    .vr-business-item .card {
+        height: 238px;
+    }
+
     /* Case Study */
 
     /* Mobile App */
@@ -6855,6 +6873,12 @@
         width: 70%;
     }
 
+    /* Virtual Reality Development */
+
+    .vr-business-item .card {
+        height: 238px;
+    }
+
     /* Case Study */
 
     /* Placea Case Study */
@@ -7695,7 +7719,6 @@
 
     .common-heading {
         padding-bottom: 10px;
-        text-align: left;
     }
 
     .type h2, .services h2, .process h2, .techonology-used h2, .global-market h2, .deliver h2, .badges-section h2,
@@ -7895,6 +7918,12 @@
 
     .game-get-button {
         width: 70%;
+    }
+
+    /* Virtual Reality Development */
+
+    .vr-business-item .card {
+        height: 240px;
     }
 
     /* Case Study */
