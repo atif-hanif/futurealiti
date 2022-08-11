@@ -11426,7 +11426,6 @@ input {
     margin-right: 30px;
 }
 
-
 /*  Mobile App Page  */
 
 .mobile-app-page {
@@ -11801,7 +11800,6 @@ h3.common-heading {
     color: #5495bf !important;
 }
 
-
 /* Website Development Service */
 
 .website-page {
@@ -11809,7 +11807,6 @@ h3.common-heading {
     background-size: cover;
     padding: 50px 0px;
 }
-
 
 /* Game Development Service */
 
@@ -11872,7 +11869,6 @@ h3.common-heading {
     bottom: 8px;
     left: 16px;
 }
-
 
 /* .service2 img {
 	position: absolute;
@@ -12062,7 +12058,7 @@ h3.common-heading {
 }
 
 .game-benefits-section {
-    background: url(../images/services/game-benefits.png) no-repeat;
+    background: url(../images/services/game-development/mobile-game-benefits.webp) no-repeat;
     background-size: cover;
 }
 
@@ -12093,11 +12089,6 @@ h3.common-heading {
     border-radius: 5px;
     padding: 5px 0px;
     text-align: center;
-}
-
-.game-benefits-section {
-    background: url(../images/services/game-development/mobile-game-benefits.webp) no-repeat;
-    background-size: cover;
 }
 
 .build-game-btn {
@@ -12155,7 +12146,6 @@ h3.common-heading {
 .game-development-icon {
     padding: 0px 5px 0px 15px;
 }
-
 
 /* .game-development-img {
 	max-width: 173px;
@@ -12616,7 +12606,6 @@ ul.service_box li h5 {
     background: linear-gradient(269.84deg, #000000 54.46%, #3C7494 154.18%);
 }
 
-
 /* 3D Interior Rendering */
 
 .threed-interior-rendering-banner .banner-video {
@@ -12693,7 +12682,6 @@ ul.service_box li h5 {
 .threed-exterior-rendering {
     background: linear-gradient(269.84deg, #000000 54.46%, #3C7494 154.18%);
 }
-
 
 /* Augumented Reality Development */
 
@@ -12797,7 +12785,6 @@ ul.service_box li h5 {
     animation: bounce 3s infinite ease-in-out;
 }
 
-
 /* Virtual Reality Development */
 
 .vr-business-item .card {
@@ -12851,6 +12838,28 @@ ul.service_box li h5 {
     background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
+/* Metaverse Development */
+
+.metaverse-services {
+    background: -moz-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: -webkit-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: linear-gradient(to right, #A71B5C 0%, #013358 100%);
+}
+
+.metaverse-services .card {
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
+.metaverse-benefits-section {
+    background: url(../images/services/game-development/mobile-game-benefits.webp) no-repeat;
+    background-size: cover;
 }
 
 /*   */
