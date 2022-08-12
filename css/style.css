@@ -12892,6 +12892,60 @@ ul.service_box li h5 {
     background: linear-gradient(to right, #0069A2 0%, #003358 100%);
 }
 
+.metaverse-game .card {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
+.metaverse-development {
+    background: -moz-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: -webkit-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: linear-gradient(to right, #A71B5C 0%, #013358 100%);
+}
+
+.metaverse-development .card {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
+/* Animation */
+
+.animation-services {
+    background: -moz-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: -webkit-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: linear-gradient(to right, #A71B5C 0%, #013358 100%);
+}
+
+.animation-services .card {
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
+.animation-project {
+    background: -moz-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: -webkit-linear-gradient(left, #A71B5C 0%, #013358 100%);
+    background: linear-gradient(to right, #A71B5C 0%, #013358 100%);
+}
+
+.animation-project .card {
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
+    background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
 /*   */
 
 .contact-main {
