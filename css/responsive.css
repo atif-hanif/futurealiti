@@ -1941,6 +1941,7 @@
 }
 
 @media only screen and (max-width: 767px) {
+
 	.main-timeline:before {
 		margin: 0;
 		left: 7px;
@@ -2394,6 +2395,10 @@
     .deliver h3 {
         text-align: center;
         padding-bottom: 10px;
+    }
+
+    .cards {
+        height: 120px;
     }
 
     /* Mobile App Development Page */
@@ -3600,6 +3605,10 @@
 
     .case-studies-text, .case-studies-heading {
         text-align: left;
+    }
+
+    .cards {
+        height: 300px;
     }
 
      /* Mobile App Development Page */
@@ -4882,6 +4891,10 @@
         height: 425px;
     }
 
+    .cards {
+        height: 350px;
+    }
+
     /* Mobile App Development Page */
 
     .mobile-service-img-4 {
@@ -5904,6 +5917,10 @@
         padding-bottom: 20px;
     }
 
+    .cards {
+        height: 500px;
+    }
+
     /* Web Development Page */
 
     .mobile-service-img-4 {
@@ -6837,6 +6854,10 @@
 
     .deliveries-section h2 {
         padding-bottom: 20px;
+    }
+
+    .cards {
+        height: 500px;
     }
 
     /* Web Development Page */
@@ -7879,6 +7900,10 @@
 
     h2.case-studies-heading {
         text-align: left;
+    }
+
+    .cards {
+        height: 540px;
     }
 
     /* Web Development Page */

@@ -11426,6 +11426,48 @@ input {
     margin-right: 30px;
 }
 
+/* Slider */
+
+input[type=radio] {
+    display: none;
+}
+
+.img-card {
+    position: absolute;
+    width: 60%;
+    /* height: 100%; */
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+}
+
+.img-slider {
+    width: 100%;
+    /* max-width: 800px;
+    max-height: 600px; */
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    /* position: relative; */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.img-card img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 /*  Mobile App Page  */
 
 .mobile-app-page {
@@ -12785,6 +12827,32 @@ ul.service_box li h5 {
     animation: bounce 3s infinite ease-in-out;
 }
 
+#ar-item-1:checked ~ .cards #ar-song-3, #ar-item-2:checked ~ .cards #ar-song-4, #ar-item-3:checked ~ .cards #ar-song-5,
+#ar-item-4:checked ~ .cards #ar-song-1, #ar-item-5:checked ~ .cards #ar-song-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#ar-item-1:checked ~ .cards #ar-song-2, #ar-item-2:checked ~ .cards #ar-song-3, #ar-item-3:checked ~ .cards #ar-song-4,
+#ar-item-4:checked ~ .cards #ar-song-5, #ar-item-5:checked ~ .cards #ar-song-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#ar-item-1:checked ~ .cards #ar-song-1, #ar-item-2:checked ~ .cards #ar-song-2, #ar-item-3:checked ~ .cards #ar-song-3,
+#ar-item-4:checked ~ .cards #ar-song-4, #ar-item-5:checked ~ .cards #ar-song-5 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+#ar-item-1:checked ~ .cards #ar-song-1 img, #ar-item-2:checked ~ .cards #ar-song-2 img, #ar-item-3:checked ~ .cards #ar-song-3 img,
+#ar-item-4:checked ~ .cards #ar-song-4 img, #ar-item-5:checked ~ .cards #ar-song-5 img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
 /* Virtual Reality Development */
 
 .vr-business-item .card {
@@ -12823,6 +12891,36 @@ ul.service_box li h5 {
     background: linear-gradient(to right, #0069A2 0%, #003358 100%);
 }
 
+#vr-item-1:checked ~ .cards #vr-song-3, #vr-item-2:checked ~ .cards #vr-song-4, #vr-item-3:checked ~ .cards #vr-song-5,
+#vr-item-4:checked ~ .cards #vr-song-6, #vr-item-5:checked ~ .cards #vr-song-7, #vr-item-6:checked ~ .cards #vr-song-8,
+#vr-item-7:checked ~ .cards #vr-song-1, #vr-item-8:checked ~ .cards #vr-song-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#vr-item-1:checked ~ .cards #vr-song-2, #vr-item-2:checked ~ .cards #vr-song-3, #vr-item-3:checked ~ .cards #vr-song-4,
+#vr-item-4:checked ~ .cards #vr-song-5, #vr-item-5:checked ~ .cards #vr-song-6, #vr-item-6:checked ~ .cards #vr-song-7,
+#vr-item-7:checked ~ .cards #vr-song-8, #vr-item-8:checked ~ .cards #vr-song-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#vr-item-1:checked ~ .cards #vr-song-1, #vr-item-2:checked ~ .cards #vr-song-2, #vr-item-3:checked ~ .cards #vr-song-3,
+#vr-item-4:checked ~ .cards #vr-song-4, #vr-item-5:checked ~ .cards #vr-song-5, #vr-item-6:checked ~ .cards #vr-song-6,
+#vr-item-7:checked ~ .cards #vr-song-7, #vr-item-8:checked ~ .cards #vr-song-8 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+#vr-item-1:checked ~ .cards #vr-song-1 img, #vr-item-2:checked ~ .cards #vr-song-2 img, #vr-item-3:checked ~ .cards #vr-song-3 img,
+#vr-item-4:checked ~ .cards #vr-song-4 img, #vr-item-5:checked ~ .cards #vr-song-5 img, #vr-item-6:checked ~ .cards #vr-song-6 img,
+#vr-item-7:checked ~ .cards #vr-song-7 img, #vr-item-8:checked ~ .cards #vr-song-8 img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
 /* Mixed Reality Development */
 
 .mr-services {
@@ -12838,6 +12936,64 @@ ul.service_box li h5 {
     background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
+#mr-item-1:checked ~ .cards #mr-song-3, #mr-item-2:checked ~ .cards #mr-song-4, #mr-item-3:checked ~ .cards #mr-song-5,
+#mr-item-4:checked ~ .cards #mr-song-6, #mr-item-5:checked ~ .cards #mr-song-7, #mr-item-6:checked ~ .cards #mr-song-1,
+#mr-item-7:checked ~ .cards #mr-song-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#mr-item-1:checked ~ .cards #mr-song-2, #mr-item-2:checked ~ .cards #mr-song-3, #mr-item-3:checked ~ .cards #mr-song-4,
+#mr-item-4:checked ~ .cards #mr-song-5, #mr-item-5:checked ~ .cards #mr-song-6, #mr-item-6:checked ~ .cards #mr-song-7,
+#mr-item-7:checked ~ .cards #mr-song-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#mr-item-1:checked ~ .cards #mr-song-1, #mr-item-2:checked ~ .cards #mr-song-2, #mr-item-3:checked ~ .cards #mr-song-3,
+#mr-item-4:checked ~ .cards #mr-song-4, #mr-item-5:checked ~ .cards #mr-song-5, #mr-item-6:checked ~ .cards #mr-song-6,
+#mr-item-7:checked ~ .cards #mr-song-7 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+#mr-item-1:checked ~ .cards #mr-song-1 img, #mr-item-2:checked ~ .cards #mr-song-2 img, #mr-item-3:checked ~ .cards #mr-song-3 img,
+#mr-item-4:checked ~ .cards #mr-song-4 img, #mr-item-5:checked ~ .cards #mr-song-5 img, #mr-item-6:checked ~ .cards #mr-song-6 img,
+#mr-item-7:checked ~ .cards #mr-song-7 img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+/* Extended Reality Development */
+
+#xr-item-1:checked ~ .cards #xr-song-3, #xr-item-2:checked ~ .cards #xr-song-4,
+#xr-item-3:checked ~ .cards #xr-song-1, #xr-item-4:checked ~ .cards #xr-song-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#xr-item-1:checked ~ .cards #xr-song-2, #xr-item-2:checked ~ .cards #xr-song-3,
+#xr-item-3:checked ~ .cards #xr-song-4, #xr-item-4:checked ~ .cards #xr-song-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#xr-item-1:checked ~ .cards #xr-song-1, #xr-item-2:checked ~ .cards #xr-song-2,
+#xr-item-3:checked ~ .cards #xr-song-3, #xr-item-4:checked ~ .cards #xr-song-4 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+#xr-item-1:checked ~ .cards #xr-song-1 img, #xr-item-2:checked ~ .cards #xr-song-2 img,
+#xr-item-3:checked ~ .cards #xr-song-3 img, #xr-item-4:checked ~ .cards #xr-song-4 img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
 }
 
 /* Metaverse Development */
@@ -12912,6 +13068,28 @@ ul.service_box li h5 {
     background: -moz-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: -webkit-linear-gradient(left, #0069A2 0%, #003358 100%);
     background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+}
+
+.benefits-tab {
+    width: 50%;
+}
+
+.benefits-tab .nav-item {
+    margin: 10px 0;
+}
+
+.benefits-tab .nav-link.active, .benefits-tab .show>.nav-link {
+    color: #fff;
+    background: linear-gradient(to right, #0069A2 0%, #003358 100%);
+    border-radius: 0px;
+}
+
+.benefits-tab .nav-item.show .nav-link, .benefits-tab .nav-link.active {
+    border-color: transparent;
+}
+
+.benefits-tab .nav-link {
+    color: #fff;
 }
 
 /* Animation */
