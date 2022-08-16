@@ -713,7 +713,7 @@ div.custom-nav>ul>li:hover .nx-dropdown {
     width: 100%;
     height: auto;
     float: left;
-    padding: 0;
+    padding: 10px;
     margin-right: 0;
     margin-bottom: 9px;
 }
@@ -731,11 +731,20 @@ div.custom-nav>ul>li:hover .nx-dropdown {
     margin-bottom: 0px;
 }
 
+/* .sub-menu-column ul li:hover {
+    background-color: #cd0e00;
+    padding: 13px 10px;
+}
+
+.sub-menu-column ul li:hover div {
+    color: #fff;
+} */
+
 .sub-menu-section {
     box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 0.04);
     border-top: 2px solid #f3f3f3;
     width: 100%;
-    padding: 40px 0 0;
+    padding: 40px 0;
     display: inline-block;
     background-color: #ffffff;
     margin-top: 4px;
@@ -10085,13 +10094,28 @@ input {
     font-size: 1.5rem;
 }
 
+.megamenu ul li {
+    padding: 10px 0px;
+    margin: 7px 0px;
+}
+
+.megamenu ul li:hover {
+    background-color: #cd0e00;
+    padding: 13px 10px;
+}
+
+.megamenu ul li:hover div {
+    color: #fff;
+}
+
 .megamenu-heading {
     margin: 0 0 1.1em;
     font-weight: 600;
 }
 
 .menu-item-description {
-    line-height: 30px;
+    line-height: 15px;
+    font-size: 14px;
 }
 
 .menu-item-title {
@@ -10100,7 +10124,8 @@ input {
     margin-bottom: 6px;
     color: #000;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 15px;
+    font-size: 15px;
 }
 
 .group-dark {
@@ -10120,6 +10145,26 @@ input {
     width: 100%;
 }
 
+.header-process-title {
+    color: #0d6efd;
+    line-height: 30px;
+}
+
+.header-process-description {
+    line-height: 30px;
+}
+
+.header-process li {
+    padding: 5px 0px;
+}
+
+.submenu li:hover {
+    background-color: #cd0e00;
+}
+
+.submenu li:hover a {
+    color: #fff;
+}
 
 /* Start Home */
 
