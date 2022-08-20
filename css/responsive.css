@@ -2145,6 +2145,27 @@
 	}
 }
 
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
 @media only screen and (max-width:767px) {
 
     /* Home Page */
