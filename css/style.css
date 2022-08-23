@@ -12829,7 +12829,7 @@ ul.service_box li h5 {
     border: 1px solid transparent !important;
 }
 
-.ar-service-img {
+/* .ar-service-img {
     float: left;
 }
 
@@ -12841,9 +12841,9 @@ ul.service_box li h5 {
 
 .ar-services-text {
     padding-top: 4rem;
-}
+} */
 
-.ar-solution-img {
+/* .ar-solution-img {
     float: left;
 }
 
@@ -12856,7 +12856,7 @@ ul.service_box li h5 {
 
 .ar-solution-text {
     padding-top: 5rem;
-}
+} */
 
 .ar-service-box {
     flex: 1 1 auto;
@@ -13020,6 +13020,11 @@ ul.service_box li h5 {
 
 /* Extended Reality Development */
 
+.xr-benefits-section {
+    background: url(../images/services/game-development/mobile-game-benefits.webp) no-repeat;
+    background-size: cover;
+}
+
 #xr-item-1:checked ~ .cards #xr-song-3, #xr-item-2:checked ~ .cards #xr-song-4,
 #xr-item-3:checked ~ .cards #xr-song-1, #xr-item-4:checked ~ .cards #xr-song-2 {
     transform: translatex(-40%) scale(0.8);
@@ -13121,7 +13126,7 @@ ul.service_box li h5 {
 }
 
 .benefits-tab {
-    width: 50%;
+    width: 80%;
 }
 
 .benefits-tab .nav-item {
@@ -13143,6 +13148,11 @@ ul.service_box li h5 {
 }
 
 /* Animation */
+
+.animation-benefits-section {
+    background: url(../images/services/game-development/mobile-game-benefits.webp) no-repeat;
+    background-size: cover;
+}
 
 .animation-services {
     background: -moz-linear-gradient(left, #A71B5C 0%, #013358 100%);
