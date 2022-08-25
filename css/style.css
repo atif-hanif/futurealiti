@@ -11892,6 +11892,14 @@ h3.common-heading {
     color: #5495bf !important;
 }
 
+.reviews-block .ptag p {
+    text-align: center;
+}
+
+.hire-developers .card .card-body .card {
+    height: 100%;
+}
+
 /* Website Development Service */
 
 .website-page {
