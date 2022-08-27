@@ -23,7 +23,6 @@ File Description: Main JS file of the template*/
 		closeActiveLevel: true,
 		insertBack: true
 	};
-
 	// Nav call plugin
 	var Nav = $main_nav.hcOffcanvasNav(defaultOptions);
 	//Sticky Header 
@@ -34,12 +33,10 @@ File Description: Main JS file of the template*/
 			$(".navfix").removeClass("sticky");
 		}
 	}
-
 	$(function() {
 		$(window).scroll(updateScroll);
 		updateScroll();
 	});
-
 	//Header mega menu
 	var $nav = $('li.sbmenu');
 	$nav.hover(function() {
@@ -47,14 +44,12 @@ File Description: Main JS file of the template*/
 	}, function() {
 		$(this).removeClass('hover');
 	});
-
 	//Video magnificPopup
 	$('.video-link').magnificPopup({
 		type: 'iframe',
 		mainClass: 'mfp-fade',
 		removalDelay: 160,
 	});
-
 	//Owl-Carousel - Home hero card
 	var owl = $('.service-card-prb');
 	owl.owlCarousel({
@@ -88,7 +83,6 @@ File Description: Main JS file of the template*/
 			},
 		}
 	});
-
 	//Owl-Carousel - Home testimonial
 	var owl = $('.testimonial-card-a');
 	owl.owlCarousel({
@@ -113,7 +107,6 @@ File Description: Main JS file of the template*/
 			}
 		}
 	});
-
 	//Owl-Carousel - video testimonial
 	var owl = $('.video-testimonials');
 	owl.owlCarousel({
@@ -139,7 +132,6 @@ File Description: Main JS file of the template*/
 			}
 		}
 	});
-
 	//Owl-Carousel - case-study
 	var owl = $('.project-screens');
 	owl.owlCarousel({
@@ -173,7 +165,6 @@ File Description: Main JS file of the template*/
 			},
 		}
 	});
-
 	//Owl-Carousel -portfolio slide 
 	var owl = $('.porto-slide');
 	owl.owlCarousel({
@@ -211,7 +202,6 @@ File Description: Main JS file of the template*/
 			},
 		}
 	});
-
 	//Owl-Carousel -single slide
 	var owl = $('.single-slide');
 	owl.owlCarousel({
@@ -249,7 +239,6 @@ File Description: Main JS file of the template*/
 			},
 		}
 	});
-
 	//Owl-Carousel - app page bages-slider
 	var owl = $('.bages-slider');
 	owl.owlCarousel({
@@ -284,7 +273,6 @@ File Description: Main JS file of the template*/
 			},
 		}
 	});
-
 	//Owl-Carousel - app page bages-slider
 	var owl = $('.logo-weworkfor');
 	owl.owlCarousel({
@@ -318,7 +306,6 @@ File Description: Main JS file of the template*/
 			},
 		}
 	});
-
 	//  //Owl-Carousel - Home testimonial
 	var owl = $('.testimonial-card-b');
 	owl.owlCarousel({
@@ -345,7 +332,6 @@ File Description: Main JS file of the template*/
 			}
 		}
 	});
-
 	//full card portfolio
 	var owl = $('.zoomowl');
 	owl.owlCarousel({
@@ -386,7 +372,6 @@ File Description: Main JS file of the template*/
 			}
 		}
 	});
-
 	//Owl-Carousel - case-slider
 	$('.case-slider').owlCarousel({
 		items: 4,
@@ -420,7 +405,6 @@ File Description: Main JS file of the template*/
 			},
 		}
 	});
-
 	//Owl-Carousel - awards-slider
 	$('.awards-slider').owlCarousel({
 		items: 4,
@@ -430,34 +414,33 @@ File Description: Main JS file of the template*/
 		margin: 10,
 		nav: true,
 		dots: false,
-		navText : ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		autoplayTimeout: 3000,
 		autoplayHoverPause: true,
 		smartSpeed: 2000,
 		responsiveClass: true,
 		rewind: true,
 		responsive: {
-		  0: {
-			items: 1
-		  },
-		  520: {
-			items: 1
-		  },
-		  768: {
-			items: 2.5
-		  },
-		  1200: {
-			items: 4.5
-		  },
-		  1400: {
-			items: 4.5
-		  },
-		  1600: {
-			items: 5.5
-		  },
+			0: {
+				items: 1
+			},
+			520: {
+				items: 1
+			},
+			768: {
+				items: 2.5
+			},
+			1200: {
+				items: 4.5
+			},
+			1400: {
+				items: 4.5
+			},
+			1600: {
+				items: 5.5
+			},
 		}
 	});
-
 	//Owl-Carousel - placea-research-slider
 	$('.placea-research-slider').owlCarousel({
 		items: 4,
@@ -467,39 +450,38 @@ File Description: Main JS file of the template*/
 		margin: 10,
 		nav: true,
 		dots: false,
-		navText : ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		autoplayTimeout: 3000,
 		autoplayHoverPause: true,
 		smartSpeed: 2000,
 		responsiveClass: true,
 		rewind: true,
 		responsive: {
-		  0: {
-			items: 1
-		  },
-		  520: {
-			items: 1
-		  },
-		  768: {
-			items: 2.5
-		  },
-		  1200: {
-			items: 4.5
-		  },
-		  1400: {
-			items: 4.5
-		  },
-		  1600: {
-			items: 5.5
-		  },
+			0: {
+				items: 1
+			},
+			520: {
+				items: 1
+			},
+			768: {
+				items: 2.5
+			},
+			1200: {
+				items: 4.5
+			},
+			1400: {
+				items: 4.5
+			},
+			1600: {
+				items: 5.5
+			},
 		}
 	});
-
 	//Owl-Carousel - niwax-review-slider  
 	$('.niwax-review-slider').owlCarousel({
 		items: 3,
 		loop: true,
-		center:false,
+		center: false,
 		autoplay: true,
 		margin: 20,
 		nav: false,
@@ -509,31 +491,30 @@ File Description: Main JS file of the template*/
 		smartSpeed: 2000,
 		responsive: {
 			0: {
-			items: 1,      	
+				items: 1,
 			},
 			520: {
-			items: 1
+				items: 1
 			},
 			768: {
-			items: 2
+				items: 2
 			},
 			1200: {
-			items: 2
+				items: 2
 			},
 			1400: {
-			items: 3
+				items: 3
 			},
 			1600: {
-			items: 3
+				items: 3
 			},
 		}
 	});
-
 	//Owl-Carousel - testinomial-slider
 	$('.testinomials-slider').owlCarousel({
-	  	items: 4,
-	  	loop: true,
-	  	autoplay: true,
+		items: 4,
+		loop: true,
+		autoplay: true,
 		centre: true,
 		margin: 20,
 		nav: false,
@@ -543,26 +524,25 @@ File Description: Main JS file of the template*/
 		smartSpeed: 2000,
 		responsive: {
 			0: {
-			items: 1
+				items: 1
 			},
 			520: {
-			items: 1
+				items: 1
 			},
 			768: {
-			items: 1
+				items: 1
 			},
 			1200: {
-			items: 1
+				items: 1
 			},
 			1400: {
-			items: 1
+				items: 1
 			},
 			1600: {
-			items: 1
+				items: 1
 			},
 		}
 	});
-
 	//Owl-Carousel - about-slider
 	$('.about-slider').owlCarousel({
 		items: 4,
@@ -577,26 +557,25 @@ File Description: Main JS file of the template*/
 		smartSpeed: 2000,
 		responsive: {
 			0: {
-			items: 1
+				items: 1
 			},
 			520: {
-			items: 1
+				items: 1
 			},
 			768: {
-			items: 1
+				items: 1
 			},
 			1200: {
-			items: 1
+				items: 1
 			},
 			1400: {
-			items: 1
+				items: 1
 			},
 			1600: {
-			items: 1
+				items: 1
 			},
-	  	}
-  	});
-
+		}
+	});
 	//Owl-Carousel - clients-slider
 	$('.clients-slider').owlCarousel({
 		items: 3,
@@ -611,26 +590,25 @@ File Description: Main JS file of the template*/
 		smartSpeed: 2000,
 		responsive: {
 			0: {
-			items: 1
+				items: 1
 			},
 			520: {
-			items: 1
+				items: 1
 			},
 			768: {
-			items: 1
+				items: 1
 			},
 			1200: {
-			items: 1
+				items: 1
 			},
 			1400: {
-			items: 1
+				items: 1
 			},
 			1600: {
-			items: 1
+				items: 1
 			},
-	  	}
-  	});
-
+		}
+	});
 	//Owl-Carousel - clients-reviews
 	$('.clients-reviews').owlCarousel({
 		items: 3,
@@ -645,26 +623,25 @@ File Description: Main JS file of the template*/
 		smartSpeed: 2000,
 		responsive: {
 			0: {
-			items: 1
+				items: 1
 			},
 			520: {
-			items: 1
+				items: 1
 			},
 			768: {
-			items: 1
+				items: 1
 			},
 			1200: {
-			items: 1
+				items: 1
 			},
 			1400: {
-			items: 1
+				items: 1
 			},
 			1600: {
-			items: 1
+				items: 1
 			},
-	  	}
-  	});
-
+		}
+	});
 	//Owl-Carousel - tech-slider1
 	$('.tech-slider1').owlCarousel({
 		items: 3,
@@ -679,26 +656,25 @@ File Description: Main JS file of the template*/
 		smartSpeed: 2000,
 		responsive: {
 			0: {
-			items: 3
+				items: 3
 			},
 			520: {
-			items: 3
+				items: 3
 			},
 			768: {
-			items: 6
+				items: 6
 			},
 			1200: {
-			items: 6
+				items: 6
 			},
 			1400: {
-			items: 6
+				items: 6
 			},
 			1600: {
-			items: 6
+				items: 6
 			},
-	  	}
-  	});
-
+		}
+	});
 	//Owl-Carousel - tech-slider2
 	$('.tech-slider2').owlCarousel({
 		items: 3,
@@ -713,26 +689,25 @@ File Description: Main JS file of the template*/
 		smartSpeed: 2000,
 		responsive: {
 			0: {
-			items: 3
+				items: 3
 			},
 			520: {
-			items: 3
+				items: 3
 			},
 			768: {
-			items: 3
+				items: 3
 			},
 			1200: {
-			items: 3
+				items: 3
 			},
 			1400: {
-			items: 3
+				items: 3
 			},
 			1600: {
-			items: 3
+				items: 3
 			},
-			}
+		}
 	});
-
 	//Owl-Carousel - tech-slider3
 	$('.tech-slider3').owlCarousel({
 		items: 3,
@@ -747,26 +722,25 @@ File Description: Main JS file of the template*/
 		smartSpeed: 2000,
 		responsive: {
 			0: {
-			items: 3
+				items: 3
 			},
 			520: {
-			items: 3
+				items: 3
 			},
 			768: {
-			items: 5
+				items: 5
 			},
 			1200: {
-			items: 5
+				items: 5
 			},
 			1400: {
-			items: 5
+				items: 5
 			},
 			1600: {
-			items: 5
+				items: 5
 			},
-	  	}
-  	});
-
+		}
+	});
 	//Owl-Carousel - vr-business-slider
 	$('.vr-business-slider').owlCarousel({
 		items: 4,
@@ -776,34 +750,33 @@ File Description: Main JS file of the template*/
 		margin: 10,
 		nav: true,
 		dots: false,
-		navText : ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		autoplayTimeout: 3000,
 		autoplayHoverPause: true,
 		smartSpeed: 2000,
 		responsiveClass: true,
 		rewind: true,
 		responsive: {
-		  0: {
-			items: 1
-		  },
-		  520: {
-			items: 1
-		  },
-		  768: {
-			items: 3
-		  },
-		  1200: {
-			items: 3
-		  },
-		  1400: {
-			items: 3
-		  },
-		  1600: {
-			items: 3
-		  },
+			0: {
+				items: 1
+			},
+			520: {
+				items: 1
+			},
+			768: {
+				items: 3
+			},
+			1200: {
+				items: 3
+			},
+			1400: {
+				items: 3
+			},
+			1600: {
+				items: 3
+			},
 		}
 	});
-
 	//Owl-Carousel - equipment-slider
 	$('.equipment-slider').owlCarousel({
 		items: 5,
@@ -813,40 +786,38 @@ File Description: Main JS file of the template*/
 		margin: 10,
 		nav: true,
 		dots: false,
-		navText : ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+		navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
 		autoplayTimeout: 2000,
 		autoplayHoverPause: true,
 		smartSpeed: 2000,
 		responsiveClass: true,
 		rewind: true,
 		responsive: {
-		  0: {
-			items: 1
-		  },
-		  520: {
-			items: 1
-		  },
-		  768: {
-			items: 2
-		  },
-		  1200: {
-			items: 3
-		  },
-		  1400: {
-			items: 3
-		  },
-		  1600: {
-			items: 3
-		  },
+			0: {
+				items: 1
+			},
+			520: {
+				items: 1
+			},
+			768: {
+				items: 2
+			},
+			1200: {
+				items: 3
+			},
+			1400: {
+				items: 3
+			},
+			1600: {
+				items: 3
+			},
 		}
 	});
-
 	//Counter Up	
 	$(".counter").counterUp({
 		delay: 10,
 		time: 2500,
 	});
-
 	//Scroll to top
 	$.scrollUp({
 		animation: 'fade',
@@ -855,7 +826,6 @@ File Description: Main JS file of the template*/
 			type: 'background'
 		}
 	});
-
 	//Portfolio Filter		
 	$('.card-list').imagesLoaded(function() {
 		// init Isotope
@@ -867,7 +837,6 @@ File Description: Main JS file of the template*/
 				columnWidth: '.grid-sizer'
 			}
 		});
-
 		// filter items on button click
 		$('.filter-menu').on('click', 'li', function() {
 			var filterValue = $(this).attr('data-filter');
@@ -876,21 +845,18 @@ File Description: Main JS file of the template*/
 			});
 		});
 	});
-
 	//for menu active class
 	$('.filter-menu li').on('click', function(event) {
 		$(this).siblings('.is-checked').removeClass('is-checked');
 		$(this).addClass('is-checked');
 		event.preventDefault();
 	});
-
 	// background image
 	$("[data-background]").each(function() {
 			$(this).css("background-image", "url(" + $(this).attr("data-background") + ")")
 		})
 		//end of page
 })(jQuery);
-
 $(document).on('click', '#headingtab a', function(e) {
 	otherTabs = $(this).attr('data-bs-secondary').split(',');
 	for(i = 0; i < otherTabs.length; i++) {
@@ -899,29 +865,24 @@ $(document).on('click', '#headingtab a', function(e) {
 		nav.find('a').tab('show');
 	}
 });
-
 // Isotppe Filter
 $(".filter-controls li").on('click', function() {
 	var filterData = $(this).attr("data-filter");
-
 	$(".portfolio-filter, .gallery-filter").isotope({
 		filter: filterData,
 	});
-
 	$(".filter-controls li").removeClass('active');
 	$(this).addClass('active');
 });
-
 $(".portfolio-filter, .gallery-filter").isotope({
 	itemSelector: '.pf-item, .gf-item',
 	percentPosition: true,
 	masonry: {
-	// use element for option
-	columnWidth: '.pf-item, .gf-item',
-	horizontalOrder: true,
-  }
+		// use element for option
+		columnWidth: '.pf-item, .gf-item',
+		horizontalOrder: true,
+	}
 });
-
 //Masonary
 $('.portfolio-details-pic').masonry({
 	itemSelector: '.pdp-item',
