@@ -14141,7 +14141,6 @@ h2.vero-about-heading {
     height: auto;
 }
 
-
 /* Smart Room */
 
 .smart-room-banner {
@@ -14190,7 +14189,6 @@ h2.vero-about-heading {
 .smart-room-video {
     background: linear-gradient(269.84deg, #000000 54.46%, #3C7494 154.18%);
 }
-
 
 /* compersion slider  */
 
@@ -14328,7 +14326,6 @@ h2.vero-about-heading {
     background: linear-gradient(269.84deg, #000000 54.46%, #3C7494 154.18%);
 }
 
-
 /* Augumented Reality in Real Estate */
 
 .ar-real-estate-banner {
@@ -14430,7 +14427,6 @@ h2.vero-about-heading {
     width: 100%;
 }
 
-
 /* Virtual Reality in Real Estate */
 
 .vr-real-estate-banner {
@@ -14461,7 +14457,7 @@ h2.vero-about-heading {
 /* Character Design */
 
 .character-design-banner {
-    background-image: url(../images/services/character-design/character-design-services.jpg);
+    background-image: url(../images/services/character-design/character-design-banner.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -14484,6 +14480,7 @@ h2.vero-about-heading {
     transition: .3s all ease;
     position: relative;
     cursor: pointer;
+    width: 225px;
 }
 
 .service-box-icon {
@@ -14928,4 +14925,37 @@ h2.vero-about-heading {
 
 .slick-next {
 	right: 30px;
+}
+
+/* Environment Design */
+
+.environment-design-banner {
+    background-image: url(../images/services/environment-design/environment-design-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Concept Art Design */
+
+.concept-art-banner {
+    background-image: url(../images/services/concept-art/concept-art-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+/* UI/UX Design */
+
+.ui-ux-banner {
+    background-image: url(../images/services/concept-art/concept-art-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
