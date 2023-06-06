@@ -13259,8 +13259,7 @@ ul.list li {
 }
 
 
-/* Case Study */
-
+/* Start Case Study */
 
 /*  Evil Witch Case Study  */
 
@@ -13317,7 +13316,6 @@ ul.list li {
     background-size: cover;
 }
 
-
 /*  Placea Case Study  */
 
 .placea-case-study {
@@ -13357,7 +13355,6 @@ ul.list li {
     background-size: cover;
 }
 
-
 /*  Vero Case Study  */
 
 .vero-case-study {
@@ -13379,7 +13376,6 @@ h2.vero-about-heading {
     color: #fa7e01;
 }
 
-
 /*  Toys Sort Case Study  */
 
 .toys-sort-case-study {
@@ -13391,7 +13387,6 @@ h2.vero-about-heading {
 .toys-sort-prototype {
     background-image: url(../images/case-study/toys-sort/toys-sort-app-banner.png);
 }
-
 
 /*  Home Store App Case Study  */
 
@@ -13421,7 +13416,6 @@ h2.vero-about-heading {
 .home-store-about-heading3 {
     color: #e40613;
 }
-
 
 /*  ERP Case Study  */
 
@@ -13497,7 +13491,6 @@ h2.vero-about-heading {
 .erp-db-icons-text {
     padding-left: 20px;
 }
-
 
 /*  Home Store Web Case Study  */
 
@@ -13718,8 +13711,319 @@ h2.vero-about-heading {
     background-color: #454545;
 }
 
+/* Appsnation Case Study */
 
-/* Solutions */
+.solution-section {
+	position: relative;
+    margin-top: 400px;
+}
+
+.solution-img {
+	position: relative;
+}
+
+.solution-heading {
+	position: absolute;
+	top: 40%;
+    left: 10%;
+	font-size: 200px;
+	color: #079160;
+}
+
+.solution-text {
+	position: absolute;
+	top: 55%;
+    left: 30%;
+	font-size: 44px;
+	color: #079160;
+}
+
+.solution-img {
+	width: 620px !important;
+}
+
+.projects {
+	position: relative;
+}
+
+/* .projects img {
+	position: relative;
+	display: block;
+    margin: 0 auto;
+} */
+
+.funfct {
+    box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
+    line-height: 26px;
+    padding: 65px 10px;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    width: 150px;
+    height: 230px;
+    display: block;
+    margin: 0 auto;
+}
+
+.srcl1 {
+    background: linear-gradient(to bottom, #0AC380, #0BB49F, #0AAAB5, #0AAAB5);
+    transform: skewY(-10deg);
+    border-bottom: 4px solid #0AAAB5;
+    border-radius: 16px 16px 16px 40px;
+}
+
+.srcl2 {
+    background: linear-gradient(to bottom, #0AC380, #0BB49F, #0AAAB5, #0AAAB5);
+    border-bottom: 4px solid #0AAAB5;
+    border-radius: 16px;
+}
+
+.srcl3 {
+    background: linear-gradient(to bottom, #0AC380, #0BB49F, #0AAAB5, #0AAAB5);
+    border-bottom: 4px solid #0AAAB5;
+    transform: skewY(10deg);
+    border-radius: 16px 16px 40px 16px;
+}
+
+.projects .count {
+	font-size: 40px;
+	color: #fff;
+	font-weight: 900;
+}
+
+.projects .title {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+    padding-top: 15px;
+}
+
+.projects .count1 {
+	font-size: 40px;
+	color: #fff;
+	font-weight: 900;
+    transform: skewY(10deg);
+}
+
+.projects .title1 {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+    padding-top: 15px;
+    transform: skewY(10deg);
+}
+
+.projects .count2 {
+	font-size: 40px;
+	color: #fff;
+	font-weight: 900;
+}
+
+.projects .title2 {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+    padding-top: 15px;
+}
+
+.projects .count3 {
+	font-size: 40px;
+	color: #fff;
+	font-weight: 900;
+    transform: skewY(-10deg);
+}
+
+.projects .title3 {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+    padding-top: 15px;
+    transform: skewY(-10deg);
+}
+
+.our-experties {
+	position: relative;
+	margin-bottom: 250px;
+}
+
+.our-experties-bg {
+	position: relative;
+	display: block;
+	margin-left: auto;
+}
+
+.experties-robot {
+	position: absolute;
+	top: 22%;
+    left: 64%;
+}
+
+.our-experties .our {
+	position: absolute;
+	color: #079160;
+	font-size: 200px;
+	font-weight: bold;
+	top: 10%;
+    left: 25%;
+}
+
+.our-experties .experties {
+	position: absolute;
+	background: linear-gradient(to right, #079160, #068F5E, #06885A, #057C52, #046B47, #035539, #034F35);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 100%;
+	font-size: 200px;
+	font-weight: bold;
+	height: 100%;
+    padding-top: 60px;
+	top: 22%;
+    left: 25%;
+}
+
+.master {
+	color: #06754E;
+	font-size: 45px;
+	font-weight: lighter;
+	padding-left: 15%;
+	padding-top: 20px;
+}
+
+.android-ios-development .container {
+    background-image: url(../images/case-study/appsnation/android-ios-development-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.android-development {
+    position: relative;
+    left: 30px;
+}
+
+.android-development-img {
+	position: relative;
+}
+
+.android-development h3 {
+	position: absolute;
+	color: #fff;
+	font-size: 98px;
+	font-weight: 900;
+	top: 12%;
+    left: 5%;
+}
+
+.android-development h4 {
+	position: absolute;
+	color: #fff;
+	font-size: 52px;
+	font-weight: lighter;
+	top: 24%;
+    left: 5%;
+}
+
+.android-development p {
+	position: absolute;
+	color: #fff;
+	font-weight: lighter;
+	top: 35%;
+    left: 5%;
+	width: 50%;
+}
+
+.ios-development {
+    position: relative;
+	top: -85px;
+    left: 345px;
+}
+
+.ios-development-img {
+	position: relative;
+}
+
+.ios-development h3 {
+	position: absolute;
+	color: #fff;
+	font-size: 98px;
+	font-weight: 900;
+	top: 12%;
+    left: 5%;
+}
+
+.ios-development h4 {
+	position: absolute;
+	color: #fff;
+	font-size: 52px;
+	font-weight: lighter;
+	top: 27%;
+    left: 5%;
+}
+
+.ios-development p {
+	position: absolute;
+	color: #fff;
+	font-weight: lighter;
+	top: 38%;
+    left: 5%;
+	width: 50%;
+}
+
+.color-palette .text {
+    background: linear-gradient(to right, #0AC380, #0BB49F, #0AAAB5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 100%;
+	font-size: 200px;
+	font-weight: bold;
+	height: 100%;
+    padding-top: 60px;
+    padding-bottom: 113px;
+}
+
+.srcl4 {
+    background: #0BB49F;
+    transform: skewY(-10deg);
+    border-bottom: 4px solid #0BB49F;
+    border-radius: 16px 16px 16px 40px;
+}
+
+.srcl5 {
+    background: #0AAAB5;
+    border-bottom: 4px solid #0AAAB5;
+    border-radius: 16px;
+}
+
+.srcl6 {
+    background: #0BB49F;
+    border-bottom: 4px solid #0BB49F;
+    transform: skewY(10deg);
+    border-radius: 16px 16px 40px 16px;
+}
+
+.color1 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #09C784;
+    text-align: center;
+}
+
+.color2 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #0AAAB5;
+    text-align: center;
+}
+
+.color3 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #0BB49F;
+    text-align: center;
+}
+
+/* End Case Study */
+
+/* Start Solutions */
 
 .listSec ul li {
     list-style: none;
@@ -14959,3 +15263,5 @@ h2.vero-about-heading {
     width: 100%;
     height: 100vh;
 }
+
+/* End Solutions */
